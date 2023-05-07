@@ -1,0 +1,481 @@
+I 18.08.1992 at 10:52
+U 06.08.1993 at 12:02
+
+
+EVENT DESCRIPTIONS:     ~=Dialogcontinue   *=Dialogbreak  ^=No Dialog
+----------------------------------------------------------------------------
+
+EVENT #0        (^)                     FREE 
+
+B0 =EVENT TYPE                          000 - 255
+B1 =
+B2 =
+B3 =
+B4 =
+B5 =
+W6 =
+W8 =
+W10=NEXT EVENT IN CHAIN                 00000 - 32767 / -1=END       
+----------------------------------------------------------------------------
+
+EVENT #1        (*) DIALOGUEBREAK       MAP EXIT
+
+B0 =EVENT TYPE                          1
+B1 =MAP_XCOR                            001 - 100 /0=OLD COORDINATE
+B2 =MAP_YCOR                            001 - 100 /0=OLD COORDINATE
+B3 =VIEW DIRECTION                      0=NORD 1=EAST 2=SOUTH 3=WEST 4=OLD
+B4 =RESET TRAVEL MODE FLAG              000 - 254 / -1=OLD TRAVELMODE
+B5 =EXIT TYPE                           0=MAP EXIT 
+                                        1=TELEPORTER 
+                                        2=WINDGATE
+                                        3=TRAPDOOR UP
+                                        4=END SEQUENCE
+                                        5=TRAPDOOR DOWN
+W6 =MAP NUMBER                          00000 - 01023
+W8 =
+W10=NEXT EVENT IN CHAIN                 00000 - 32767 / -1=END
+
+NOTES: 
+IF THE EXIT TYPE FLAG IS SET ON 0, THE EVENT IS A NORMAL MAP EXIT.
+IF THE EXIT TYPE FLAG IS SET ON 1, THE MAP DOES NOT FADE IF THE MAP # IS THE
+SAME AS THE OLD MAP NUMBER.
+IF THE EXIT TYPE FLAG IS SET ON 2, THE EXIT IS ONLY ACTIV WHEN THE WINDCOLLAR
+IS IN USE.
+IF THE EXIT TYPE FLAG IS SET ON 3, THE EXIT IS ONLY ACTIVATED WHEN A 
+LEVITATION SPELL IS USED ON THIS LOCATION.(FROM SPELL OR ITEM)
+IF THE EXIT TYPE  FLAG IS SET ON 4, THE PROGRAMM STARTS THE END SEQUENCE.
+IF THE EXIT TYPE FLAG IS SET ON 5 TO 9, THE PROGRAMM CALLS A SPECIAL 
+SEQUENCE LIKE THE PUZZLE IN AMBERSTAR.
+----------------------------------------------------------------------------
+    
+EVENT #2        (^)                     DOOR
+
+B0 =EVENT TYPE                          2
+B1 =LOCKED (%)                          000 - 100 /   0=NO PICKLOCK CHECK
+                                                    100=ONLY ITEMNUM OPENS    
+B2 =DOOR BIT ENTRY                      000 - 255
+B3 =MAP TEXT #1  BEFORE                 000 - 254 / -1=NO TEXT
+B4 =MAP TEXT #2  WHEN OPENED            000 - 254 / -1=NO TEXT
+B5 =
+W6 =KEY ITEMNUM                         00000 - 01023
+W8 =EVENT # FOR TRAP                    00000 - 32767 / -1=NO TRAP              
+W10=NEXT EVENT IN CHAIN                 00000 - 32767 / -1=END
+
+NOTES: SUCCESS MUST BE SET WHEN DOOR IS OPENED!
+----------------------------------------------------------------------------
+
+EVENT #3        (^)                     ITEM FOUND
+
+B0 =EVENT TYPE                          3
+B1 =LOCKED (%)                          000 - 100 /   0=NO PICKLOCK CHECK                                                     
+B2 =SEARCH (%)                          000 - 100 /   0=NO SEARCH   CHECK
+B3 =MAP TEXT #1                         000 - 254 / -1=NO TEXT
+B4 =CHEST    (#)                        000 - 255 
+B5 =CHEST TYPE                          0=CHEST 
+                                        1=JUNKPILE 
+                                        2=CHEST NO SAVE
+                                        3=JUNK NO SAVE
+W6 =KEY ITEMNUM                         0000 - 1023
+W8 =EVENT # FOR TRAP                    00000 - 36767 / -1=NO TRAP
+W10=NEXT EVENT IN CHAIN                 00000 - 32767 / -1=END
+
+NOTES: SUCCESS MUST BE SET WHEN CHEST IS OPENED
+----------------------------------------------------------------------------
+
+EVENT #4        (^) EVENTPIX_AMP        SHOW PICTURE + TEXT
+
+B0 =EVENT TYPE                          4
+B1 =PICTURE NUMBER                      000 - 254 / -1=NO PIC
+B2 =FOUND TYPE                          0=NEVER 
+                                        1=MOVE 
+                                        2=EYE 
+                                        3=EYE+MOVE
+
+B3 =APPEAR TYPE                         0=VISUAL 
+                                        1=NON-VISUAL
+
+B4 =SEARCH (%)                          000 - 100 /  0=NO SEARCH CHECK
+B5 =MAP TEXT (#)                        000 - 254 / -1=NO TEXT
+W6 =
+W8 =
+W10=NEXT EVENT IN CHAIN                 00000 - 32767 / -1=END
+----------------------------------------------------------------------------
+
+EVENT #5        (^)                     SPINNER
+
+B0 =EVENT TYPE                          5
+B1 =NEW VIEW DIRECTION                  0=N 1=E 2=W 3=S 4=RND
+B2 =
+B3 =
+B4 =
+B5 =
+W6 =
+W8 =
+W10=NEXT EVENT IN CHAIN                 00000 -32767 / -1=END
+----------------------------------------------------------------------------
+
+EVENT #6        (^)                     TRAP
+
+B0 =EVENT TYPE                          6
+B1 =TRAP   (#)                          00=DAMAGE
+                                        01=CRAZY
+                                        02=BLIND
+                                        03=DRUGS
+                                        04=STUN
+                                        05=POISON
+                                        06=STONE
+                                        07=ILL
+                                        08=AGE
+                                        09=KILL!                                        
+              
+B2 =MEMBER (#)                          0=ACTIV 
+                                        1=PARTY 
+
+B3 =SEX TYPE                            0=NONE 
+                                        1=MALE 
+                                        2=FEMALE 
+                                        3=BOTH
+
+B4 =DAMAGE POINTS                       000 - 255
+B5 =
+W6 =
+W8 =
+W10=NEXT EVENT IN CHAIN                 00000 - 32767 / -1=END
+
+NOTES: SUCCESS MUST BE SET WHEN TRAP IS ACTIVATED.
+----------------------------------------------------------------------------
+
+EVENT #7        (~) DIALOGUE CONTINUE   ANTI MAGIC
+
+B0 =EVENT TYPE                          7
+B1 =SPECIAL SPELL (#)                   000 - 006 / 0=ALL 1-6=SPECIFIC
+B2 =
+B3 =
+B4 =
+B5 =
+W6 =
+W8 =
+W10=NEXT EVENT IN CHAIN                 00000 - 32767 / -1=END
+----------------------------------------------------------------------------
+
+EVENT #8        (^)                     RIDDLEMOUTH
+
+B0 =EVENT TYPE                          8
+B1 =MAP TEXT #1 BEFORE QUESTION         000 - 254 / -1=NO TEXT
+B2 =MAP TEXT #2 AFTER QUESTION          000 - 254 / -1=NO TEXT
+B3 =
+B4 =
+B5 =
+W6 =ANSWER WORD #1                      00000 - 01023
+W8 =ANSWER WORD #2                      00000 - 01023
+W10=NEXT EVENT IN CHAIN                 00000 - 32767 / -1=END
+
+NOTES: SUCCESS MUST BE SET WHEN RIDDLE IS SOLVED!
+----------------------------------------------------------------------------
+
+EVENT #9        (~) DIALOGUE CONTINUE   DATACHANGE
+
+B0 =EVENT TYPE                          9
+B1 =DATA  TYPE                          0 =ATTRIBUTE            1-9
+                                        1 =SKILL                1-10
+                                        2 =LIFE POINTS
+                                        3 =SPELL POINTS
+                                        4 =SPELL LEARN POINTS
+                                        5 =CONDITIONS           1-15
+                                        6 =SPELL CLASSES        1-7
+                                        7 =LANGUAGES            0-7
+                                        8 =EXPERIENCE
+                                        9 =TRAIN POINTS
+                                        10=
+                                        11=
+                                        12=
+                                        13=
+                                        14=
+                                        15=
+
+B2 =CHANGE TYPE                         0=INC
+                                        1=DEC
+                                        2=INC%
+                                        3=DEC%
+                                        4=FULL
+                                        5=CLR
+                                        6=SET
+                                        7=CHG
+
+B3 =VALUE TYPE                          0=NORMAL 
+                                        1=RANDOM
+
+B4 =MEMBER TYPE                         0=ACTIV 
+                                        1=PARTY
+
+B5 =
+W6 =INDEX                               00000 - 32767
+W8 =VALUE                               00000 - 32767
+W10=NEXT EVENT IN CHAIN                 00000 - 32767 / -1=END
+----------------------------------------------------------------------------
+
+EVENT #10       (~) DIALOGUE CONTINUE   CHANGE MAP_ICON 
+
+B0 =EVENT TYPE                          10
+B1 =MAP_XCOR                            001 - 100 (0,0 = EVENT COORDINATES)
+B2 =MAP_YCOR                            001 - 100      
+B3 =
+B4 =
+B5 =
+W6 =MAP_ICON NUMBER                     00000 - 02500
+W8 =MAP_NUMBER                          00001 - 01023 /  0=CURRENT
+W10=NEXT EVENT IN CHAIN                 00000 - 32767 / -1=END
+----------------------------------------------------------------------------
+
+EVENT #11       (*) DIALOGUE BREAK      ENCOUNTER
+
+B0 =EVENT TYPE                          11
+B1 =
+B2 =
+B3 =
+B4 =
+B5 =
+W6 =MONSTER GROUP #                     00000 - 00255 
+W8 =
+W10=NEXT EVENT IN CHAIN                 00000 - 32767 / -1=END
+
+NOTES: SUCCESS WILL BE SET WHEN THE BATTLE IS WON!
+----------------------------------------------------------------------------
+
+EVENT #12       (~) DIALOGUE CONTINUE   PLACES
+
+B0 =EVENT TYPE                          12
+B1 =MAP TEXT (#) CLOSED                 000 - 254 / -1=NO TEXT
+B2 =PLACE TYPE                          0 =TRAINER
+                                        1 =HEALER
+                                        2 =SAGE
+                                        3 =ENCHANTER
+                                        4 =INN
+                                        5 =WARE -MERCHANT
+                                        6 =FOOD -MERCHANT
+                                        7 =MAGIC-MERCHANT
+                                        8 =RAFT -MERCHANT
+                                        9 =SHIP -MERCHANT
+                                        10=HORSE-MERCHANT
+                                        11=BLACKSMITH
+
+B3 =OPEN TIME                           0-23
+B4 =CLOSE TIME                          0-23
+B5 =MAP TEXT SOLD                       0-254 / -1 = NO TEXT
+W6 =PLACE DATA (#)                      00000 - 00255
+W8 =WARE  DATA (#)                      00000 - 00255
+W10=NEXT EVENT IN CHAIN                 00000 - 32767 / -1=END
+----------------------------------------------------------------------------
+
+EVENT 13        (~) DIALOGUE CONTINUE   QUERY                                                         
+
+B0 =EVENT TYPE                          13
+B1 =QUERY TYPE                          0=QUEST BIT             0-65535
+                                        1=EVENT SAVE BIT        0-65535        
+                                        2=DOOR OPENED           0-255
+                                        3=CHEST OPENED          0-255
+                                        4=CD BIT                0-65535
+                                        5=PARTY MEMBER          0-255
+           (B3=HOW MANY?)<------------- 6=ITEM CARRIED          0-1023
+                                        7=ITEM USED             0-1023
+                                        8=WORDLIST BIT          0-1023
+                                        9=SUCCESS?               
+                                       10=INTERNAL(JURIE)       
+                                       11=LIGHT?
+                                       12=DIRECTION?
+                                       13=CHECK CONDITION OF DIALOGUE CHAR.
+                                       14=TOUCHED(-)
+                                       15=WORD SPOKEN           0-1023 
+                                       16=ENTER NUMBER          0-9999
+                                       17=LEVITATION
+                                       18=GOLD CARRIED (0-32767)
+                                       19=FOOD CARRIED (0-32767)
+                                       20=SEEN
+B2 =QUERY STATUS                        0=FALSE 1=TRUE 
+B3 =EXTRA VALUE                         0-255
+B4 =
+B5 =
+W6 =QUERY VALUE/BIT/ITEMNUM             00000 - 32767
+W8 =NEGATIVE CHAIN VALUE                00000 - 32767 / -1=END
+W10=NEXT EVENT IN CHAIN                 00000 - 32767 / -1=END
+----------------------------------------------------------------------------
+
+EVENT #14       (~) DIALOGUE CONTINUE   MODIFY 
+
+B0 =EVENT TYPE                          14
+B1 =MODIFY WHAT                         0=QUEST BIT             0-65535
+                                        1=EVENT SAVE BIT        0-65535        
+                                        2=DOOR OPENED BIT       0-255
+                                        3=CHEST OPENED BIT      0-255
+                                        4=CD BIT                0-65535
+                                        5=PARTY MEMBER          0-255
+          (B3=DESTROY HOW MANY?)<------ 6=ITEM CARRIED          0-1023
+                                        7=ITEM USED             0-1023
+                                        8=WORDLIST              0-1023
+                                        9=SUCCESS?  
+                                       10=INTERNAL(JURIE)
+                                       11=LIGHT?
+                                       12=DIRECTION?
+                                       13=SET CONDITION OF DIALOGUE CHAR.
+                                       14=TOUCHED(-)
+                                       15=WORD SPOKEN(0-1023)
+                                       16=ENTER NUMBER          
+                                       17=LEVITATION ?
+                                       18=REMOVE GOLD (0-32767)
+                                       19=REMOVE FOOD (0-32767)
+B2 =MODIFY TYPE                         0=CLR 1=SET 2=CHG
+B3 =EXTRA VALUE                         0-255
+B4 =
+B5 =
+W6 =MODIFY BIT NUMBER                   00000 - 32767                        
+W8 =
+W10=NEXT EVENT IN CHAIN                 00000 - 32767 / -1=END
+----------------------------------------------------------------------------
+
+EVENT #15       (^)                     CHANCE%
+
+B0 =EVENT TYPE                          15
+B1 =VALUE (%) RND-VALUE=SUCCESS         001 - 100
+B2 =
+B3 =
+B4 =
+B5 =
+W6 =
+W8 =NEGATIVE CHAIN VALUE                00000 - 32767 / -1=END        
+W10=NEXT EVENT IN CHAIN                 00000 - 32767 / -1=END
+----------------------------------------------------------------------------
+
+EVENT #16       (~) DIALOGUE CONTINUE   DIALOG ACTION CHECK
+
+B0 =EVENT TYPE                          16
+B1 =ACTION TYPE                         0=WORD
+                                        1=SHOW ITEM
+                                        2=GIVE ITEM
+                                        3=GIVE GOLD
+                                        4=GIVE FOOD
+                                        5=ASK TO JOIN
+                                        6=ASK TO LEAVE
+                                        7=DIALOGUE START
+                                        8=DIALOGUE END
+B2 =
+B3 =
+B4 =
+B5 =
+W6 =VALUE                               00000 - 32767/ -1=ANY
+W8 =
+W10=NEXT EVENT IN CHAIN                 00000 - 32767 / -1=END
+----------------------------------------------------------------------------
+
+EVENT #17       (~) DIALOGUE CONTINUE   DIALOG RESULTS TEXT OUTPUT
+
+B0 =EVENT TYPE                          17
+B1 =CHAR TEXT #                         000 - 254 
+B2 =
+B3 =
+B4 =
+B5 =
+W6 =
+W8 =
+W10=NEXT EVENT IN CHAIN                 00000 - 32767 / -1=END
+----------------------------------------------------------------------------
+
+EVENT #18       (~) DIALOGUE CONTINUE   DIALOG RESULTS GIVE 
+
+B0 =EVENT TYPE                          18
+B1 =GIVE TYPE                           0=ITEM 1=GOLD 2=FOOD
+B2 =
+B3 =
+B4 =
+B5 =
+W6 =ITEM/GOLD/FOOD - AMOUNT             00000 - 32767
+W8 =ITEM NUMBER                         00000 - 01000
+W10= NEXT EVENT IN CHAIN                00000 - 32767 / -1=END
+----------------------------------------------------------------------------
+
+EVENT #19       (^)                     REQUESTER
+
+B0 =EVENT TYPE                          19
+B1 =MAP TEXT #                          000 - 254 
+B2 =
+B3 =
+B4 =
+B5 =
+W6 =
+W8 =NEGATIVE CHAIN VALUE                00000 - 32767 / -1=END
+W10=NEXT EVENT IN CHAIN                 00000 - 32767 / -1=END
+----------------------------------------------------------------------------
+
+EVENT #20       (~) DIALOGUE CONTINUE   SOUND
+
+B0 =EVENT TYPE                          20
+B1 =SOUND TYPE                          0=MUSIC
+B2 =MUSIC#/SAMPLE#                      000 - 254 / -1=CHANGE TO MAP MUSIC  
+B3 =
+B4 =
+B5 =
+W6 =
+W8 =
+W10=NEXT EVENT IN CHAIN                 00000 - 32767 / -1=END
+----------------------------------------------------------------------------
+
+EVENT #21       (^) DIALOGUE CONTINUE   DIALOGUE END 
+
+B0 =EVENT TYPE                          21
+B1 =
+B2 =
+B3 =
+B4 =
+B5 =
+W6 =
+W8 =
+W10=NEXT EVENT IN CHAIN                 00000 - 32767 / -1=END
+----------------------------------------------------------------------------
+
+EVENT #22       (~) DIALOGUE CONTINUE   CREATE TRANSPORT
+
+B0 =EVENT TYPE                          22
+B1 =X-COORDINATE                        001 - 100
+B2 =Y-COORDINATE                        001 - 100
+B3 =TRANSPORT TYPE                      1=HORSE
+                                        2=RAFT
+                                        3=SHIP
+                                        9=SANDCRAWLER
+                                       10=SANDSKIMMER
+B4 =
+B5 =
+W6 =MAP NUMBER                          1 -1024
+W8 =
+W10=NEXT EVENT IN CHAIN                 00000 - 32767 / -1=END
+----------------------------------------------------------------------------
+
+EVENT #23       (~) DIALOGUE CONTINUE   EXECUTE DIALOGUE ACTION
+
+B0 =EVENT TYPE                          23
+B1 =
+B2 =
+B3 =
+B4 =
+B5 =
+W6 =
+W8 =
+W10=NEXT EVENT IN CHAIN                 00000 - 32767 / -1=END
+----------------------------------------------------------------------------
+
+EVENT #24       (~) DIALOGUE CONTINUE   REMOVE PARTY MEMBER
+
+B0 =EVENT TYPE                          24
+B1 =PARTY CHARACTER NUMBER              1-255
+B2 =BODY ITEMS CHEST NUMBER             0-255
+B3 =BACKPACK ITEMS CHEST NUMBER         0-255
+B4 =
+B5 =
+W6 =
+W8 =
+W10=NEXT EVENT IN CHAIN                 00000 - 32767 / -1=END
+NOTE:
+     SUCCESS BIT WILL BE SET.   
+----------------------------------------------------------------------------
+
+
+
+END OF EVENT LIST.....................

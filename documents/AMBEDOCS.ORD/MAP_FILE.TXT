@@ -1,0 +1,98 @@
+I 05.10.92 at 17:09
+U 26.04.93 at 10:02
+
+
+MAP_FILE DESCRIPTION:
+---------------------
+
+MAP_XXXX.DAT
+ 0      w - Map bits    :       0 - Light
+                                1 - Change
+                                2 - Dark
+                                3 - View Map spell possible
+                                4 - Camp possible
+                                5 - Map is wilderness
+                                6 - Map is city
+                                7 - Map is dungeon
+                                8 - Show travelmodes
+                                9 - Secret submarine bit
+                               10 - Secret desert bit
+                               11 - Magic possible
+                                
+ 
+02      b - Map type    :       0 - old 2D Map NOT SUPPORTED
+                                1 - 3D map
+                                2 - new 2D map
+        
+03      b - Number of music for this map
+04      b - Width of map
+05      b - Hight of map
+06      b - Number of used ICON_DAT  file
+07      b - Number of used NPC-GFX   file
+08      b - Number of used TRANSGFX  file
+09      b - Number of used COLOURpal file
+10      b - World number (0 = Lyramion / 1 = Forest moon / 2 = Desert moon)
+11      b - Even
+
+
+12    354 Repeated 32 times:
+               0 b - Character / Monster / Short dialogue number
+               1 b - Travelmode used by charakter/monster/object   
+               2 b - Charakter bits     : 0 - 0 = Party member
+                                          1   1 = NPC
+                                              2 = Monster group
+                                              3 = Object
+                                          2 - Path / random / Waiting / chasing
+                                          3 - NPC gfx / map gfx
+                                          4 - Normal diag / short diag
+              3 b - Event number
+              4 w - Icon number of icon used for char/monster/object
+              6 l - Character icon status bits(see normal icon stats bits)
+              
+              10 bytes pro Chracter
+
+??? ??? - Map data:     Underlay layer (width * hight)
+                        Event layer    (width * hight) 
+                        Overlay layer  (width * hight * 2)
+                        
+???   w - Number of event entries
+??? ??? - Repeated (Number of event entries) times:
+            0 w - Number of first event in chain (0-32767)
+
+            2 bytes pro event entry
+??? ??? - Repeated (Number of event entries) times :
+            0 b Event save number
+            
+            1 byte pro event entry
+          EVEN !!
+
+???   w - Number of events
+??? ??? - Repeated (Number of events) times :
+            0 b - Event type
+            1 b - Byte data (depending on event type)
+            2 b 
+            3 b
+            4 b
+            5 b
+            6 w - Word data (depending on event type)
+            8 w
+           10 w - Next event in chain / -1
+
+??? ??? - Character path/position data
+          repeated 32 times :
+
+          Nothing / Position (x,y) / Path (x.y) + Max_steps
+ 
+???   w - Number of Goto-points
+??? ??? - Repeated (Number of Goto-points) times :
+             0  b - X-coordinate
+             1  b - Y-coordinate
+             2  b - View direction
+             3  b - Bit number
+             4 16 - Text (15 characters + zero)
+                
+             20 bytes pro Goto-point
+
+----------------------------------------------------------------------------
+End of file......................
+

@@ -1,0 +1,61 @@
+I 04.10.92 at 16:48
+U 06.01.93 at 10:34
+
+
+ICONFILE DESCRIPTION:
+---------------------
+
+ICON_DAT.XXX
+0               w - Number of icons
+2             ??? - Repeated (Number of icons) Times :
+                        0       1 - Icon bits :
+                                        0 - Circle/wave animation
+                                        1 - Vision clear/blocked
+                                        2 - Underlay/overlay
+                                        3 - unused
+                                        4 - Continued/random animation
+                                        5 - Overlay/underlay priority
+                                        6 - Overlay on ground/in sky
+                                        7 - Way possible/blocked
+                                        8 - Blocked/free for foot
+                                        9 - Blocked/free for horse
+                                       10 - Blocked/free for raft
+                                       11 - Blocked/free for ship
+                                       12 - Blocked/free for magic disc
+                                       13 - Blocked/free for giant eagle
+                                       14 - Blocked/free for super chicken
+                                       15 - Blocked/free for swimming
+                                       16 - Blocked/free for magic broom
+                                       17 - Blocked/free for sand walker
+                                       18 - Blocked/free for sand skimmer
+                                       19 - Blocked/free for ............
+                                       20 - Blocked/free for ............
+                                       21 - Blocked/free for ............
+                                       22 - Blocked/free for ............
+                                       
+                                       23 - Sitting sleeping bits  (0-5)
+                                       24 -
+                                       25 -
+
+                                       26 - Player visible/invisible
+                                       27 - Posion field
+
+                                       28 - Combat background number (0-15)
+                                       29 -
+                                       30 -
+                                       31 -
+
+        w - Number of first animation
+        b - Number of animation frames
+        b - Colour of icon in minimap
+----------------------------------------------------------------------------
+End of file...........
+
+
+ICON_GRA.XXX (ST or AMIGA grafic data file)
+??? ??? - Repeated (Number of frames) times :
+          128 bytes of icon grafics data (ST    4Planes)
+          160 bytes of icon grafics data (AMIGA 5Planes)                                    
+----------------------------------------------------------------------------
+End of file..........
+

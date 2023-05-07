@@ -1,0 +1,6 @@
+ÝSTART  000     ORT
+HAUS DES HARFNERS
+ÝEND..
+
+ÝSTOP.
+

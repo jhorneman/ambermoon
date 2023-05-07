@@ -1,0 +1,6 @@
+ÝSTART  000     ORT
+MORAG-TURM
+ÝEND..
+
+ÝSTOP.
+

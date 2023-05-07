@@ -1,0 +1,2019 @@
+AMBERMOON
+
+
+I. INTRODUCTION
+
+Dear Adventurer,
+
+Congratulations on purchasing AMBERMOON - we hope this game will keep you fascinated and entertained for at least as long as it took us to create it.
+
+AMBERMOON is a game of discovery and adventure.  You play the part of a young adventurer who has a difficult task to solve without much in the way of equipment and experience.
+
+Soon after starting the program it will become apparent to you just how important your quest is.  The world of Lyramion is under threat again.  But today nothing is quite how it seems.  Old enemies can become friends and serious danger threatens from areas where you do not expect it.
+
+You have to travel the whole world to save Lyramion.  On your journey you will meet many fascinating people and have many interesting and important conversations which will help you in your quest.  You will enter secret caves, search through holy temples and discover dark crypts.  And you will have to battle against many horrible monsters ...
+
+But you need not travel alone.  During this adventure you will meet people who are prepared to accompany you and help you along the way.  You will discover immense treasures of gold, magic weapons and secret artefacts.  Things which you can use as equipment and for practising your skills and those of your group.  So you will always get stronger and have a better chance of succeeding in more and more difficult situations.
+
+And you will see things and regions which you would not have believed in on that sunny day when your adventure began at your grandfather's home.
+
+We have put a lot of time and effort in AMBERMOON and we hope you enjoy the result.  The program is extraordinarily complex but we have tried to make it as easy to use as possible.  You will very quickly become familiar with controlling the various features.  Many of these have been updated repeatedly to make operation as intuitive as possible.  We have also tried to stop you from running into dead-ends from which you cannot escape to continue your quest.  Just one example:  If you want to throw away an item which you have your kit but which you will need later on, the program prevents this unless you want to keep it safe in a chest.
+
+To everyone who has played AMBERSTAR, the predecessor of AMBERMOON:  Be ready for a few surprises!  We have carefully studied all your suggestions, critical comments and proposals and think you will agree that AMBERMOON is bigger, better, more attractive and easier to use.  Hard to believe?  Okay, start the game - and have fun!
+
+
+Your AMBERMOON team:
+
+Karsten Kîper: RPG editor, story, game design on Lyramion and the desert moon.
+
+Erik Simon: Production, game design on the forest moon, graphics for country scenes and 2-D and 3-D graphics on the forest moon
+
+Jurie Horneman: Programming of the Commodore AMIGA and ATARI ST versions, improved user guidance
+
+Michael Bittner: Programming the 3-D texture mapping routines and the introductory sequence
+
+Gino Fehr and Frank Ussner: Programming the MS-DOS version
+
+Thorsten Mutschall: Monster graphics, battle screen backgrounds, dealer pictures, portraits and 3-D dungeons
+
+Monika Krawinkel: Graphics of 3-D towns and cities and 2-D interior scenes on Lyramion and the desert moon
+
+Henk Nieborg: Graphics of the introduction sequence
+
+Tobias Franz: Graphics of almost all images in special game situations
+
+Matthias Steinwachs: Music composition
+
+Matthias Rieke: Editing the surface of Lyramion
+
+Arnd Kîsling: Editor of program texts
+
+Dieter Rotermund: Cover illustration
+
+Michael Hellmich: Map and illustrations in the manual
+
+Harald önzelmann (Hotline support): Manual
+
+What happened in AMBERSTAR
+
+The world of Lyramion, a thousand years before AMBERSTAR.  A young magician by the name of Tar gained power in the Guild of Black Magicians.  In the final tests down deep in the demonic realms he was confronted by that powerful Lord Demon, Thornahuun, who informed him that he was his father.  Beside himself with rage, Tar attacked Thornahuun with all his magical power.  After a long and bitter battle Thornahuun decided that his son would not be of any use to him in that form and developed a new plan.  He entered the very being of Tar, which rendered Tar insane and made him a willing helper of the Lord Demon.  From that time forth, Tar called himself Tarbos, God of Chaos, and began to lay waste the world of Lyramion.  Only the combined power of the Guild of White Magicians could stop him.  He was beaten and locked away in the small red third moon of Lyramion.  The magic seal to his prison was created in Castle Godsbane which in turn was sealed by that powerful magical artefact, the AMBERSTAR.  The AMBERSTAR was then broken up into thirteen pieces and spread over the whole of Lyramion.
+
+All this took place ten centuries ago.  Then Marmion, a black magician, tried to release Tarbos from the red moon.  With the help of the demonic brother of Thornahuun he teleported directly into Castle Godsbane and began to intone the long spell which was to break the magic seal.
+
+With the help of the grey magician, Shandra, a young adventurer and a group of friends located the thirteen pieces of the Amberstar and overcame Marmion.
+
+
+
+What happened before AMBERMOON
+
+Twenty years after successfully retrieving the AMBERSTAR the adventurer settled on an area of land which had been presented to him as a reward for his heroic deeds.  He married and his wife had a daughter who, after a carefree childhood, also married and moved to Twinlake, the largest town on Lyramion.  Soon after that, she, too, had a child.
+
+But this happiness in her life did not last for much longer.  The deeds of Marmion became evident again after all those years.  The God of Chaos threatened to break free.  The unfinished spells had cast the red moon out of its orbit and on one fateful day the moon fell on Lyramion.  In great danger the hero of AMBERSTAR searched desperately for his daughter and eventually was able to save the child from the chaos involved in the destruction of Twinlake.  For many weeks, earthquakes shook Lyramion repeatedly and huge volcanoes erupted, laying the land to waste.  Lyramion had changed so much it was unrecognisable; the continents had broken up into small islands and gigantic clouds of dust darkened the sky over Lyramion for many years.  Most of the towns and villages were destroyed completely and, of course, all trade collapsed.
+
+Our game now begins many years later.  Civilisation is gradually returning.  Several towns have been rebuilt and life is gradually coming back to normal.  The hero of AMBERSTAR survived and brought up his grandson on his own.  But it appears his time has come.  At more than eighty years of age he is now bedridden and waiting to enter the realms of Balas, the God of Death.
+
+But before he dies, he sends his grandson on an important mission.  And this is where your adventure begins.  You must find out what is happening on the Island of Lyramion and what risks there are to you and life on Lyramion.
+
+
+
+II. GENERAL
+
+Support
+
+If you should have any problems with this product, please call our hotline.  You can reach us by telephone from Monday to Friday between 11.00 and 18.00 hours by dialling:
+
+	05241 98 60 20
+
+Please have all information about your computer system available (the type of computer, any additional hardware, its operating system and its configuration) as well as the user manual.
+
+If you think your original discs are defective, please return them to the following address:
+
+	Hotline Support Thalion
+	Postfach 1953
+	33249 GÅtersloh
+	Germany
+
+Please return only the discs, not the packaging or the instruction manual.  Please include all details of your computer system (the type of computer, any additional hardware, the operating system and configuration details).  We will try to solve your problem as quickly as possible.
+
+VIRUS WARNING
+
+The original AMBERMOON game diskettes we supply are guaranteed free of any virus.  In order to protect the program against being contaminated by a virus you should switch your computer and all its associated equipment (second disc drive, monitor etc.) off for at least 30 seconds before you load the AMBERMOON program.  Only in this way can you be sure there is no virus still present in the computer memory.  Thalion Software GmbH cannot recognise any claim under the warranty if this program or any program data has been affected by a virus program, the use of a virus protector or another tool.
+
+
+
+HARDWARE
+
+Depending on the program version we recommend the following additional hardware:
+
+
+
+MS-DOS
+
+Use a mouse with a Microsoft-compatible mouse driver.  Apart from a few exceptions also Soundblaster-compatible cards are supported.
+
+
+
+Amiga
+
+The program supports the faster processors of the A1200, A3000 and A4000 as well as all memory expansions.
+
+Turbo cards for the A500, A2000, A500 plus and A600 should operate correctly with this program but we have not been able to test all the facilities, so there may be occasional incompatibility.  Unfortunately we are unable to guarantee that standard systems will operate correctly.
+
+
+
+Atari ST/TT/Falcon
+
+The faster processors of the MEGA STE, TT and Falcon are also supported, just as are all memory expansions.  Turbo cards can generally also be used but there may be occasional incompatibility.  We are unfortunately unable to guarantee that standard systems will operate correctly.
+
+
+
+LOADING AND INSTALLATION INSTRUCTIONS
+
+The AMBERMOON program is supplied on 9 floppy discs with this user manual.  The game also includes a map of Lyramion and a list of runes which you will actually discover during your adventures with your group.  It would therefore be better if you only use the map and the list when you actually discover them during the game.
+
+All game texts, whether on screen or in the enclosed documentation, are shown in English.
+
+Whichever computer system you are using (MS-DOS, Commodore Amiga, Atari ST/TT/Falcon), you should not use the original program discs to start the game.  Protect your original discs by making copies of them or install the program on a hard disc and keep your original floppy discs safe in a cool dry place. 
+
+
+
+Creating a game disc (not MS-DOS)
+
+Game discs are only required if you cannot install the game on a hard disc.  As the MS-DOS version must be installed on a hard disc, this section only applies to users of Amiga and Atari systems.
+
+You need the same number of discs as the originals.  Note that copying the discs will erase any existing data on the disks you use for your copies.  Also have an additional disc ready for storing the latest situation in the game.
+
+1.	Ensure that the original AMBERMOON discs are write-protected (the write-protect tab must be open).
+
+Amiga
+
+1.1	Boot your computer with your Workbench.
+
+1.2	Insert the original disc A into drive DFO:.
+
+1.3	Click once on the icon for that disc.
+
+1.4	Select "Copy" from the Workbench menu.
+
+1.5	Follow the instructions on the screen.
+
+1.6	As the Workbench uses the name of the original disc during the copying process and adds "Copy of" to the name of the copy disc, you must subsequently correct the name of the copy.  Click once on the icon of the copy.  Use the "Rename" option in the Workbench to remove the words "Copy of" in front of the name on your game disc, so that the name of the copy is the same as the name of the original disc.
+
+1.7	Repeat steps 1.2 to 1.6 for the other original discs so that, when finished, you have one copy of each original.
+
+
+
+Atari ST/TT/Falcon
+
+2.1	Switch your computer on and wait until the GEM environment has appeared.  Format your game discs using the GEM format command.
+
+2.2	Insert the original disc A into Drive A:.
+
+2.3	Place the mouse pointer on the icon for drive A:, Press and hold down the left mouse button and drag the A: icon onto the icon for drive B:.  Then release the mouse button again.
+
+2.4	Follow the instructions on the screen.
+
+2.5	Repeat steps 2.2 to 2.4 for the other original discs so that, when finished, you have one copy of each original.
+
+
+
+Loading from disc
+
+Remember that you need a game disc to store the latest situation in the game.  You must create this with the installation program.  
+
+Insert the AMBERMOON A game disc into the internal drive (A: or DFO:) and reset your computer (press the Reset button or press the Control/
+Alternate/RShift/Del keys simultaneously on the Atari ST or the Ctrl/A/A keys on the Amiga).  The program loads and starts automatically.
+
+If you switch off the background music you will not need to change the discs quite as often.  For technical reasons all the soundtracks had to be put on one disc.
+
+
+
+The Installation Program
+
+The installation program provides options for installation on a hard disc, creating a boot disc, checking the "Troubleshooting Document" and, on the Amiga and Atari, creating the game disc.  After starting the installation program, select the appropriate menu option by entering the number required.
+
+During installation on a hard disc the installation routine creates a new directory on the chosen partition.  All program data is copied into this directory.
+
+The "Troubleshooting Document" is a text file which contains supplements to the operating manual.  For technical reasons the manual had to be written partly while the various versions of the program were still being produced.  There may therefore be certain differences which the programmers have put in this document for you.  Please read it.
+
+If you want to create a game disc, remember that all the "old" data on the disc used as the copy will be lost.  The installation program formats the disc and creates all the files required for the game status to be recorded.
+
+
+
+Installation on hard disc
+
+1.	Start your hard disc and the computer
+
+
+
+MS-DOS
+
+1.1	Insert the original AMBERMOON A disc into the appropriate drive (A: or B:).
+
+1.2	Switch to this drive (eg. A: [RETURN]).
+
+1.3	Start the installation routine:
+
+		INSTALL 	[RETURN]
+
+1.4	Follow the instructions on the screen
+
+
+
+Amiga
+
+2.1	Insert the original AMBERMOON A disc into Drive DFO:.
+
+2.2	Double click on the disc icon of AMBERMOON disc A.
+
+2.3	Double click on the INSTALL icon.
+
+2.4	Follow the instructions on the screen.
+
+
+
+Atari ST/TT/Falcon
+
+3.1	Insert the original AMBERMOON A disc into Drive A:.
+
+3.2	Double click on the drive symbol A:.
+
+3.3	Double click on the INSTALL program.
+
+3.4	Follow the instructions on the screen.
+
+
+
+Loading from hard disc
+
+
+
+MS-DOS
+
+Switch directly from the DOS prompt to the directory in which you installed AMBERMOON.  To start the program, type
+
+	AM	[RETURN]
+
+The program cannot be started from a shell, such as DOS-SHELL, for example.  The program also cannot be run under OS/2, WINDOWS or any operating system other than MS-DOS.
+
+
+
+Amiga, Atari ST/TT/Falcon
+
+Open the partition and the file in which you installed AMBERMOON and then start the AMBERMOON program by double clicking.
+
+
+
+CONTROLS FOR AMBERMOON
+
+You can only control the game with the mouse.  However, you can also use many features via the keyboard.  In the following sections the two mouse buttons are abbreviated to LMB for the left mouse button and RMB for the right mouse button.  The number keys 1 to 9 on the numeric keypad correspond to the features provided on the control panel and can also be selected with the mouse.
+
+
+
+Mouse keys
+
+In general, LMB calls up a function and RMB stops it again if it was selected accidentally, for example.
+
+
+
+Mouse pointer
+
+The basic shape of the mouse pointer is a sword.  However, it can change its shape depending on the situation.  In some actions the mouse pointer is locked in a window, to prevent incorrect entries.
+
+
+
+Icons 
+
+AMBERMOON includes many icons.  You select them with the LMB.  Icons which are "shaded out" cannot be selected.
+
+General icons are:
+
+	OK	Used to confirm your entry
+
+	Exit	Used to exit from a function
+
+
+
+Icon panel 
+
+You will generally find an icon panel at the bottom right of the screen, containing up to nine active icons.  You can call this panel up using the mouse or the nine number keys on the numeric keypad.  Certain individual icon panels may also be blank because in many game situations less than nine functions are available.  To simplify the description of icon functions we have numbered the individual icons according to their position on the numeric keypad, for easier identification.  The number in square brackets therefore indicates the corresponding number on the numeric keypad which can be used to call up the function, as an alternative to the mouse.
+
+As the Amiga 600 does not have a numeric keypad, on that computer you can only use the icon panel with the mouse.
+
+
+
+Scroll bar
+
+Many of the lists show a scroll bar at the right-hand edge of the screen.  Some of these lists can extend beyond a complete window.  Use the slider on this scroll bar to move up or down the list of items or texts in the window to be able to see those which are above or below your current position.  The slider shows your position on the list.  Click with the LMB above or below the slider and the next higher or lower section appears.  Press and hold the LMB on the slider and you can move it up or down on the scroll bar to find what you are seeking.
+
+The cursor keys [Up] and [Down] operate just as if you were clicking above or below the slider on the scroll bar.  If you also hold down the [Shift] key, you can move the slider straight to the top or bottom end of the scroll bar.
+
+
+
+Selecting an object
+
+If you drag the mouse pointer over an object, the name of the object appears on the mouse pointer.
+
+With the LMB you move an object from the inventory of a figure or from a chest or other container onto the mouse pointer.  You can then move the object to its destination and press the LMB again.  One destination could be a member of your group, for example.
+
+If you selected the wrong object by accident, simply press the RMB and the object is put back to its old location.
+
+If the destination for the object is already full, the old object at the destination is moved onto the mouse pointer.
+
+
+
+Entering numbers
+
+In certain circumstances you may need to enter a number in order to specify a value or quantity.  A special input window opens in these situations.  
+
+The item involved generally appears at the top left corner of this window.  Next to the item you will see a brief description and a prompt concerning the entry required.
+
+You specify the value using the three icons.  The icons with the arrows increase or reduce the value when you click on them with a mouse button.  Hold the LMB down on one of the icons and the numbers change more quickly.  Click on the icons using the LMB and the value increases or decreases by 1 each time you click.  The maximum or minimum permitted value (generally "0") is set simply with the RMB.
+
+Confirm your setting with "OK".
+
+If you opened this window accidentally, simply enter the value "0" and confirm with OK.
+
+The cursor keys [Up] and [Down] correspond to the icons for adjusting the value when clicked with the LMB.  If you use the two cursor keys while holding down the [Shift] key, they correspond to the icons when using the RMB.
+
+
+
+Entering text
+
+You sometimes need to enter text, for example to choose the character for your game figure.  Enter the text required, i.e. the name in this example, using the keyboard and complete your entry with the [RETURN] key or the LMB.
+
+Please use the [Backspace] key to delete individual letters.  To delete an entire entry, press [Shift] and [Backspace] simultaneously.
+
+
+
+Safety prompts
+
+A safety prompt is applied to all critical entries.  If you confirm your entry by clicking on the YES icon it is accepted by the program.  If you enter something incorrectly, simply click on the NO icon.
+
+The keys [Y] (English YES), [O] (French OUI) and [J] (German JA) correspond to the YES icon and the key [N] (NO, NON or NEIN) corresponds to the NO icon.
+
+
+
+Text window
+
+A text window appears at certain points and in conversations with beings you meet on your quest.  If the text to be displayed covers more than one text window you can see the remainder of the text by pressing the LMB.  Depending on the length of the text, the window may be switched several times.
+
+Once the text has been displayed in full you can scroll up or down with the mouse and exit from the text window by pressing the RMB.
+
+
+
+Input/output errors
+
+The program captures input and output errors in a special window.  This window appears if access to a disc or the hard disc was not possible.  The windows contain YES and NO icons.
+
+Click on YES if you wish to repeat the attempt at access.
+
+Click on NO if you wish to leave the program and return to the computer operating system.
+
+Amiga and Atari users who are playing AMBERMOON from a floppy disc will be asked to change the discs occasionally.  The prompt tells you which of the game discs the program needs.  Disc J is your game status disc which you created with the installation program on disc A.
+
+Click on the YES icon after you have inserted the disc required.  The Amiga computer detects the disc change automatically.  You need not click on the YES icon.
+
+If you click on the NO icon the program is terminated and the computer returns to the operating system.
+
+
+
+INTRO
+
+When the program is started, the Thalion fantasy logo appears.  Press a mouse button to skip the logo.
+
+The AMBERMOON introduction which now follows relates the events in Lyramion since the successful search for the AMBERSTAR.  You can also interrupt this intro with the mouse button.
+
+The input menu appears above the map of the devastated countryside.
+
+
+
+STARTUP MENU
+
+{Screen shot:  Startup menu}
+
+The startup menu provides the following options:
+
+CONTINUE
+
+This option only appears if you have already saved the game status.  The last game status is loaded with this option.  The quest is continued from that point onwards.
+
+START NEW QUEST
+
+You start a new game with a new character.  If you select this option, the CHARACTER MENU appears.  This does not erase the status of any old game.
+
+INTRO
+
+This repeats the intro.
+
+QUIT
+
+You quit the AMBERMOON program and return to the user interface, unless the program was loaded directly from disc by using a reset.
+
+
+
+
+CHARACTER MENU
+
+{Screen shot:  Character menu}
+
+On the character menu you select the personality you wish to represent in the game.  The two icons at the left in the box choose the gender of the figure involved.  Several male and female figures are available.  The arrows to the left and right of the portrait allow you to step through the pictures.  Click on the name panel and you can enter the name you want to use in the game.  When all details are to your satisfaction, click on OK to exit the character editor.
+
+Confirm the safety prompt with NO if you clicked on the OK panel by accident.  YES returns you to AMBERMOON.
+
+
+
+CHARACTER BAR
+
+The display is divided into two areas, the character bar at the top edge of the screen which is accessible in each screen, and the variable part of the display which changes according to the situation.
+
+For each of the six possible members of your group there is a picture on the character bar.  Next to this there are two bars to the right and a special display.  The name of the person appears below the portrait.  If the name is shown in yellow lettering, the person involved is active.  The active character executes all the actions involved - such as for example SPEAK, SEARCH.  The bar at the left indicates the number of Life Points remaining and the right bar indicates the Spell Points, i.e. the magic power.  Above the two bars you will see special conditions affecting the person, such as for example sickness, madness or blindness, and in certain cases also actions, such as for example a hand to indicate acceptance or refusal.
+
+A mask appears at any character location which is not in use.  If a character dies, his or her death is symbolised by a skull.
+
+The names of characters who cannot be activated are shown in grey.
+
+You change the active person with the LMB.  This does not apply to any character whose condition makes an action impossible.  Click on the picture of the character required.
+
+With the RMB you select the group member whose inventory and status you want to check.  The inventory is displayed first and then the general status of the selected character.  You access the status of the figure via the inventory menu.
+
+
+
+MAIN SCREEN
+
+{Screen shot:  Full screen}
+
+The main screen in which you accompany your group for most of the time is divided into three areas:  The graphics window at the left, the display panel for special items and magic spells at the right and the control panel at the bottom right.
+
+
+
+Display panels
+
+The upper part of both display panels show objects which give the group helpful information, such as for example a compass or a clock.  These objects can be purchased or discovered by the group during the adventure.  Temporary magic spells, such as for example light spells, are displayed on the magic spell display panel.
+
+
+
+Control panel
+
+The set of icons for movement in the 2-D or 3-D display are shown here as required or, after switching, the set of icons for possible actions appears.  Icons which cannot be selected are shaded out.
+
+
+
+Graphics window
+
+The graphics window shows the name of the town or village where your group is located.  In a labyrinth, a village or a system of caves the display changes from the two-dimensional top view to the three-dimensional view as seen by the group.  Normally the mouse pointer in the graphics window is shown as an arrow for the possible direction.  Directions can always be selected directly in the graphics window, even if the action panel is active.
+
+You can call the SPEAK and LOOK AT functions in the graphics window directly, using the RMB.
+
+
+
+III. MOVEMENT ICONS
+
+TRAVEL will be your main activity in AMBERMOON.  Please note that travelling around a lot will sometimes exhaust even the most hardened adventurer.  You must therefore rest at regular intervals.  You also need not make the entire journey on foot.  You can ride on a horse, use a raft, a boat or a more exotic means of transport to travel much faster, more easily and safer than on foot.
+
+The set of icons for 2-D or 3-D is available depending on the display of the location for the group.  
+
+In describing the function of the icons we have numbered the icons according to their position on the numeric keypad, for easier identification.  The number in square brackets therefore indicates the number key on the numeric keypad which can call up the function as an alternative to the mouse.
+
+	[7]	[8]	[9]
+
+	[4]	[5]	[6]
+
+	[1]	[2]	[3]	[Enter]
+
+As the Amiga 600 does not have a numeric keypad you can only use the control icon panel on this computer with the aid of the mouse.
+
+
+
+2-D display
+
+{Screen shot:  2-D directions}
+
+The landscape is shown in the graphics window in a top view.  At the top of the window is the name of the place.  Eight icons are available for moving the group represented by your character:
+
+	NW		N		NE
+
+	W		Pause		E
+
+	SW		S		SE	Change actions
+
+The cursor keys have the following functions:
+
+	Cursor UP:		Go to the north
+
+	Cursor LEFT:	Go to the west
+
+	Cursor RIGHT:	Go to the east
+
+	Cursor DOWN:	Go the south
+
+The icon [5] has a special function:
+
+[5] Pause:
+
+Instruct your group to wait, by starting a pause.  When you select this icon you are prompted to enter the time allowed for the pause.  No pause is made if you enter 0 hours.  The maximum pause is 24 hours.  Confirm your entry with the OK icon.
+
+[ENTER] Switch actions:
+
+Press the [ENTER] key on the numeric keypad or the RMB on the icon panel to switch to the set of action icons.
+
+All functions can also be executed directly with the mouse in the graphics window.  Depending on the position of the mouse pointer in relation to the game figure, the mouse pointer functions as one of the nine icons in the movement icon set.
+
+If you press the RMB in the graphics window, the mouse pointer shows a combined icon which can be moved within a certain radius around the figure.  This icon provides direct access to the SPEAK and LOOK functions.  The program decides which of the functions is to be used.
+
+
+
+3-D display
+
+{Screen shot:  3-D directions}
+
+In labyrinths, caves and towns the program switches to a 3-D display of the area around the group.  The view is as seen by the group.  You can move freely around these areas and turn round.  The directions available are:
+
+	Forwards, left		Forwards	Forwards, right
+
+	Left			Pause		Right
+
+	Turn 180¯ left	Back		Turn 180¯ right    Switch actions
+
+The cursor keys correspond to the following directions:
+
+	Cursor UP:		Go forwards
+
+	Cursor LEFT:	Turn left
+
+	Cursor RIGHT:	Turn right
+
+	Cursor DOWN:	Go back
+
+Icon [5] has a special function:
+
+[5] Pause: 
+
+Instruct your group to wait, by starting a pause.  When you select this icon you are prompted to enter the time allowed for the pause.  No pause is made if you enter 0 hours.  The maximum pause is 24 hours.  Confirm your entry with the OK icon.
+
+[Enter] Switch actions:
+
+Press the [ENTER] key on the numeric keypad or press the RMB on the icon panel to switch to the set of action icons.
+
+You can either click on the directions with the mouse in the control panel, choose with the keys on the numeric keypad or move the group directly in the graphics window with the mouse.  The mouse changes its function depending on the position of the mouse pointer in relation to the centre of the graphics window:
+
+Imagine the graphics window is divided into nine panels of equal size.  When using the LMB these nine panels now have about the same function as the nine movement icons.  The panel in the centre (Zzz) makes your group wait for five (game) minutes each time you click on it.  This function does not repeat automatically.
+
+When you press the LMB the eight panels around the centre move the group continuously according to the mouse pointer, through the landscape or the labyrinth.  Their speed increases towards the edge of the graphics window, depending on the distance between the mouse pointer and the centre panel.  Note this dynamic feature, especially when turning round.
+
+For example, if you hold down the LMB with the mouse pointer in the "Turn right and go forwards" box at the left-hand edge of the panel and move the mouse pointer to the top edge of the graphics window, i.e. to the outside, the group moves forward at maximum speed, turning slightly to the right.  
+
+If you hold down the LMB on the same panel at the bottom edge of the display and slide the mouse pointer to the right-hand edge of the graphics window, i.e. again to the outside, the group turns sharply to the right and move forwards slowly.
+
+This sounds far more complicated than it is.  Just try it out a few times.  You will very quickly get the knack and be able to guide the group safely through the 3-D areas.
+
+For faster and more controlled turns, above all when you are using a slower computer, the RMB is set to fixed degree values in the four boxes "Turn and ..." and the group does not move forwards or backwards.  Using the panels at the top left or right on the graphics window the group turns 90¯ to the left or right when you press the RMB.  With the panels at the bottom left and right on the graphics window the group turns 180¯ to the left or right when you press the RMB.
+
+The panels directly above, below and to the side of the central panel are not used by the RMB.
+
+The RMB has another special function in the centre panel.  If you hold the RMB down here, the mouse pointer turns into a special icon.  This icon gives you direct access to the SPEAK and LOOK facilities.  The program decides which of these facilities should be used.  The action involved refers to the area directly in front the group.
+
+In all 3-D areas a map is created automatically to show the progress made by your group.  You can inspect this by using the action icons.  
+
+And just one more thing:  As long as you are all in good health, your group can run faster than any monster.  You can therefore always escape from an imminent battle by running away.  But remember that the group naturally cannot run backwards as fast as it can run forwards.
+
+
+
+IV. ACTION ICONS
+
+If you press the RMB on the icon panel or the [ENTER] key on the numeric keypad, the nine action icons appear.  Any icons which cannot function in the current situation or which cannot be used by the active character are shaded and cannot be selected.  Unless they involve general functions, they only apply to the active character.  The keys on the numeric keypad correspond to the nine icons.  
+
+{Screen shot:  Action icons}
+
+	Look at		Touch		Speak
+
+	Transportation	Magic		Camp
+
+	Mapper		Battle		Options	Switch movement
+
+[1] Mapper
+
+{Screen shot:  Map}
+
+The active member of your group draws a map to show your path through the dark and dangerous caves and labyrinths of Lyramion, so that you do not lose your way.  This map is available at any time in the relevant labyrinth, even if you have not been there long.  There are various magic tricks which can be extended with this map:  People can be drawn in and monsters, traps and hidden passages can be marked.
+
+The automatic mapper is only active in 3-D areas and is only updated if it is light and the active figure is not blind.  Magic spells, in particular, extend the map even beyond the existing knowledge of the group.
+
+The legend and the coordinates of your position are shown next to the map.  You can scroll the map in all four directions using the mouse and the cursor keys.  The legend is extended with certain magic functions.  If you have a compass and it is used by a group member, it shows the direction in which your group is moving.
+
+You can remove the card using the RMB or the [Spacebar].
+
+[2] Battle stations:
+
+{Screen shot:  Battle stations}
+
+The members of your group should fight the attackers in a sensible tactical configuration.  If you put your strongest warriors behind the old magician, the battle will be over quickly.  But don't forget to check the battle configuration when a new member joins the group or an old member leaves.
+
+If you click on a figure in the layout using the LMB, it is transferred to the mouse pointer.
+
+The RMB returns it to its last position.
+
+The LMB moves you to a new position.  If this is already occupied, the figure is replaced with the figure on the mouse pointer.
+
+The only option active on the menu is [9] = Exit.
+
+	[9]	Exit:
+
+	With Exit you leave the battle.
+
+[3] Options:
+
+This function combines the game options and the disc functions.  A display shows the program version number, the date of production and the language version.
+
+The sub-functions are:
+
+	Quit		Exit
+
+	Options	
+
+	Save		Load
+
+	[1] Save:
+
+A window appears for you to select the location for the game situation.
+
+	The RMB de-activates the function.
+
+Using the LMB, select one of the ten save locations and enter a name for the game status.  Confirm your entry by pressing [RETURN].
+
+A safety prompt appears:  YES to save, NO to cancel the save.
+
+{Screen shot:  Save/load}
+
+	[2] Load:
+
+	The RMB de-activates this function.
+
+Using the LMB, select one of the saved conditions in the window.  Unoccupied locations cannot be selected.
+
+	A safety prompt appears:  YES to load, NO to cancel loading.
+
+	[4] Game options:
+
+	Music: Switches the accompanying music on or off
+
+	Fast battle mode:	Switches to the fast combat mode
+
+	Text in capital letters:	Switches capital letters on/off
+
+	3-D ground texture:		Switches the display of the ground in
+					3-D areas
+
+	3-D ceiling texture:		Switches the display of the ceiling in
+					3-D area
+
+	Exit:	Quits the function
+
+	The 3-D options are only accessible on computers with the appropriate hardware.
+
+	[7] Quit:
+
+This ends the game.  If the game was not loaded from disc and started automatically by means of a reset (Amiga and Atari only), this function returns you to the operating system (GEM-TOS, Workbench, MS-DOS).
+
+Remember that the current status in the game is not saved automatically. 
+
+A safety prompt appears:  YES terminates the game, NO returns you to the game.
+
+	[9] Exit:
+
+	This exits from the options.
+
+[4]	Transportation:
+
+This function is only active if a means of transport (a horse, raft or boat etc.) is available.  Your group uses the transportation as required.  Some of these means of transport remain where you leave them and others disappear, returning to where they started.
+
+[5] Magic:
+
+{Screen shot: Magic}
+
+The RMB de-activates this function.
+
+A list of possible magic spells appears for the active figure.  If necessary, you can scroll through it using the scroll bar.
+
+If the name of a spell is darkened, the character is unable to use this magic.  
+
+If the name of a spell is light, the active character can use it.  The number shown in brackets indicates how often the figure can use the magic spell with the number of spell points he or she has remaining.
+
+[6] Camp:
+
+After a long day full of adventure you need rest and must treat your wounds.  If you are not in a town, a house or in the direct vicinity of a monster you can make camp.
+
+The group makes camp so that it can recover its strength and practice magic spells if it has magic scrolls available.  The following sub-functions are available for this purpose:
+
+{Screen shot: Camp}
+
+	Magic		Exit
+
+	Read magic scrolls
+		
+	Rest
+
+	[1] Rest:
+
+	The members of the group are sleeping.  Figures carrying rations recover their strength.
+
+If the group is asleep during darkness, it awakens automatically at dawn if it is in open terrain.
+
+	[4] Read magic scroll:
+
+	The RMB de-activates this function.
+
+The luggage window opens so that you can select a magic scroll.  The LMB selects the scroll required.
+
+	[7] Magic:
+
+	The RMB de-activates this function.
+
+A list of magic scrolls appears for the active figure.  If necessary, you can scroll through the list using the scroll bar.
+
+If the name of a scroll is darkened, the character is unable to use that magic.
+
+If the name of a scroll is light, the active character can use the magic spell.  The number shown in brackets indicates how often the figure can use that magic with the number of spell points he or she has remaining.
+
+	[9] Exit:
+
+	This exits from the camp.
+
+[7] Look:
+
+With this facility the active figure can examine objects, look at people or read signs and similar.
+
+In 2-D areas you select the object of interest using the mouse in the graphics panel.  In 3-D areas the action refers to the area directly in front of the group.
+
+[8] Touch:
+
+{Screen shot: Touch}
+
+If you touch a chest or a cupboard, a new menu appears:
+
+	Exit
+
+	Distribute gold 	Distribute rations
+
+	Check			Give gold		Give rations
+
+If your group has discovered gold or rations, the amount is shown in the relevant field.  The objects found are shown in the (scrolling) window for the current object.  You must click with the LMB to take the object.  If there are several identical objects, a quantity window opens to allow you to specify the number of objects you wish to transfer to one of the figures by clicking on the portrait with the LMB.
+
+[1] Examine:
+
+The RMB terminates this function.
+
+The LMB selects an object.  A description appears.  A window shows the name and type of artefact and its weight, the number of hands you need to use the object and which ring finger it fits, its destructive power and its protection power in a battle as well as which characters and which sexes can use it.
+
+There is naturally more to know about any object, such as for example the magic power it holds or whether it has a curse on it.  But for that you need either an identification code or a specialist.  You then find another icon on the icon panel with which you can open another window for further information.
+
+This second window gives you information about its effect on your power, its attacking and protection effects in a battle, the magic that contained in a specific number of the objects and whether it has a curse upon it.
+
+[2] Give gold:
+
+Gold from a treasure you have discovered which is to be taken with you is transferred to a group member you specify.  
+
+[3] Give rations:
+
+Rations from a treasure you have discovered which are to be taken with you are transferred to a group member you specify.
+
+[5] Distribute gold:
+
+The gold discovered is distributed evenly among all group members.
+
+[6] Distribute rations:
+
+The rations discovered are distributed evenly among all group members.
+
+	[9] Exit:
+
+	This exits from the function.
+
+[9] Speak:
+
+The active figure speaks with a figure within range.
+
+In 2-D areas you select the figure you want to speak to by using the mouse in the graphics window.  Click on your game figure and you can speak to the member of your group.
+
+In 3-D areas this function applies to the figure standing directly in front of your group.
+
+
+
+V. INVENTORY/STATUS
+
+{Screen shot: Inventory}
+
+The shiny new sword which knocks out monsters as soon as they catch sight of it will hardly help you if it is just rusting away in your rucksack.  You have to equip your group members properly:  A sword is held in the right hand and a shield in the left.  Armour is worn on the body and boots on your feet etc.
+
+But certain objects, although powerful, can hinder you and limit certain skills and capabilities.  We have heard stories of magic objects which put a curse on the person carrying them and reduce their capabilities to a minimum.  And the curse cannot be removed ... Only the power of a magic healer or REMOVE CURSE can help in such cases.
+
+You can reach the inventory display via the portraits of the group members on the character bar.  Below the character bar you can see to the right a poster of the character selected.  Below that is an icon panel and the left a panel which shows the luggage carried by the figure.
+
+
+
+Poster
+
+The poster shows the race, sex, age, class and name of the figure as well as details about the number of Experience Points (EP), Life Points (LP), Spell Points (SP), Spell Learning Points (SLP) and Training Points (TP).  It also includes details of the number of gold coins (G), the number of rations (R), the combat value (sword) and the defence capabilities (shield).
+
+
+Luggage
+
+Luggage is divided into two areas.  We differentiate between items which are located in the rucksack and those which a character is using actively.  To the left, in the nine panels around the figure, are the items which are active or being worn directly on the body.  The panels in the right-hand half represent the rucksack.
+
+If an item from the rucksack can also be worn on the body, you can put it on by clicking first on the item and then on the body.  If an item is to be removed from the body of the character and put in the rucksack, click first on the body and transfer the item to the rucksack or click with the LMB on the portrait of the group member who is to take over the item.
+
+If an item is to be transferred from the luggage of one character to another figure in the group, take the object onto the mouse pointer by pressing the LMB, move it to the picture of the required target person on the character bar and press the LMB again.
+
+If you take an object accidentally, simply press the RMB.  The object is returned to its last position.
+
+If you click on a portrait with the RMB you can switch directly from the inventory of one character to another.
+
+If you have several identical objects, for example five torches, you can take all five torches at once with the RMB as long as the mouse pointer is not already carrying an object.  Simply click on the items with the LMB and you are prompted to indicate the number to be taken up by the mouse pointer.
+
+When an object has been taken up by the mouse pointer, the hands next to the portraits indicate which members of your group can take the object into their luggage and which members are already carrying their maximum amount of luggage.
+
+
+
+Icons
+
+The icons have the following functions, as per the numeric keypad, concerning the items of luggage or equipment a character is wearing:
+
+	Status		User		Exit
+
+	Discard object	Discard gold		Discard rations
+
+	Examine		Give gold		Give rations
+
+[1] Examine:
+
+Is that a two-handed sword or a cutlass?  Can the thief in your group use the dagger?  Does the effect this axe might have make it worth carrying its weight?  These questions will become clear when you examine an object.  Many objects have hidden effects which only become apparent if you put them on.  If the artefact has a curse upon it, it will then be too late ...
+
+The RMB terminates this function.
+
+The LMB selects an object.  A description appears.  A window shows the name and type of artefact as well as its weight, the number of hands you need for using it and whether it fits on a ring finger, its destructive force and its protective power in a battle as well as which characters and which sex can wear it.
+
+There is naturally a lot more to be known about an object, such as for example its magic power or whether it is cursed.  But for this you need either an identification code or a specialist.  You will then find another icon in the icon panel which allows you to open another window with more information.
+
+In this second window you will find information about the effect of the object on your abilities, its attacking and protection power in a battle, what magic power the object has and whether it is cursed.
+
+[2] Give gold:
+
+The RMB terminates this function.
+
+With the LMB you indicate how much gold from the luggage you want to pass to another member of the group.  Then select the character who is to take the gold, using the LMB on the character bar.
+
+[3] Give rations:
+
+The RMB terminates this function.
+
+With the LMB you indicate how many rations you wish to transfer from the luggage to another member of the group.  Then select the character who is to receive the rations, using the LMB on the character bar.
+
+[4] Discard object:
+
+You don't need the hammer any longer?  You have too much gold and too many rations in your luggage?  Throw them away!  But remember:  Whatever you throw away cannot be recovered and is lost forever ...
+
+If you wish to discard an object which you still need, you will be warned.
+
+You have just done battle against 42 hoards of Orcs and your group can hardly walk under the weight of the swords and leather armour.  You have so much gold that all the traders in Frohlocken faint when you enter their shops.  You have every magical item imaginable but you do not know what it can all be used for.
+
+It would be a great shame to simply throw away all these beautiful things.  But you can't take everything with you, either.  So what should you do?  You can store things in chests.  For, you cannot just take things out of a chest - you can also build up a stock of gold and rations which will then be available in difficult times.  And you can also keep weapons in reserve and store clothing for special occasions.
+
+The RMB terminates this function.
+
+With the LMB you select the item from the luggage which you wish to discard.  Once discarded, that item cannot be taken again.  If it is to be stored, you should place it in a chest or a cupboard.
+
+[5] Discard gold:
+
+The RMB terminates this function.
+
+With the LMB you indicate how much gold you wish to throw out of the luggage.  And remember:  What you throw away, is not available another day.  So you should really store the gold in chests or cupboards.
+
+[6] Discard rations:
+
+The RMB terminates this function.
+
+With the LMB you indicate how many rations you wish to discard from the luggage.  And remember here, too:  Rations which you throw away are lost forever!  So you should really store them in a chest.
+
+[7] Status:
+
+This function displays the attributes and skills of the figure involved.  The value at the right [sic] always shows the current status of the character and the value at the right [sic] shows the maximum value as normal, i.e. without magical support.  In the right-hand column you will find details about the languages the character can speak as well as a report on his physical condition and mental state (blindness, illness etc.).  Move the mouse pointer onto this to change the name of the condition.
+
+Two icons are active on the icon panel:
+
+	Inventory	Exit
+
+	[7] Inventory:
+
+	You return to the inventory of the character.
+
+	[9] Exit:
+
+	You exit from the inventory/status function.
+
+[8] Use:
+
+You will perhaps want to use quite often any items you have discovered.  Magic artefacts are needed to open difficult doors or gates.  Sometimes you can also break through a wall with a pick-axe.  If you find a book or a document you should read it.
+
+In dark caves, a torch or a lantern would be helpful to give you light to see.  If you found magic scrolls you can use their spells.  But remember that a magic object has a limited capacity.  And when it is exhausted, the object becomes useless or disappears.
+
+The RMB terminates this function.
+
+With the LMB, select the object which is to be used.
+
+[9] Exit:
+
+You exit from the inventory/status function
+
+
+
+VI. DIALOG
+
+{Screen shot: Dialog}
+
+Lyramion is full of people who all have something to say.  Provided that the active person in your group speaks the same language as a citizen of Lyramion, you can hold a conversation.  You need these dialogs to discover important information and to obtain certain objects which you need to continue on your quest.
+
+If your group is in the same panel as another person (3-D) or the figure is standing directly next to another figure (2-D) you can ask the stranger questions.  To do this, select the dialog icon (the mouth) and, in the 2-D display click as applicable on the person you are asking, using the mouth cursor.  When you click on your figure you can speak with the characters in your party.
+
+Naturally you can only hold conversations if the active character also speaks the language of the other person.
+
+
+
+Brief dialog
+
+Some people will not enter into a long conversation or simply have nothing or very little to say.  When you speak to them, just a text window opens for them to give their information.
+
+
+
+Full dialog
+
+If a figure is interested in having a longer conversation, the dialog screen appears.  Under the character bar you will see at the right the poster on the person you are speaking to, the gold and rations of the active character and the icon panel.  A text window appears at the left and may show a list of objects which can be used for certain actions.  The following icons are active:
+
+	Hold conversation		Exit
+
+	Show object		Ban from the group		Include in the group
+
+	Give object		Give gold			Give rations
+
+[1] Give object
+
+Sometimes a person you meet along the way becomes more accessible and helpful if you can offer him something.  This can be an object or even gold or rations.
+
+You interrupt this function with the RMB.
+
+Use the LMB to select the object which you want to give to the other person.
+
+[2] Give gold:
+
+The RMB interrupts this function.
+
+The LMB indicates how much gold from the luggage of the active character you want to give to the other person.
+
+[3] Give rations:
+
+The RMB interrupts this function.
+
+With the LMB you indicate how many rations from the luggage of the active character you want to give to the person you are talking to.
+
+[4] Show object:
+
+The RMB interrupts this function.
+
+With the LMB you select the object from the luggage of the active figure which you want to show to the person you are talking to.
+
+[5] Ban from the group:
+
+This function bans a member from your group, for example, to make room for a more suitable character for the quest.  The banned group member returns home and waits there for you in case you need that character again.
+
+[6] Include in the group:
+
+With this function you ask the person you are talking to to accompany you and assist you in your quest.
+
+[7] Hold conversation:
+
+The RMB interrupts this function.
+
+A list of expressions appears.  The two arrows scroll through the list if it covers more than one text window.  You select an expression by clicking on it with the LMB.  If the expression required is not on the list, click on the mouth icon.  You can then enter an expression with up to 20 letters in the text box which appears.
+
+The character you are talking to will respond to the expression you selected or entered.
+
+Do not just rely on the list of expressions provided.  Certain key words which occur in the answer can unlock other information held by the person.
+
+New expressions which are added during the dialog are displayed in yellow letters.
+
+[9] Exit:
+
+You exit from the dialog function.  Your active character takes his leave of the other person.
+
+
+
+VII. EVENTS
+
+Life in AMBERMOON is never dull.  When you travel through foreign countries and in deep caves you can expect many surprises.  Things can happen when you simply go towards a door or a chest, touch a strange sign or unusual object or even just speak to it.
+
+
+
+Doors
+
+{Screen shot: Door}
+
+Not all doors in AMBERMOON are open.  Some have to be forced ajar and others demand more skill before they can be opened, such as with the right key, for example.  But be careful!  A door can also hide dreadful secrets and dangerous situations.
+
+Fortunately a door stays unlocked once it has been opened.
+
+	Break lock		Open lock with object	Exit
+
+	Discover trap
+
+	Disable trap
+
+[1] Disable trap
+
+If you find that a door is protected by a trap you should try to disable it.  Use someone from your group who has the right skills.  That is not easy.  If the character is not clever enough, the consequences can be horrific.  
+
+The function is executed by the active figure.
+
+[4] Discover trap
+
+Before you try to unlock or break open a lock you should check to see if there are any traps.  Use a figure from your group who has the appropriate skills.  And even if you do not find a trap, there may still be one!
+
+This function is executed by the active character.
+
+[7] Break lock
+
+If you don't have the right key for a lock, you can attempt to break it.  Make sure that your active character has the right skills.  If he is unable to open the lock, this might set off a trap.
+
+[8] Open lock with object
+
+The RMB terminates this function.
+
+If you have the right key, you don't need to break the lock open.  Simply insert the key into the lock and the door will open.  Some keys disappear when they have been used.
+
+An alternative to a normal key is a pass key, which is the simplest way to open a lock.  That also avoids any traps.  But a pass key can snap off if the lock was protected against pass keys.  Each pass key can only be used once.  You should therefore build up a stock of them.
+
+[9] Exit
+
+This exits from the doors function.
+
+
+
+Chests
+
+In AMBERMOON you will often find chests full of gold, rations and interesting artefacts.  Not all of these treasures will be lying around in the open ready and waiting to be stuffed into your rucksack.  Some chests must be opened with the right key or a pass key.  And be careful!  Some chests contain very powerful objects and are protected by dangerous booby-traps.  Fortunately a chest which has been opened once generally remains unlocked.
+
+{Screen shot: Closed chest}
+
+	Break lock		Open lock with object	Exit
+
+	Discover trap		
+
+	Disable trap
+
+[1] Disable trap
+
+If you find that a chest is protected by a trap you should try to disable it.  Use someone from your group who has the right skills.  That is not easy.  If the character used does not have the right skills, the consequences can be terrible.
+
+The function is executed by the active figure.
+
+[4] Discover trap
+
+Before you try to unlock or break open a chest you should check to see if there are any traps.  You should also use a member of your group who has the appropriate skills for the work involved.  Even if you don't find a trap, there may still be one!
+
+The function is executed by the active character.
+
+[7] Break lock
+
+If you don't have the right key for a lock you can try to break it open.  Remember that the active character should have the appropriate skills.  If he is unsuccessful in opening the lock, that may set off a trap.  
+
+[8] Open lock with object
+
+The RMB interrupts this function.
+
+If you have the right key, you do not need to break open a chest.  Simply insert the key into the lock and the chest will open.  Some keys are forged so that once they have been used in the lock for which they were created, they disappear.
+
+Another alternative is a pass key, which is the simplest way of opening a lock.  That also avoids any traps.  But the pass key can snap off if the lock was protected against pass keys.  Each pass key can only be used once, so you should try to build up a stock of them.
+
+[9] Exit
+
+This exits the closed chests function.
+
+{Screen shot: Open chest}
+
+When you have opened a chest or if a chest you found was already open, you can examine the contents.  You can take anything you find in a chest.  You can also store items, gold and rations in a chest so that you can use them later.  So you should remember where you left them ...
+
+			Exit
+
+		Distribute gold	Distribute rations
+
+	Examine	Give gold	Give rations
+
+If your group has discovered gold or rations, the quantity involved appears in the appropriate panel.  If any objects were found, they are displayed in the (scrolling) window for the current object.  Click on an object with the LMB if you wish to take it.  If several identical objects exist, a window opens so that you can enter the quantity of the object which you then transfer to one of the figures by clicking on its portrait with the LMB.
+
+[1] Examine:
+
+The RMB terminates the function.
+
+The LMB selects an object.  A description appears.  A window shows the name and type of object and its weight, the number of hands you need to use it, whether any ring fingers are used, the object's destructive power and protection power in a battle and which characters and sexes can wear it.
+
+Naturally there is even more to be known about an object, such as for example its magic power or whether it is cursed.  But for that you need either an identification code or a specialist.  In the icon panel you will then see another icon with which you can open another window with more information.
+
+This second window gives you information about the affect of the object on your performance, its attacking and protection power in a battle, the magic contained in certain quantities of the object and whether it is cursed.
+
+[2] Give gold:
+
+Gold from a treasure which you wish to take with you is transferred to a certain member of your group.
+
+[3] Give rations:
+
+Rations from a treasure you have discovered are transferred to a certain member of your group.
+
+[5] Distribute gold:
+
+The gold discovered is distributed equally among all members of the group.
+
+[6] Distribute rations:
+
+The rations discovered are distributed evenly amongst all members of the group.
+
+[9] Exit:
+
+This exits from the chests function.
+
+
+
+Rubbish
+
+{Screen shot: Rubbish}
+
+In AMBERMOON, objects are not always placed tidily in a chest.  Sometimes you can find valuable items in huge piles of rubbish.
+
+			Exit
+
+		Distribute gold	Distribute rations
+
+	Examine	Give gold	Give rations
+
+If your group has discovered gold or rations, the relevant quantity appears in the appropriate panel.  The objects discovered appear in the (scrolling) window for the current object.  Click on an object to take it with you.  If several identical objects exist, a window opens so that you can enter the quantity of the object which you then transfer to one of the figures by clicking on its portrait with the LMB.
+
+[1] Examine:
+
+The RMB terminates the function.
+
+The LMB selects an object.  A description appears.  A window shows the name and type of object as well as its weight, the number of hands you need to use it and whether any ring fingers are needed, its destructive and protective power in a battle and which characters and which sexes can wear it.
+
+There is naturally even more to be known about an object, such as for example its magical power or whether it is cursed.  But for that you need either an identification code or a specialist.  In the icon panel you then find another icon with which you can open another window giving you more information.
+
+This second window gives you additional information about the effect of the object on your performance, its attacking and protecting power in a battle, the magic contained in certain quantities of the object and whether it is cursed.
+
+[2] Give gold:
+
+Gold from a treasure you have discovered is passed to a certain member of your group.  
+
+[3] Give rations:
+
+Rations from a treasure you have discovered are transferred to a certain member of your group.
+
+[5] Distribute gold:
+
+The gold discovered is distributed evenly among all members of the group.
+
+[6] Distribute rations:
+
+The rations discovered are distributed evenly among all members of the group.
+
+[9] Exit:
+
+This exits from the Rubbish function.
+
+
+
+Riddlemouth
+
+{Screen shot:  Riddlemouth}
+
+Important sections in a labyrinth are often protected by a riddlemouth, a large and fundamentally friendly stone-faced being which forms part of a wall.  Before you are allowed to continue you must answer its riddle correctly.
+
+No-one really knows anything very much about this strange being.  However, they seem to be happy with their life and their work, because no-one has ever seen them without a smile on their face.
+
+		Exit
+
+	Answer	Listen to riddle
+
+[1] Answer:
+
+The RMB interrupts this function.
+
+From the list of expressions you can select a word with the LMB or enter a new word, by clicking on the mouth icon, to answer the riddlemouth's riddle.
+
+After you have answered, the riddlemouth tells you if your answer was wrong or clears your path.
+
+[3] Listen to riddle
+
+The riddlemouth repeats its question.
+
+[9] Exit:
+
+This exits from the riddlemouth function.
+
+
+
+Traps
+
+Many labyrinths and caves are dotted with common traps.  You should therefore move through the world of Lyramion with great care and examine each object which appears strange in any way.  You will be warned about such traps by a clairvoyant scroll.  Other scrolls draw in the positions of traps on the map.
+
+Traps affect either the active group member or the whole group.  Over time, a large number of clever traps will have been installed.  A normal trap will just injure you but there are also other traps which can blind you with a flash of lightning, poison you with an odious, penetrating vapour or other substances, or much worse.
+
+If you set off a trap, only luck can help you ...
+
+
+
+Twisters
+
+Twisters are special rotating discs fitted in the ground and they are used to confuse the adventurer by throwing him off his path.  As soon as you approach such a disc it begins to spin wildly.  The victim can be thrown off in any direction, even back where he came from.
+
+Twisters are practically invisible and can only be discovered by careful examination.
+
+
+
+Teleporters
+
+Teleporters are visualised by flickering flashes and stars in the air.  They can be a useful means of transport but can also drive adventurers mad.  Teleporters are quite common in old crypts.  If you get through, you are instantly moved somewhere else in the same labyrinth.  
+
+
+
+Trap doors
+
+A simple means to protect an area is to use a trap door.  A trap door need not necessarily be a clean, round hole in the ground with a simple wooden flap.  It can also be hidden or disguised.  If you fall through such a trap door the injuries you will suffer can have serious consequences.  If you discover a trap door in the ceiling above you, you can climb up to the higher level using a rope or the magic spell LEVITATION.
+
+
+
+Exits
+
+There are various exits from this area.  Doors, staircases and ladders lead into new or different labyrinths, caves, towns etc.
+
+
+
+VIII. TRADERS AND OTHER PLACES
+
+In the towns of AMBERMOON many people live by trading.  They sell their goods or services for gold.  When you enter such a shop, the entire group puts its gold together in one pool.  When you leave the shop again the gold is distributed among the individual group members again.
+
+Incidentally, traders are very honest.  If you forget any gold or an item you have bought, they will cheerfully remind you.
+
+
+
+Traders
+
+A normal trader sells everything.  From a torch to a sword or a pair of boots, he can sell you anything you need for your normal equipment.  But he does not just sell things; he will also be pleased to buy anything you may have discovered on your quest.  And objects which you sell to a trader can be bought back again later - but you will certainly not make a profit.
+
+{Screen shot: Trader}
+
+The gold which the group has collected is displayed.  The panels at the bottom of the display show the items which the group has already obtained.  Take the items here by using the LMB and transfer them to the luggage of a group member.  As you know, you can take all the items at once using the RMB.
+
+Note the hands which appear next to the portrait of the group members.  The hand which is accepting indicates that you are ready to accept an object.  The hand showing refusal indicates that the group member involved cannot carry any more luggage. 
+
+	Buy object		Exit
+
+	Sell object		Examine
+
+[4] Sell object:
+
+An easy way to get gold is to sell the equipment of the enemies you have beaten.  A trader will not buy objects which are too cheap or broken.  How much you get for an object depends on the active character.  The greater the charisma of the figure, the higher an offer the trader will make.
+
+The RMB interrupts this function.
+
+With the LMB you select from the luggage of a group member an object which you offer to the trader.  If you confirm the offer with the YES icon, the object disappears and the gold offered is added to the amount you already have.  You can refuse the offer by using the NO icon.
+
+[5] Examine:
+
+Before you buy a new weapon you should ensure that it is better than the one you are already using.
+
+The RMB interrupts this function.
+
+The LMB selects an object.  A description appears.  The window shows the name and type of object as well as its weight, the number of hands you need to use it and whether it occupies any ring fingers, its destructive and protective power in battle and which characters and sexes can wear it.
+
+There is naturally a lot more to be known about an object, such as for example its magic power or whether it is cursed.  But for this you need either an identification code or a specialist.  You will then find a new icon in the icon panel with which you can open another window with more information.
+
+This other window provides you with additional information about the object's effect on your performance, the attacking and protective power it has in a battle, the magic contained in a number of objects and whether it is cursed.
+
+[7] Buy object:
+
+Before you find that fascinating sword and the astonishing shield, you really need just good, solid, ordinary equipment which you can obtain from any normal trader.
+
+The RMB terminates this function.
+
+The LMB selects the object you wish to buy from the stock held by the trader.
+
+If you drag the mouse over the goods available from the trader you will see not only the names but also the prices.  If the price appears in red, you do not have enough gold to buy the goods.  
+
+Numbers appear below the pictures of the goods.  These indicate how many of the goods the trader can offer.  Stars indicate a very large quantity.  If you select an item of which there is more than one in stock, you are asked to enter the quantity you require.  The highest possible number is either that which you can afford or the total number the trader is offering.
+
+When you have selected an object, the trader expects you to pay the price.  Click on the YES icon to give him the gold.  The object becomes your property.  Click on the NO icon if you change your mind.
+
+[9] Exit:
+
+This exits from the trader function.
+
+
+
+Victualers
+
+Some traders concentrate on food.  Never forget to buy enough rations before you start on a long and dangerous journey.  
+
+{Screen shot: Victualers}
+
+The gold held by your group and any rations you have bought are displayed.  When you enter the shop the trader tells you how much gold he wants for the rations.
+
+		Exit
+
+	Buy rations		Distribute rations		Give rations
+
+[4] Buy rations
+
+You are asked to state how many rations you want to buy.  When you enter the number, the trader asks you for the appropriate price.  
+
+[5] Distribute rations:
+
+The rations you have purchased are distributed evenly among all members of the group.
+
+[6] Give rations:
+
+You enter manually which group member is to take a number of the rations you have bought.
+
+[9] Exit:
+
+This exits from the victualers function.
+
+
+
+Horse, raft and boat traders
+
+In some towns there are traders who sell horses, rafts or boats.  Using these you can reach places from Lyramion which would otherwise be impossible.  You also travel faster and more safely.
+
+		Exit
+
+	Buy horse / raft / boat
+
+[4] Buy horse / raft / boat:
+
+The trader tells you the price for his goods.  Please note that if you want to travel on horseback you need a horse for each member of your group.
+
+After handing over the gold the trader tells you where you can find the horses, raft or boat.
+
+[9] Exit:
+
+This exits from the function.
+
+
+
+Book shops
+
+At places of wisdom you will find traders who specialise in magic spells.  The magicians in your group will therefore find an easy opportunity to improve their knowledge.  New spells are difficult to find.  If you buy some spells you can soon start to practice using them.
+
+{Screen shot: Book shop}
+
+Your gold and any spells you have already obtained are displayed.  
+
+	Buy spell	Exit
+	
+	Examine
+
+[5] Examine:
+
+The RMB terminates the function.
+
+The LMB selects a spell.  A description is given.
+
+[7] Buy a spell:
+
+The RMB terminates the function.
+
+The LMB selects a spell for purchase.  If the price is shown in red, you do not have enough money to buy it.  If several scrolls of the same spell are available you must enter the quantity you require.  After you have made your selection, the trader tells you how much money he wants from you.
+
+[9] Exit:
+
+This exits from the book shop function.
+
+
+
+Wise man
+
+In the deep and ancient caves and labyrinths of Lyramion you will find many strange objects.  These can have hidden powers.  To determine whether an artefact is just a pretty glass marble or a globe with magical powers you must either use an identification code or a specialist, the wise man.
+
+{Screen shot: Wise man}
+
+	Examine	Exit
+
+	Examine
+
+[4] Examine:
+
+The RMB terminates the function.
+
+The LMB selects an object which the active character in the group is wearing on his or her body.  The wise man tells you the price for information about this item.  If you accept the price, the information is shown in a new window.
+
+[7] Examine:
+
+The RMB terminates the function.
+
+The LMB selects an object from the rucksack carried by the active figure.  The wise man advises the price for the information about this artefact.  After you agree, the information is displayed in a new window.
+
+[9] Exit:
+
+This exits the wise man function.
+
+
+
+Enchantress
+
+Only a few of the many magic objects you will find can be used without limitation.  Most of them lose their magic power after they have been used for a while.  There are two ways to recharge them, either by using the magic spell "Charge object" or by trying to find the enchantress.  However, although she is very attractive, she loves to be alone and becomes very angry if she is disturbed.  But for gold she will recharge your magic artefacts.
+
+{Screen shot: Enchantress}
+
+		Exit
+
+	Charge object
+
+[4] Charge object:
+
+The RMB interrupts this function.
+
+With the LMB you select an object from the luggage of the active character which is to be recharged.  You will be asked to enter the number of charges you wish to apply to this object.  The enchantress then tells you how many pieces of gold she wants from you.
+
+[9] Exit:
+
+This exits from the enchantress function.
+
+
+
+Healers
+
+You will have been extraordinarily lucky if you get out of all the caves and labyrinths in Lyramion successfully without any form of injury.  Generally you will be bitten and stabbed, infected with various interesting diseases and poisoned.  A number of healing spells are available to you to regenerate and cure members of your group - or you can seek the assistance of a healer who will help you for a small fee.
+
+{Screen shot: Healer}
+
+The healer does not necessarily concentrate his power on the active character because that character could be too ill to negotiate the price.  The healer's "victim" is marked by the Ankh symbol.
+
+	Life energy		Exit
+
+	Remove curses
+
+	Heal
+
+[1] Healing:
+
+The RMB terminates this function.
+
+The LMB selects one of the displayed conditions which you want to heal.  The healer then tells you how expensive his healing is.
+
+[4] Remove curses:
+
+The healer tells you his price for removing all cursed objects on the body of a person.  
+
+[7] Life energy:
+
+You are asked to enter the number of life points (LP) which you want to have restored.  The upper limit is determined by the maximum number of life points the character can have or the number of pieces of gold your group has available.  The healer will tell you the price.
+
+[9] Exit:
+
+This exits from the healer function.
+
+
+
+Blacksmith
+
+Even the best sword and the best shield can break.  You can repair your favourite weapon again with the spell "Repair object" or with the help of a blacksmith.  
+
+{Screen shot: Blacksmith}
+
+		Exit
+
+	Repair
+
+[4] Repair:
+
+The RMB terminates this function.
+
+Use the LMB to select the object you want to repair from the rucksack of the active figure.  The blacksmith will now tell you how expensive the repair will be.
+
+[9] Exit:
+
+This exits from the blacksmith function.
+
+
+
+Inns
+
+Out in the wilderness you can only rest in a camp to recover your strength.  In a town or a village, however, you would be better to seek a comfortable inn where you can rest your tired and weary bones.  But not all inns are equally comfortable and friendly.
+
+{Screen shot: Inn}
+
+		Exit
+
+	Rent room
+
+[4] Rent room:
+
+The landlord will tell you his charge for a hot meal and the use of his beds.  His price covers the whole group.
+
+When you have rented a room, a new menu appears.
+
+	Magic		Exit
+
+	Read scroll
+
+	Rest
+
+	[1] Rest:
+
+	The members of the group fall asleep and regenerate their powers.
+
+If the group goes to sleep during darkness, they wake up automatically when morning dawns.
+
+	[4] Read scroll:
+
+	The RMB de-activates this function.
+
+A luggage window opens so that you can select a scroll.  The LMB selects the scroll required.
+
+	[7] Magic:
+
+	The RMB de-activates this function.
+
+A list of the scrolls accessible to the active figure appears.  If necessary, you can scroll through the list using the scroll bar.
+
+If the name of a spell is darkened, the character is unable to use it.
+
+If the name is light, the active character can execute the spell.  The number shown in brackets shows how often the character can use this magic with his or her remaining spell points.
+
+	[9] Exit:
+
+	This exits from the function.
+
+[9] Exit:
+
+This exits from the inns function.
+
+
+
+Trainers
+
+After a number of journeys, battles and adventures, the experience gained by your group will have grown.  In towns and sometimes in other places, too, you will find people who can help you to further improve your skills.
+
+{Screen shot: Trainer}
+
+		Exit
+
+	Training
+
+[4] Training:
+
+A prompt asks you to enter the percentage by which you want to improve the performance capability of the active character.  The trainer tells you what his price is for this training.
+
+[9] Exit:
+
+This exits from the trainer function.
+
+
+
+IX. BATTLES
+
+Some creatures will not listen to any form of argument.  Generally, force is not the way to get through AMBERMOON safely.  But the horrible helpers of the evil forces increase in numbers dramatically in the caves and labyrinths of Lyramion.  And they only understand one language:  That of the magic double-sided battle-axe!  Battles in AMBERMOON are not just a question of your skill but above all your tactics.  Protect the weaker members of your group and use your weapons and magic spells to destroy your adversaries.  Or it is your turn ...
+
+A battle takes place as follows:  You give your group members commands - one warrior should attack the gibbering monster from the left and the other should jump to the right of the magician who in turn is to cast a spell on another monster etc.
+
+When you have given all your commands, click on the "Execute" icon and all group members and all monsters on the scene will make their move.
+
+Monsters battle according to the same rules as your group.  If they run out of arrows they will discard their bows and draw their battle axes and swords.  If a sword should snap, they throw it away.  If you use up all your magic spell points you cannot use magic any more and must use conventional methods.
+
+{Screen shot: Battle}
+
+If you are attacked along your journey, a prompt appears to ask whether you wish to fight or flee.  With a little luck you might be able to flee without injury.  If not, or if you decide to take part in the battle, a display appears below the character bar.  It is divided into four windows.
+
+The battle situation is shown directly below the character bar, across the full width of the screen.  To the left below that are all events of the battle, displayed in a text window.  In the centre there is the tactical grid on which you will see displayed your adversaries and the members of your group in their positions.  At the bottom right there is an icon panel with the following functions:
+
+	Flight options		Execute
+
+	Move		Advance
+
+	Attack		Defend	Magic
+
+[1] Attack:
+
+All adversaries which are within range are indicated by a green flashing box.  Click with the LMB on the panel you wish to attack.  You can also attack an adversary directly by clicking with the LMB on the tactical grid.
+
+[2] Defend:
+
+Use this facility if you want to provide defence against an attack.  This function is available by clicking with the LMB on the appropriate figure in your group on the tactical grid.
+
+[3] Magic:
+
+The RMB de-activates this function.
+
+A list of magic spells available to the active figure appears.  If necessary, you can scroll through it with the scroll bar.  
+
+If the name of a spell is dark, the character is unable to use that magic.  
+
+If the name of a spell is light, the active character can use the spell.  The number in brackets shows how often the figure can use this magic with his or her remaining spell points.
+
+[4] Move:
+
+All panels on which you can move your figure are shown in green around your current position.  Use the LMB to select the target field for your group.  You can also click directly on the panel in the tactical grid to which a figure from your group should go.  Any panels already selected as the target for a different group member are marked with a cross. 
+
+[5] Advance:
+
+If you adversaries withdraw, your group can move forward using the advance function.
+
+[7] Flee:
+
+If you have withdrawn a member of your group to the furthest row in the tactical display you can try to flee.
+
+[8] Options:
+
+This function includes both the game options and the floppy disc options.  A display shows the program version number, the production date and the language version.
+
+The sub-functions are as follows:
+
+	Quit		Exit
+
+	Options
+
+	Load
+
+	[2] Load:
+
+	The RMB de-activates this function.
+
+Use the LMB to select an intermediate situation to save to disc.  Unused places cannot be selected.
+
+A safety prompt is given:  YES means load.  NO means do not load.
+
+	[4] Game options:
+
+	Music:  This switches the accompanying music on/off.
+
+	Fast combat mode:  This switches the fast combat mode 
+
+	Text in block capitals:  This switches block capitals on/off
+
+	Exit: This exits from the function
+
+	[7] Quit:
+
+This terminates the game.  If the game was not loaded directly from disc and started automatically with a reset, this function returns you to the operating system (GEM-TOS, Workbench, MS-DOS).
+
+A safety prompt appears:  YES ends the game.  NO returns you to the game.
+
+	[9] Exit:
+
+	This exits from the options function.
+
+[9] Execute:
+
+The selected actions are only executed if you click on this icon.  The members of your group and the adversaries make their combat move.
+
+You and your adversaries make your moves alternately.  If an attempt to flee was unsuccessful, your adversary has the first move.  If you started the battle, yours is the first move.
+
+You have lost a battle when all members of your group are dead or can no longer be controlled because, for example, they have fallen into a magic sleep.  If some of your group can flee, the game continues but the monsters will still make the place very unsafe.  The game ends when all group members are dead.
+
+You have won a battle when all monsters are dead or have flown.  If you left behind certain objects you can take them with you as bounty.
+
+			Exit
+
+		Distribute gold	Distribute rations
+
+	Examine	Give gold	Give rations
+
+If your adversary left gold or rations, the quantity is shown in the appropriate panel.  The remaining objects, if there are any, are shown in the (scrolling) window for the current object.  Take an object by clicking on it with the LMB.  If several identical objects exist, a window opens for you to enter the number of objects you wish to transfer to one of your figures by clicking on his or her portrait with the LMB.
+
+[1] Examine:
+
+The RMB terminates this function.
+
+The LMB selects an object.  A description appears.  A window opens to show the name and type of artefact as well as its weight, the number of hands you need to use it and whether it occupies a ring finger, its destructive and protective power in a battle and which characters and sexes can wear it.
+
+There is naturally much more to be known about an object, such as for example its magic power or whether it is cursed.  But for that you need either an identification code or a specialist.  Another icon is then found on the icon panel with which you open another window containing more information.
+
+In this second window you will find information about the effect of the object on your performance capability, its attacking and protective power in a battle, the magic contained in a certain number of the objects and whether it is cursed.
+
+[2] Give gold:
+
+Gold from a treasure you have discovered and which is to be taken with you is transferred to a certain member of the group.
+
+[3] Give rations:
+
+Rations from a treasure you have discovered and which are to be taken with you are transferred to a certain member of the group.
+
+[5] Distribute gold:
+
+The gold discovered is distributed evenly among all members of the group.
+
+[6] Distribute rations:
+
+The rations discovered are distributed evenly among all members of the group.
+
+[9] Exit:
+
+This exits from the function.
+
+With each battle, your group's experience grows - provided that they do not flee.  With a corresponding increase in experience the individual group members also ascend to higher levels in their class.  This "promotion" is indicated in a window and is also accompanied by a fanfare.  This is also how you gain training points which enable you to further improve the skills of the characters in your group.  But not only battles increase the group's experience, also the solving of riddles and other tasks.
+
+
+
+X. THE MAGIC IN AMBERMOON
+
+Using magic costs the relevant character spell points which can be regenerated during a rest.  You need the experience required for learning new spells from the magic scrolls.  Even with all the right conditions, some spells are very much more difficult to learn than others.  Magic can be restricted to certain areas.  Some spells can only be used in a camp and others only in battle.
+
+Magic and spells in AMBERMOON are divided into four classes.  These four classes are assigned to the different classes of characters.  They are as follows:
+
+Healing
+
+The magic of healing requires special skills and knowledge in the field of plants, animals and the elements.  Magicians can heal all possible types of injuries and diseases with the power and reactions of these things.
+
+Alchemy
+
+Magicians in alchemy draw their knowledge from the relationships between the elements in matter.  New elements can be created or existing elements can be modified by the ratio of the different elements.
+
+Mystics
+
+The magic of the mystics is based on the relationship between the gods and other supernatural forces.  Mystic magicians use their connections to gain knowledge about beings, areas and objects.  
+
+Destruction
+
+A magician of destruction draws his knowledge from all fields in the other classes.  With this knowledge, magicians of destruction are able to weaken or completely destroy one or more elements.
+
+Not every magic spell can be used at every location.  We must differentiate between magic for the following places:
+
+	The wilderness
+
+	A town
+
+	A cave
+
+	Resting in the camp
+
+	A battle
+
+
+
+XI. APPENDICES
+
+Attributes
+
+Strength
+
+This affects the maximum weight of any luggage and the severity of an injury received in a battle.
+
+Intelligence
+
+The level of intelligence of a figure makes it easier for him or her to learn and therefore progress in the development of skills.
+
+Skills
+
+This describes the skills available to disarm traps and open locks.
+
+Speed
+
+This affects the time required for executing a move in the battle.
+
+Constitution
+
+This affects the severity of an injury received in battle.
+
+Charisma
+
+This affects the response of traders and the offers they make.
+
+Luck
+
+This expresses the probability of success when fleeing from a battle with monsters or from a trap.
+
+Anti-magic
+
+This expresses the force of resistance to magic attacks in a battle.
+
+
+Capabilities
+
+Attacks
+
+This affects the probability of a "hit" in a battle.
+
+Parade
+
+This describes the probability of successfully defending against an attack by an adversary.
+
+Swimming
+
+This affects any injury sustained while swimming.
+
+Critical hits
+
+This describes the probability of a fatal hit during a battle.
+
+Discover traps
+
+This describes the probability that a trap will be discovered.
+
+Disarm traps
+
+This describes the skill in disarming traps.
+
+Break lock
+
+This describes the skill in breaking locks.
+
+Search
+
+This describes the probability of finding a hidden treasure.
+
+Read magic scrolls
+
+This describes the probability of learning a magic spell.
+
+Use magic
+
+This describes the probability that a spell will be used successfully
+
+
+
+Conditions
+
+
+
+General
+
+Mad
+
+A figure cannot be activated, its inventory cannot be inspected and it acts irrationally in the battle.
+
+Blind
+
+A figure cannot see, the automapper stops drawing the map if that figure is active.
+
+Exhausted
+
+A figure is unable to defend itself in battle, all its attributes and skills are halved.  It may not be possible for the figure to continue because it is too heavily loaded up with excessive luggage.
+
+Lame
+
+A figure cannot move, defend itself in battle, attack, flee or use magic objects.
+
+Poisoned
+
+The life points of a figure decrease by the hour.
+
+Petrified
+
+The figure is no longer alive.  It cannot be spoken to, made active or used in a battle.  All items in its luggage are also turned to stone.
+
+Sick
+
+The attributes of a figure deteriorate from day to day.
+
+Ageing
+
+The figure becomes a year older each time it rests.  
+
+Dead, ashes, dust
+
+The figure is no longer alive, cannot be spoken to or made active.  It takes no part in battles.
+
+
+
+In the battle
+
+Irritation
+
+A figure cannot use any magic spells.
+
+Sleep
+
+The figure cannot be made active or execute any action until it is awoken again.
+
+Panic
+
+The figure cannot be made active, the inventory cannot be inspected and the figure attempts to flee.
+
+
+
+Races
+
+Five races are known in Lyramion.  But you may meet other strange and unknown races on your travels.
+
+The known races are as follows:
+
+Humans
+
+Elves
+
+Dwarfs
+
+Gnomes
+
+Semi-elves
+
+
+
+Classes
+
+The citizens of Lyramion belong to one of nine classes.  Each class has different abilities and is specialised in the use of different objects.  Thus, for example, thieves have a higher potential for learning to execute a critical move during a battle, whilst warriors are probably the only ones who will be able to use more specialised and developed weapons and equipment.  Although adventurers and rangers can use magic spells, they will never possess such extensive skills as members of the truly magic classes, i.e. healers, alchemists, mystics and magicians.
+
+The following classes are already known to exist:
+
+Adventurers
+
+Warriors
+
+Thieves
+
+Rangers
+
+Healers
+
+Alchemists
+
+Mystics
+
+Magicians
+
+
+
+Temporary sayings
+
+Light				To see you better
+
+Magic parade		Increases the harm which the group can 						withstand in a battle
+
+Magic attack:			Increases the harm your group can do to an 					adversary in the battle
+
+Anti-magic			Increases the probability that a magic attack 					can be defended
+
+Clairvoyance			Enables you to discover traps, twisters and 					hidden treasures
+
+Mystical map			Enables you to track down people, monsters, 					traps and hidden passages with the map
+
+
+
+Keyboard assignment
+
+
+Numeric keypad
+
+	[7]	[8]	[9]
+
+	[4]	[5]	[6]
+
+	[1]	[2]	[3]	[ENTER]
+
+The above are according to the icons on the icon panel. Not for the Amiga 600.
+
+
+
+Cursor keys
+
+	In 2-D areas		In 3-D areas		For the map	Scroll bar	 	
+	[Cursor up]	Go to the north	Go forwards	Scroll up	Slider up
+
+	[Cursor left]	Go the west	Turn to the left		Scroll to the left
+
+	[Cursor right]	Go the east	Turn to the right		Scroll to the right
+
+	[Cursor down]	Go the south	Go back	Scroll down	Slider down
+
+	[Shift/Cursor up]		Move slider right up
+
+	[Shift/Cursor down]		Mover slider right down
+
+
+
+Main keyboard
+
+For text input:
+
+	[Backspace]		Delete character
+
+	[Shift/Backspace]	Delete entry
+
+	[Return]		Confirm entry
+
+For safety prompts:
+
+	[J], [Y] and [O]	Confirmation
+
+	[N]			Cancel
+
+On the map:
+
+	[Spacebar]			Close the map
+
+	[1], [2], [3], [4], [5], [6]	Activates the appropriate character on 						the character bar, if possible
+
+Function keys
+
+	[F1], [F2], [F3], [F4], [F5], [F6]	Opens the inventory of the 							appropriate character on the character 						bar, if possible
+
+
+
+MAGIC TABLES
+
+The following tables list all known magic spells.  In addition to the name you will see the number of the spell points (SP) which you need as the minimum for using the spell, the number of the spell learning points (SLP) which are required for learning the spell and the effect of the spell itself.
+

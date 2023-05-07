@@ -1,0 +1,245 @@
+I 24.09.1992 at 11:08
+U 24.09.1992 at 11:08
+
+
+BESCHREIBUNG PLACES:
+--------------------
+
+1.Die wichtigste énderung ist das bei allen Places die vorher die Iconen
+  GoldPool,GoldDivide und GoldTransfer hatten. Diese nicht mehr nîtig sind,
+  da das Programm nun automatisch das Gold Poolt und beim verlassen wieder 
+  richtig verteilt.
+
+2.       
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+PLACELIST:                                                      PIC(#)                     
+                00      =       Trainer                         (?)
+                01      =       Heiler                          (?)
+                02      =       Sage                            (?)
+                03      =       Enchanter(Verzauberer)          (?)
+                04      =       Gasthaus                        (?)
+                05      =       Waren HÑndler                   (?)        
+                06      =       Essens HÑndler                  (?)
+                07      =       Magic(Bibliothek) HÑndler       (?)
+                08      =       Floû HÑndler                    (?)
+                09      =       Schiffs HÑndler                 (?)
+                10      =       Pferde HÑndler                  (?)
+                11      =       LEER
+                12      =       LEER
+                13      =       LEER        
+                14      =       LEER
+                15      =       LEER          
+----------------------------------------------------------------------------
+Es wird auf das LAYOUT(3) geblendet und das MINIPIC(PIC(#)) in (A) gesetzt.
+Am oberen Rand des LAYOUT(3) wird der folgender Text$ aus dem PLACELST.DAT
+File gesetzt.
+        
+----------------------------------------------------------------------------
+PLACELIST 00:TRAINER                            SteuerICONEN:  
+                                                1.Exit
+                                                2_Train Skill
+----------------------------------------------------------------------------
+(1)     EXIT            AKTIV: Immer
+        Hiermit kann die Gilde verlassen werden. PARTYDAT(4) und PARTYDAT(5)
+        werden auf die Positionen vor dem betreten des EVENTS zurÅckgesetzt.
+        
+--------------------------------------------------------------------------
+(2)    TRAIN SKILL      AKTIV: IMMER
+                               
+        Hiermit kann der AKTIVE CHARAKTER beim Trainer Punkte im Skill
+        den der Trainer anbietet trainieren.
+
+        Dazu wird ein Fenster geîffnet in den Folgender Text angezeigt
+        wird:
+
+             Wieviele Trainingspunkte sollen in "SKILL" investiert werden?
+
+        Under diesem Satz liegen die Iconen Pfeil rauf runter und daneben
+        die Zahl der Trainigspunkte die eingesetzt werden sollen. Am besten
+        wÑre es wenn dort auch das maximum angezeigt wird.
+        Dann brauchen wir noch ein OK Icon um den Wert anzunehemen. 
+        "SKILL" hier wird der Name des Skills angezeigt der bei dem
+        jeweiligen Trainer trainiert werden kann.        
+
+        Das maximum wird durch zwei Werte bestimmt 1. durch den 
+        eigentlichen Skill maximum und 2. durch anzahl der zu verfÅgung 
+        stehenden Trainingspunkten.
+                   
+        Sobald ok angeklickt wurde verschwindet das Fenster und im
+        textfenster wird folgendes angezeigt:
+
+        Du willst also "WERT" * Trainingsrunden zu "GOLD" nehmen?
+
+        Darunter befinden sich die Iconen OK und EXIT
+
+        "WERT" sind die zuvor einegestellten Trainingstpunkte und
+        "GOLD" ist WERT*Preis aus placedata.
+
+        Bei Ok wird das GOLD vom Vermîgen der Gruppe abgezogen und der SKILL
+        des Aktiven Charakters wird um WERT erhîht.
+
+        Falls nicht genug GOLD im Vermîgen der PARTY ist wird folgendes
+        ausgegeben:
+
+        IHR HABT NICHT GENUG GOLD UM DAS TRAINING ZU BEZAHLEN.
+
+Im LAYOUT(00) Bereich kann der Aktive Charakter mit der LMT gewÑhlt werden.
+Mit der RMT kann die INVETUR angewÑhlt werden.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PLACELIST 01:HEILER                             SteuerICONEN:
+                                                1 EXIT
+                                                2 REMOVE CURSE
+                                                3 HEAL LP
+                                                
+In (B) werden alle BODY und MIND Konditionen des AKTIVE CHARAKTERS
+angezeigt. Dazu werden die ICON-PIC's aus dem File STATUS.ICN verwendet.      
+
+----------------------------------------------------------------------------
+(2)    REMOVE CURSE'S          AKTIV: Nur wenn der AKTIVE CHARAKTER einen 
+                                      oder mehrere Verfluchte ITEM'S
+                                      Equipt hat.  
+
+        Hiermit kann sich der Spieler von verfluchten ITEM'S befreien.
+        Der Preis den die Aktion kosten wÅrde ergibt sich wie folgt:
+        PREIS = ANZAHL(EQUIPED CURSED ITEMS) * PLACEDAT(11)
+        Wenn nicht genug GOLD in (D) liegt wird MELDUNG(22,+) in (C)
+        ausgegeben. 
+        Andernfalls wird folgendes in (C) ausgegeben:
+                        MELDUNG(23)
+                        (PREIS) GOLD
+                    Steuericonen '27'28'
+        
+        (27) JA
+             Die Verkaufssumme wird von der Summe in (D) subtrahiert.
+             Alle verfluchenten ITEM'S die der AKTIVE CHARAKTER Equipt
+             hat werden gelîscht.
+             ACHTUNG: Die CHARDATEN mÅssen angepaût werden.
+                      (SIEHE UNEQUIP ITEM IN LAYOUT(2) BESCHREIBUNG)
+             
+        (28) NEIN
+             Die Aktion wird abgebrochen.
+                                      
+----------------------------------------------------------------------------
+(1)    EXIT            AKTIV: Immer
+        Hiermit kann der HEILER verlassen werden. PARTYDAT(4) und 
+        PARTYDAT(5) werden auf die Positionen vor dem betreten des EVENTS
+        zurÅckgesetzt.  
+  
+----------------------------------------------------------------------------
+(B)     HEAL CONDITION         
+
+        Falls der AKTIVE CHARAKTER BODY oder MIND KONDITIONS gesetzt hat
+        kann er hier diese mit der LMT anklicken.
+        Der Preis der entsprechenden Heilung befindet sich in PLACEDAT(1-10)
+        Wenn nicht genug GOLD in (D) ist wird die MELDUNG(22,+) in (C)
+        ausgegeben.
+        Ansonsten wird folgendes in (C) ausgegeben:
+                        MELDUNG(24)
+                        (PREIS) GOLD
+                    Steuericonen '27'28'
+        (27) JA
+             Der PREIS wird von der Summe in (D) subtrahiert. Der AKTIVE
+             CHARAKTER wird von der KONDITION geheilt das heiût das
+             entsprechende Bit in CHARDAT(58) oder CHARDAT(59) wird
+             gelîscht.     
+        (28) NEIN
+             Die Aktion wird abgebrochen.
+
+----------------------------------------------------------------------------
+(3)     HEAL LP                         AKTIV: Nur wenn der AKTIVE CHAR
+                                               wenige als maximum LP hat  
+
+Es wird ein Window geîffnet in dem folgendes steht:
+
+        WIEVIELE LP SOLL ICH HEILEN?
+
+Darunter befinden sich die rauf runter Pfeile und das ok ICON
+Mit den rauf runter Pfeilen kann die summe der LP eingestellt werden.
+Das maximum ist hierbei die zu Maximum LP des Aktiven Charakters fehlenden
+LP.
+
+Beim anklicken von OK verschwindet das Window und im textfenster taucht 
+folgendes auf:
+
+        FöR DAS HEILEN VON "WERT" LP VERLANGE ICH "GOLD" GOLD?
+
+"WERT" ist hierbei die vorher eingestellte zahl der zu heilenden LP und
+"GOLD" ist der wert aus Placedata*"WERT".
+unter dem text befindet sich noch die Iconen OK und EXIT
+
+Wenn Ok angekickt wird und genÅgend gold im vermîgen der PARTY vorhanden
+ist wird "GOLD" von dem vermîgen abgezogen und "WERT" an LP auf die LP-NORM
+des Aktiven CHARAKTERS Åbertragen.
+
+Falls nicht genÅgend Gold vorhanden ist wird folgendes ausgegeben:
+
+IHR HABT NICHT GENöGEND GOLD UM MEINE DIENSTE ZU BEZAHLEN!
+
+Im LAYOUT(00) Bereich kann der Aktive Charakter mit der LMT gewÑhlt werden.
+Mit der RMT kann die INVETUR angewÑhlt werden.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(03) ENCHANTER                                   SteuerICONEN:
+                                                 1 = EXIT
+                                                 2 = ENCHANT ITEM
+----------------------------------------------------------------------------
+(1)     EXIT            AKTIV: Immer
+        Hiermit kann die Gilde verlassen werden. PARTYDAT(4) und PARTYDAT(5)
+        werden auf die Positionen vor dem betreten des EVENTS zurÅckgesetzt.
+----------------------------------------------------------------------------
+(2)     ENCHANT ITEM             
+
+      1-Im Anzeigefenster fÅr ITEMS werden alle ITEMS des Aktiven Charak.
+        angezeigt die die folgenden Bedingungen erfÅllen.
+        1. Das Item muû mit einem SPELL belegt sein
+        2. Enchantment SpellCharge MAX darf noch nicht erreicht sein
+        3. Enchantment Normal darf noch nicht Enchantment Maximum sein
+        ACHTUNG: Falls kein ITEM des Aktiven Charakters den anforderungen
+                 entspricht wird die Aktion hier abgebrochen und stattdessen
+                 wird im Textfenster folgende meldung augegeben:
+                 
+                 DU HAST LEIDER KEINEN GEGENSTAND DEN ICH VERZAUBERN KANN.
+      
+      
+      2-Im Textfenster wird folgender satz ausgegeben:
+        
+        WELCHEN GEGENSTAND SOLL ICH WIEDER AUFFöLLEN? 
+ 
+        Darunter wird der Name des gerade mit dem MZ gewÑhltem ITEMS
+        gezeigt und in Klammer dahinter oder darunter wird der name des
+        spells angezeigt der sich im ITEM befindet.
+
+      3-Falls ein ITEM gewÑhlt wird, wird ein Window geîffnet indem 
+        folgendes ausgegeben wird:
+
+        PRO LADUNG VERLANGE ICH "GOLD" GOLD.
+
+        WIEVIELE LADUNGEN SOLL DER GEGENSTAND BEKOMMEN?
+
+        Darunter werden die iconen PFEIL rauf runter und OK angezeigt
+        auûerdem eine ZÑhler der als maximum die differenz zwischen 
+        Spell Carge und Enchantment SpellCharge MAXIMUM bekommt.
+        "GOLD" ist Enchantement SpellCcharge Price  
+
+     4-Das Window wird wieder gelîscht und es wird folgendes im Textfenster
+       ausgegeben:
+       
+        FöR "WERT" LADUNGEN VERLANGE ICH "GOLD" GOLD.
+
+       Darunter werden noch die Icoenen Ok und EXIT angezeigt
+       "WERT" ist der zÑhler der ladungen die im vorherigen Window
+       eingegeben werden konnten. und "GOLD" ist "WERT" * Enchantment
+       SpellCharge Price aus den Itemdata
+ 
+     5-Falls Ok angeklickt wird, wird "GOLD" vom vermîgen der Party 
+       abgezogen und das gewÑhlte Item bekommt "WERT" an Ladungen.
+
+       Falls sich nicht genug Gold im vermîgen der Party befindet wird
+       folgendes im Fenster ausgegeben:
+
+       IHR HABT NICHT GENUG GOLD UM DIESE VERZAUBERUNG ZU BEZAHLEN!
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     
+         
+                                        

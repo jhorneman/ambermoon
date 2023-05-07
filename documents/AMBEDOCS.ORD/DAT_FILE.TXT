@@ -1,0 +1,200 @@
+I = 23.01.91 AT 16:53
+U = 22.03.92 AT 15:06
+
+
+DATEN FILES STRUKTUR BESCHREIBUNG:
+----------------------------------
+
+----------------------------------------------------------------------------
+FILENAME=RACE_DAT.DAT
+
+RACE_DAT  (165 WORDS)           1-150 WORD   :ATTRIBUTE MAX WERTE 15*10 WORD
+                                151-165 WORD :MOEGLICHE KLASSEN    15*1 WORD
+ 
+----------------------------------------------------------------------------
+FILENAME=CLASSDAT.DAT
+
+CLASS_DAT
+                FOR A=0 TO 10
+        
+                        GET 10 BYTE   :SKILL MAX WERTE 
+                        GET 90 L_WORD :ERFAHRUNGSPUNKTE 
+                        GET 11 WORD   :SPEZIAL TABLE    
+                        GET  1 BYTE   :SPELL KLASSEN  
+                        GET  1 BYTE   :DUMMY BYTE    
+
+                NEXT A
+
+----------------------------------------------------------------------------
+FILENAME=SPELLDAT.DAT           
+
+SPELL_DAT| (1050 BYTE)          (7*30)*5 BYTE:
+                                1 BYTE    :SPELL AREA BITS
+                                2 BYTE    :SPELL POINT COST
+                                3 BYTE    :SPELL LEARN POINT COST
+                                4 BYTE    :SPELL ON WHAT BITS
+                                5 BYTE    :SPELL TYPE BITS
+                    
+                                SPELL AREA BITS:
+                                        BIT 0 = (W)ILDNISS
+                                        BIT 1 = (S)TADT
+                                        BIT 2 = (H)OEHLE
+                                        BIT 3 = (R)AST IM LAGER
+                                        BIT 4 = (K)AMPF
+                                        BIT 5 = (L)YRAMION
+                                        BIT 6 = (W)ALDMOND        
+                                        BIT 7 = WUESTEN(M)OND
+
+                                SPELL ON WHAT BITS:
+                                        BIT 0 = (C)HARAKTER
+                                        BIT 1 = (P)ARTY
+                                        BIT 2 = (G)ANZE PARTY
+                                        BIT 3 = (M)ONSTER
+                                        BIT 4 = (R)OTTE MONSTER
+                                        BIT 5 = (A)LLE MONSTER
+                                        BIT 6 = (I)TEM
+                                        BIT 7 = (S)PECIAL 
+
+
+                                SPELL TYPE BITS:
+                                        BIT 0 = (W)ISSE
+                                        BIT 1 = (M)ACHT
+                                        BIT 2 = (L)EBEN                               
+                                        BIT 3 = (T)OD
+                                        BIT 4 = (L)UFT
+                                        BIT 5 = (E)RDE
+                                        BIT 6 = (F)EUER
+                                        BIT 7 = (W)ASSER
+----------------------------------------------------------------------------
+FILENAME=CHESTDAT.??? (???=000-255)
+
+24 * OBJECT PACKETS
+        
+     0 B - QUANTITY
+     1 B - CHARGES      
+     2 B - ENCHANTMENT NORMAL
+     3 B - VARIABLE OBJECT STATUS BITS
+     4 W - OBJECT INDEX        
+--------------------------------------
+1 WORD             CHEST GOLD 
+1 WORD             CHEST FOOD               
+
+----------------------------------------------------------------------------
+FILENAME=WARESDAT.??? (???=000-255)
+
+24 * OBJECT PACKETS
+        
+     0 B - QUANTITY
+     1 B - CHARGES      
+     2 B - ENCHANTMENT NORMAL
+     3 B - VARIABLE OBJECT STATUS BITS
+     4 W - OBJECT INDEX        
+
+-----------------------------------------------------------------------------
+FILENAME=WORDLIST.DAT
+
+        COUNT=1 WORD                  :ANZAHL WOERTER
+
+        FOR A=0 TO COUNT-1
+         GET LENGTH                   :LAENGE DES FOLGENDEN WORTES +1  
+         GET WORT,LENGTH              :WORT NUMMER(A) DES WOERTERBUCHES  
+        NEXT A
+        
+        1 NULLBYTE                    :ENDKENNUNG           
+----------------------------------------------------------------------------
+FILENAME=....????.PTX 
+
+1 WORD          # OF BLOCKS
+---------------------------
+# OF BLOCKS * WORD      
+                LENGTH OF BLOCK
+-------------------------------
+REPEAT 
+     1 BYTE     ASCI
+
+EOF
+----------------------------------------------------------------------------
+FILENAME=PLACELST.DAT
+
+REM - 
+IN DIESEM FILE BEFINDEN SICH DATENLISTEN FšR DAS EVENT 12(PLACES) JEDE
+DATENLISTE HAT 16 W™RTER:
+
+          PLACETYPE: 
+          
+          00 TRAINER           = 0.        SKILL NUMMER DIE TRAINIERT WIRD
+                                 1.        PREIS FšR EIN TRAININGS PUNKT
+                                 2-15.     LEER
+                              
+       
+          01 HEILER            = 0.        LAMED                   PREIS
+                                 1.        POISONED                PREIS
+                                 2.        PETRIFIED               PREIS
+                                 3.        DISEASED                PREIS
+                                 4.        AGING                   PREIS
+                                 5.        DEAD                    PREIS
+                                 6.        ASHES                   PREIS
+                                 7.        DUST                    PREIS
+                                 8.        MAD                     PREIS
+                                 9.        BLIND                   PREIS
+                                10.        STONED(DRUGS)           PREIS
+                                11.        HEAL LP             1LP=PREIS     
+                                12.        REMOVE CURSE            PREIS          
+                                13-15      LEER     
+
+          02 SAGE              = 0.        GEGENSTAND ERKLŽREN     PREIS
+                             
+          03 ENCHANTER         = 0.        GEGENSTAND VERZAUBERN   PREIS
+                                 1-15.     LEER
+
+          04.GASTHAUS          = 0.        šBERNACHTUNG PRO PERSON PREIS
+                                 1.        NEUE X_MAP_COR       
+                                 2.        NEUE Y_MAP_COR     
+                                 3.        NEUE MAP# 1-1024 / 0=OLD MAP     
+                                 4-15.     LEER
+          
+
+          05  HŽNDLER          =           SIEHE (WARESDAT.???)
+
+
+          06  LEBENSMITTEL     = 0.        PREIS FšR EINE RATION
+                                 1-15.     LEER
+
+          07  MAGIC(BIBLIOTHEK)=           SIEHE (WARESDAT.???)          
+
+          08 FLOžHŽNDLER       = 0.        FLOž                    PREIS
+                                 1.        MAP_XCOR
+                                 2.        MAP_YCOR
+                                 3.        MAP_NUMBER
+                                 4.        TRAVEL TYPE NUMBER      
+                                 5-15.     LEER
+                                
+          09.SCHIFFSHŽNDLER    = 0.        SCHIFF                  PREIS
+                                 1.        MAP_XCOR
+                                 2.        MAP_YCOR
+                                 3.        MAP_NUMBER
+                                 4.        TRAVEL TYPE NUMBER
+                                 5-15.     LEER
+        
+          10  PFERDEHŽNDLER    = 0.        PREIS PRO PFERD
+                                 1.        MAP_XCOR
+                                 2.        MAP_YCOR
+                                 3.        MAP_NUMBER
+                                 4.        TRAVEL TYPE NUMBER
+                                 5-15.     LEER
+
+          11 SMITH             = 0.        PREIS = % VON ITEM PRICE         
+                                 1-15.     LEER
+        
+          12-15 LEER       
+          
+
+DATENFILE AUFBAU:
+-----------------
+
+        COUNT(1 WORT)                   ANZAHL DATENLISTEN
+
+        COUNT*16 W™RTER                 DATENLISTEN ZU JE 16 W™RTERN
+        COUNT*TEXT$(30 BYTE)            PLACE šBERSCHRIFT ZU JE 30 BYTE
+-------------------------------------------------------------------------------
+

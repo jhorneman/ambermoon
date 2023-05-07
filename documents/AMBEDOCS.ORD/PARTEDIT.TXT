@@ -1,0 +1,48 @@
+I = 22.09.92 AT 12:32
+U = 02.03.93 AT 17:03
+
+
+PARTY_DAT%(FOR RPG_EDIT)
+
+
+W-000=  TIME DATA YEAR                                  (0-9999)
+W-001=  TIME DATA MONTH                                 (1-99)
+W-002=  TIME DATA DAY                                   (1-99)
+W-003=  TIME DATA HOUR                                  (1-99)
+W-004=  TIME DATA MINUTE                                (0-95)
+
+W-005=  MAP NUMBER                                      (1-1023)
+W-006=  MAP XCOR NUMBER                                 (1-100)
+W-007=  MAP YCOR NUMBER                                 (1-100)
+W-008=  VIEW DIRECTION                                  (0-3)
+
+W-009=  SPELL #1 DURATION                               (0-255)
+W-010=  SPELL #1 DATA                                   (0-255)
+W-011=  SPELL #2 DURATION                               (0-255)
+W-012=  SPELL #2 DATA                                   (0-255)
+W-013=  SPELL #3 DURATION                               (0-255)
+W-014=  SPELL #3 DATA                                   (0-255)
+W-015=  SPELL #4 DURATION                               (0-255)
+W-016=  SPELL #4 DATA                                   (0-255)
+W-017=  SPELL #5 DURATION                               (0-255)
+W-018=  SPELL #5 DATA                                   (0-255)
+W-019=  SPELL #6 DURATION                               (0-255)
+W-020=  SPELL #6 DATA                                   (0-255)
+
+W-021=  MEMBER COUNTER                                  (0-6)
+W-022=  ACTIVE MEMBER NUMBER                            (0-6)
+W-023=  PLACE #1 MEMBER NUMBER                          (0-255)
+W-024=  PLACE #2 MEMBER NUMBER                          (0-255)
+W-025=  PLACE #3 MEMBER NUMBER                          (0-255)
+W-026=  PLACE #4 MEMBER NUMBER                          (0-255)
+W-027=  PLACE #5 MEMBER NUMBER                          (0-255)
+W-028=  PLACE #6 MEMBER NUMBER                          (0-255)
+
+W-029=  T-D-Y                                           (0-32767)
+W-030=  TRAVEL MODE                                     (0-15)
+W-031=  SPECIAL-ITEMS ON/OFF                            (BITS 0-7)
+W-032=  INTERNAL FLAG(JURIE)                            (BITS 0-31)        
+W-033=  CAMP TIME COUNTER                               (0-23)
+ 
+          
+ 

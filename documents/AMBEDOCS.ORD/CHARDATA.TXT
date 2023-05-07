@@ -1,0 +1,331 @@
+I = 08.09.92 AT 12:34
+U = 22.03.93 AT 14:46
+
+PRT__DAT.???
+NPC__DAT.???
+MON__DAT.???
+
+---------------------------------------------------------------------------
+CHARDAT%()      (PRT,NPC,MON)
+----------------------------------------------------------------------------
+BYTE#
+B-000 = CHARACTER TYPE                          (0=PARTY/NPC/MONSTER)
+B-001 = CHARACTER SEX                           (0=MALE/1=FEMALE)
+B-002 = CHARAKTER RACE                          (0-14)
+B-003 = CHARACTER CLASS                         (0-10)
+B-004 = SPELL CLASS COUNTER                     (BITS 1-7)
+B-005 = LEVEL #                                 (0-99)
+B-006 = HANDS       OCCUPIED                    (0-2)
+B-007 = RINGFINGERS OCCUPIED                    (0-2)
+B-008 = LEARNED LANGUAGES                       (BITS 0-7)
+B-009 = SECRET INVENTORY                        (0=NO/1=YES)
+B-010 = PORTRAIT NUMBER                         (0-255)                          
+B-011 = JOIN PERCENTAGE                         (0-100%)
+B-012 = MONSTER LOAD PIC                        (0-255)
+B-013 = SPELL CHANCE PERCENTAGE                 (0-100%)
+B-014 = MAGIC BONUS TO HIT                      (0-255)
+B-015 = MORAL RETREAT PERCENTAGE                (0-100%)
+B-016 = SPELL CLASS IMUNITY                     (BITS1-7)
+B-017 = ATTACKS PER ROUND                       (0-255)
+B-018 = MONSTER TYPE STATUS                     (BITS 0-7)
+B-019 = SPELL TYPE IMUNITY                      (BITS 0-7)
+
+WORD#
+W-020 = NUMBER OF SPELL LEARN POINTS            (0-32767)
+W-021
+W-022 = NUMBER OF TRAINING POINTS               (0-32767)
+W-023
+W-024 = GOLD COINS                              (0-32767)
+W-025
+W-026 = FOOD RATIONS                            (0-32767)
+W-027
+W-028 = PERSON SAVE BIT POSITION                (0-32767)
+W-029 
+W-030 = CONDITIONS                              (BITS 0-15)
+W-031
+W-032 = BATTLE EXPERIENCE                       (0-32767)
+W-033 
+W-034 = BATTLE ROUND POWER POINT USAGE          (0-32767)
+W-035
+W-036 = SPELL DATA1 (WORD OF RECALL MAP#)       (0-1023)
+W-037 
+W-038 = SPELL DATA2 (WORD OF RECALL XCOR)       (0-100)
+W-039 
+W-040 = SPELL DATA3 (WORD OF RECALL YCOR)       (0-100)
+W-041 
+W-042 = ATR01 NORMAL                            (STŽRKE)
+W-043
+W-044 = ATR01 MAXIMUM                           (STŽRKE)
+W-045 
+W-046 = ATR01 MAGIC                             (STŽRKE)
+W-047
+W-048 = ATR01 BACKUP                            (STŽRKE)
+W-049
+W-050 = ATR02 NORMAL                            (INTELLIGENZ)
+W-051
+W-052 = ATR02 MAXIMUM                           (INTELLIGENZ)
+W-053 
+W-054 = ATR02 MAGIC                             (INTELLIGENZ)
+W-055
+W-056 = ATR02 BACKUP                            (INTELLIGENZ)
+W-057
+W-058 = ATR03 NORMAL                            (GESCHICKLICHKEIT)
+W-059
+W-060 = ATR03 MAXIMUM                           (GESCHICKLICHKEIT)
+W-061
+W-062 = ATR03 MAGIC                             (GESCHICKLICHKEIT)
+W-063
+W-064 = ATR03 BACKUP                            (GESCHICKLICHKEIT)        
+W-065 
+W-066 = ATR04 NORMAL                            (SCHNELLIGKEIT)
+W-067
+W-068 = ATR04 MAXIMUM                           (SCHNELLIGKEIT)
+W-069 
+W-070 = ATR04 MAGIC                             (SCHNELLIGKEIT)
+W-071
+W-072 = ATR04 BACKUP                            (SCHNELLIGKEIT)
+W-073
+W-074 = ATR05 NORMAL                            (KONSTITUTION)
+W-075
+W-076 = ATR05 MAXIMUM                           (KONSTITUTION)
+W-077
+W-078 = ATR05 MAGIC                             (KONSTITUTION)
+W-079
+W-080 = ATR05 BACKUP                            (KONSTITUTION)
+W-081
+W-082 = ATR06 NORMAL                            (KARISMA)
+W-083 
+W-084 = ATR06 MAXIMUM                           (KARISMA)
+W-085
+W-086 = ATR06 MAGIC                             (KARISMA)
+W-087
+W-088 = ATR06 BACKUP                            (KARISMA)
+W-089
+W-090 = ATR07 NORMAL                            (GLšCK)
+W-091
+W-092 = ATR07 MAXIMUM                           (GLšCK)
+W-093 
+W-094 = ATR07 MAGIC                             (GLšCK)
+W-095 
+W-096 = ATR07 BACKUP                            (GLšCK)
+W-097
+W-098 = ATR08 NORMAL                            (ANTI-MAGIE)
+W-099
+W-100 = ATR08 MAXIMUM                           (ANTI-MAGIE)
+W-101
+W-102 = ATR08 MAGIC                             (ANTI-MAGIE)
+W-103
+W-104 = ATR08 BACKUP                            (ANTI-MAGIE)
+W-105
+W-106 = ATR09 NORMAL                            (ALTER)
+W-107 
+W-108 = ATR09 MAXIMUM                           (ALTER)
+W-109
+W-110 = ATR09 MAGIC                             (ALTER)
+W-111
+W-112 = ATR09 BACKUP                            (ALTER)
+W-113
+W-114 = ATR10 NORMAL                            (FREE)
+W-115
+W-116 = ATR10 MAXIMUM                           (FREE)
+W-117
+W-118 = ATR10 MAGIC                             (FREE)
+W-119
+W-120 = ATR10 BACKUP                            (FREE)
+W-121
+W-122 = SKL01 NORMAL                            (ATTACKE)
+W-123
+W-124 = SKL01 MAXIMUM                           (ATTACKE)
+W-125
+W-126 = SKL01 MAGIC                             (ATTACKE)
+W-127
+W-128 = SKL01 BACKUP                            (ATTACKE)
+W-129
+W-130 = SKL02 NORMAL                            (PARADE)
+W-131
+W-132 = SKL02 MAXIMUM                           (PARADE)
+W-133 
+W-134 = SKL02 MAGIC                             (PARADE)
+W-135
+W-136 = SKL02 BACKUP                            (PARADE)
+W-137
+W-138 = SKL03 NORMAL                            (SCHWIMMEN)
+W-139
+W-140 = SKL03 MAXIMUM                           (SCHWIMMEN)
+W-141
+W-142 = SKL03 MAGIC                             (SCHWIMMEN)
+W-143
+W-144 = SKL03 BACKUP                            (SCHWIMMEN) 
+W-145 
+W-146 = SKL04 NORMAL                            (FREE)
+W-147 
+W-148 = SKL04 MAXIMUM                           (FREE)
+W-149
+W-150 = SKL04 MAGIC                             (FREE)
+W-151
+W-152 = SKL04 BACKUP                            (FREE)
+W-153
+W-154 = SKL05 NORMAL                            (FALLEN FINDEN)
+W-155
+W-156 = SKL05 MAXIMUM                           (FALLEN FINDEN)
+W-157 
+W-158 = SKL05 MAGIC                             (FALLEN FINDEN)
+W-159
+W-160 = SKL05 BACKUP                            (FALLEN FINDEN)
+W-161
+W-162 = SKL06 NORMAL                            (FALLEN ENTSCHŽRFEN)
+W-163
+W-164 = SKL06 MAXIMUM                           (FALLEN ENTSCHŽRFEN)
+W-165 
+W-166 = SKL06 MAGIC                             (FALLEN ENTSCHŽRFEN)
+W-167
+W-168 = SKL06 BACKUP                            (FALLEN ENTSCHŽRFEN)  
+W-169
+W-170 = SKL07 NORMAL                            (SCHL™SSER ™FFNEN)
+W-171
+W-172 = SKL07 MAXIMUM                           (SCHL™SSER ™FFNEN)
+W-173
+W-174 = SKL07 MAGIC                             (SCHL™SSER ™FFNEN)
+W-175
+W-176 = SKL08 BACKUP                            (SCHL™SSER ™FFNEN)
+W-177
+W-178 = SKL08 NORMAL                            (SUCHEN)
+W-179
+W-180 = SKL08 MAXIMUM                           (SUCHEN)
+W-181
+W-182 = SKL08 MAGIC                             (SUCHEN)
+W-183
+W-184 = SKL08 BACKUP                            (SUCHEN)
+W-185
+W-186 = SKL09 NORMAL                            (SPRUCHROLLEN LERNEN)
+W-187 
+W-188 = SKL09 MAXIMUM                           (SPRUCHROLLEN LERNEN)
+W-189
+W-190 = SKL09 MAGIC                             (SPRUCHROLLEN LERNEN)
+W-191 
+W-192 = SKL09 BACKUP                            (SPRUCHROLLEN LERNEN        
+W-193
+W-194 = SKL10 NORMAL                            (MAGIE BENUTZEN)
+W-195 
+W-196 = SKL10 MAXIMUM                           (MAGIE BENUTZEN)
+W-197
+W-198 = SKL10 MAGIC                             (MAGIE BENUTZEN)
+W-199
+W-200 = SKL10 BACKUP                            (MAGIE BENUTZEN)
+W-201
+W-202 = LIFE POINTS  NORMAL                     (0-32767)
+W-203
+W-204 = LIFE POINTS  MAXIMUM                    (0-32767)
+W-205 
+W-206 = LIFE POINTS  MAGIC                      (-32768-0-32767)
+W-207
+W-208 = POWER POINTS NORMAL                     (0-32767)
+W-209
+W-210 = POWER POINTS MAXIMUM                    (0-32767)
+W-211
+W-212 = POWER POINTS MAGIC                      (-32768-0-32767)
+W-213
+W-214 = PORTECTION NORMAL                       (0-32767)
+W-215
+W-216 = PROTECTION MAGIC                        (-32768-0-32767)                                                  
+W-217
+W-218 = DAMAGE NORMAL                           (0-32767)
+W-219
+W-220 = DAMAGE MAGIC                            (-32768-0-32767)
+W-221
+W-222 = MAGIC BONUS WEAPON                      (0-32767)
+W-223
+W-224 = MAGIC BONUS ARMOUR                      (0-32767)
+W-225
+W-226 = SPECIAL 01  /LEVEL                      (ANGRIFFE PRO RUNDE)
+W-227
+W-228 = SPECIAL 02  LEBENSPUNKTE                (RANDOM PER LEVEL)
+W-229
+W-230 = SPECIAL 03  SPRUCHPUNKTE                (RANDOM PER LEVEL)
+W-231
+W-232 = SPECIAL 04  SPRUCH LERN PUNKTE          (RANDOM PER LEVEL)
+W-233
+W-234 = SPECIAL 05  TRAININGS PUNKTE            (RANDOM PER LEVEL)
+W-325                
+W-236 = DESCRIPTION TEXT #                      (0-254/-1 KEIN TEXT)
+W-237
+
+LONGWORD#
+L-238 = EXPERIENCE POINTS                       
+L-239
+L-240
+L-241
+L-242 = SPELLS OF SPELLCLASS 1(NEKROMANTIE)     (BITS 1-30)
+L-243
+L-244
+L-245 
+L-246 = SPELLS OF SPELLCLASS 2(VERAENDERUNG)    (BITS 1-30)
+L-247
+L-248
+L-249
+L-250 = SPELLS OF SPELLCLASS 3(BEZAUBERUNG)     (BITS 1-30)
+L-251
+L-252
+L-253
+L-254 = SPELLS OF SPELLCLASS 4(VORHERSAGE)      (BITS 1-30)
+L-255
+L-256
+L-257
+L-258 = SPELLS OF SPELLCLASS 5(ILLUSION)        (BITS 1-30)
+L-259
+L-260
+L-261
+L-262 = SPELLS OF SPELLCLASS 6(ELEMENTAR)       (BITS 1-30)
+L-263
+L-264
+L-265
+L-266 = SPELLS OF SPELLCLASS 7(MAGIE)           (BITS 1-30)
+L-267
+L-268
+L-269
+L-270 = WEIGHT NORMAL
+L-271
+L-272
+L-273
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+CHARNAME$       (PRT/NPC/MON)
+--------------------------------------------------------------------------
+MISC.
+CHAR_NAME               NAME OF CHARACTER        (15 BYTES +1(NULL)BYTE)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+CHARBATTLE DATA (MON)
+--------------------------------------------------------------------------
+ANIM_DAT()              BYTE ARRAY                      (256 BYTES)
+ANIM_FRAME()            BYTE ARRAY                      (  8 BYTES)
+ATARI_COL()             BYTE ARRAY                      ( 16 BYTES)
+AMIGA_COL()             BYTE ARRAY                      ( 32 BYTES)                
+ANIM_MOTION             BYTE                            (  1 BYTE )
+EVEN                    BYTE                            (  1 BYTE )
+MON_WIDTH               WORD                            (  2 BYTE )
+MON_HIGHT               WORD                            (  2 BYTE )
+MON_ZOOMX               WORD                            (  2 BYTE )
+MON_ZOOMY               WORD                            (  2 BYTE )
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+CHARINVENTORY  (PRT/MON)
+--------------------------------------------------------------------------
+33*  (33=9+24)   OBJECT PACKETS
+4 BYTE  0=QUANTITY / 1=CHARGES / 2=ENCHANTMENT NORMAL / 3=OBJECT STATUS BIT
+1 WORD  4-5=OBJECT INDEX
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+CHARDIALOG     (PRT/NPC)
+---------------------------------------------------------------------------
+NUMBER OF ACTIONS                               (1 WORD)
+START POSITIONS OF ACTIONS IN EVENTLIST         (NUMBER OF ACTIONS * WORD)
+NUMBER OF EVENTS                                (1 WORD)
+0-5 EVENT BYTE                                  (6 BYTES) 
+6-8 EVENT WORD                                  (3 WORDS)
+REPEAT * NUMBER OF EVENTS                     
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+End of file..................
+
+

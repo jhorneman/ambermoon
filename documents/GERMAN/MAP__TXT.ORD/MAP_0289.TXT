@@ -1,0 +1,6 @@
+ÝSTART  000     ORT
+GŽSTEZIMMER
+ÝEND..
+
+ÝSTOP.
+

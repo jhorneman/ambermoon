@@ -1,0 +1,138 @@
+AMBERMOON EXTRO:        29.06.93
+----------------------------------------------------------------------------
+
+Teil I  ---     Zerstîrung des Tempels der Bruderschaft
+
+Szene:  Man sieht eine groûe WasserflÑche und direkt vor einem sieht man 
+        die Insel von Tarbos. Der betrachter selbst steht am Heck eines
+        Bootes langsam zoomt die Insel in die Ferne. Um plîtzlich von einer
+        groûen Explosion vernichtet zu werden.
+
+Grafic: 1.Groûe WasserflÑche 2.Drittel des Bildschirms.
+        2.Insel die Tarbos Mond darstellt samt Tempel der Bruderschaft
+          Vielleicht annimierte Rauchfahen aus dem Tempel.
+        3.Explosion des Mondes mit Tempel in einiger Ferne vom Betrachter. 
+        4.Heck eines Bootes, vielleicht mit den Schatten der Party.
+
+Text:   1.Die Gruppe schafft es gerade noch aus dem Tempel zu entkommen.
+        2.Bevor dieser in einer gewaltigen Explosion untergeht.
+----------------------------------------------------------------------------
+
+Teil II ---     Vertrag der Lyramioner mit den Moranern
+
+Szene:  Man sieht eine ansicht im Weltraum. Unten sieht man einen teil 
+        Lyramions und weiter oben den WÅstenmond. Leicht oberhalb von 
+        lyramion sieht man ein Groûes Flugschiff welches an den seiten
+        groûse wasserballons mit sich trÑgt. Dieses zoomt dann in Richtung
+        WÅstenmond davon.
+
+Grafic: 1.Lyramion - Man kînnte hier die Grafik aus dem Intro verwenden.
+        2.WÅstenmond - Auch hier kann man die Grafik vom Intro nehmen.  
+        3.Groûes FlÅgschiff von hinten gesehen. Es muû groûe Wasserballons
+          an den seiten verstaut haben.
+     
+Text:   1.Die Lyramioner schloûen nach kurzer Verhandlung einen 
+          Freundschaffts Vertrag mit den Moranern. 
+        2.Zuerst wurden wîchentliche Wasserlieferungen nach Morag gesendet.
+        3.SpÑter sollten die letzen Moraner nach Lyramion umgesiedelt werden.
+-----------------------------------------------------------------------------
+
+Teil III ---    Gemstone wird wieder bevîlkert
+
+Szene:  Ansicht der Straûen von Gemstone scrollt am Betrachter vorbei.
+
+Grafik: 1.Ansicht der Straûen von Gemstone. Zwei Bilschirme breit.
+        2.Verschiedene Animationen z.b der Blick in eine Zwergenschmiede.
+          Ein StÑmmiger Zwergenschmied bearbeitet hier ein glÅhendes Schwert.
+        
+Text:   Die Zwerge von Dor Kiredon wurden zurÅck nach Lyramion gebracht.
+        Nur die Zwerge von Dor Grestin wollten auf Kire's Mond bleiben.
+        Allerdings wird mit den Flugschiffen der Moraner eine verbindung
+        aufrecht erhalten.
+----------------------------------------------------------------------------
+
+Teil IV ---     Endbild
+      
+Szene:  Ansicht auf lyramion bei Nacht. Auf einem HÅgel sieht man von hinten
+        die Schatten von Valdyn, der Sylphe und dem Helden. Diese drei
+        blicken auf das nÑchtliche Lyramion. Am Himmel funkeln die Sterne
+        und man sieht den Waldmond und den WÅstenmond. Auûerdem fÑllt aller
+        Spielberg manier eine Sternschnuppe hernieder.
+        Kurz danach beginnt der Abspann Text und am schluû taucht in groûer
+        schrift ENDE bzw. THE END auf. 
+
+Grafik: 1.Ansicht von Lyramion bei Nacht 
+        2.Die Schatten der drei Leute
+        3.Die beiden Monde, kann man aus dem Intro Åbernehmen.
+        4.Eine Sternschnuppe
+                                      
+Text:   1.Auch fÅr euch beide, werden wir einen Weg finden in eure Heimat 
+          zu gelangen.
+        2.Lasset uns sehen in AMBERWORLDS dem 3.Teil der Amber Trilogie.
+----------------------------------------------------------------------------
+
+Abspanntext:
+
+IDEE:   
+                        Karsten Kîper
+   
+DESIGN:
+                        Karsten Kîper
+                        Eric Simon
+                        Jurie Horneman
+                        Thorsten Mutschall
+                        Monika Krawinkel
+
+PROGRAMM:
+                        Jurie Horneman
+
+ADDITIONAL  PROGRAMMING:
+                        Michael Bittner
+                        Karsten Kîper
+
+GRAFIC:                 
+                        Thorsten Mutshall & Monika Krawinkel
+
+ADDITIONAL GRAFIC:
+                        Erik Simon & Henk Nieborg
+                             Jurie Horneman
+  
+MUSIC:
+                        Matthias Steinwachs the Soundgod
+
+MANUAL:
+                        Jurie Horneman        
+
+LAYOUT & DTP:
+                        ---------------------
+
+PACK ILLUSTRATION:
+                        Dieter Rottermund
+
+WORLDMAP ILLUSTRATION:
+                        Michael Hellmich
+
+TEXT REDAKTION:
+                        Arnd Kîsling
+
+TESTERS:
+                        ----------------,----------------
+
+PRODUCTION:     
+                        Erik Simon
+
+MS-DOS CONVERSION:      
+                        Gino Fehr & Frank Ussner
+
+MANY THANKS TO:
+                        Matthias Riecke -- Worldmap Editing
+                        ---------------
+                        --------------- 
+
+COPYRIGHT:
+                        1993 Thalion Software GmbH
+
+
+
+THE END      
+              

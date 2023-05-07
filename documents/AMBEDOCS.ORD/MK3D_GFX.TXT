@@ -1,0 +1,98 @@
+
+3D_OBJEKTE:
+-----------
+
+01      Verschiedene Ritterrstungen    -->Wie in alten Burgen herumstehen
+02      Waffenstand                     -->Holzgerst mit Schwertern,xten u.s.w
+03      Lichst„nder                     -->Holz,Metal mit einer oder mehr Flammen 
+04      Steine                          -->Einzeln oder wie in Amberstar
+                                           ein Deckeneinsturz mit vielen
+                                           verschieden groen Steinen
+05      Truhen,Kisten und F„sser        --> Aus Holz,Metal oder beidem
+06      Tische und Sthle               --> Verschiedene Formen
+07      Flederm„use die an der Decke    --> Verschiedene Animationen
+        h„ngen
+08      Knochen und Sch„del auf Boden   --> Einzeln und Haufen
+09      Ganze Skelette                  --> auf dem Boden liegend oder
+                                            von der Decke h„ngend bzw
+                                            in einem K„fig der an der Decke
+                                            h„ngt
+10      Wasser,Blut udn Schleimleachen  --> Verschiedene gr”en und formen
+11      Moos                            --> an Decke und Boden
+12      Vasen und  Krge                --> Verschiedene formen und gr”en
+13      Lampen, Lichter ,Feuer und Fackeln> an Wand und Decke z.b Lagerfeuer
+        Kronleuchter                        aus Steinkreis mit Holz  
+                                            an und aus
+14      Fahnen St„nder                  --> Verschiedene Muster und Haltungen
+15      F„sser                          --> Einzeln oder Mehrere - Stehened
+                                            oder liegend - z.B. Groes Wein-
+                                            fa liegen auf Holzgestell
+16      Bsche, B„ume und Pflanzen      --> z.B Verschiedene Blumen in Vasen
+                                            oder aus dem Boden wachsend
+17      B„nke und Betten                --> Holz,Metal und Leder
+18      Strohk”rbe                      --> Verschiedene gr”en und formen
+19      Groer Hexenkessel auf feuer    --> Dunkles Metal und Etwas das in
+                                            ihm blubbert
+20      Groer Standgong                --> Aus Metal mit Gongschl„ger am 
+                                            Holzgestell
+21      Leinens„cke                     --> Einzeln oder mehrere - Gr”en und
+                                            formen
+22      Wrste und Schlachtvieh         --> Fleisch h„ngt an haken von der
+                                            der Decke z.B Groer Schinken
+23      S„ulen                          --> Verschieden formen und material
+                                            und Muster
+24      Statue                          --> Verschiedene gr”en und 
+                                            darstellungen, z.b Weiblich,
+                                            M„nnlich, Engelhaft, D„monehaft
+                                            oder Tiere bzw Fablewesen z.b
+                                            geflgelter Pegasus
+25      Spinnweben                      --> Verschiedene gr”en und formen 
+26      Mllhaufen                      --> Germpel, zerbrochene Waffen,
+                                            Holz, Stoff und Wrg
+27      Kristallkugel mit St„nder       --> Verschiedene Formen z.B. D„monen
+                                            fratzen als Verzierung am St„nder
+28      Pendel& Stachel                 --> Pendel schwingt an der Decke
+                                            Stachel fahren aus dem Boden
+29      Folterinstrumente               --> z.b Eiserne Jungfrau offen,
+                                            Guilotine(Keine Ahnung ob das 
+                                            richtig geschrieben ist?)
+30      Teppiche                        --> Verschiedene Muster, Eckig und rund
+31      Groes Stundenglas              --> Animation Sand rieselt das gleiche
+                                            Stundenglas brauche ich auch noch
+                                            mals im zerbrochenen zustand
+32      Sarg und Sarkophag              --> Verschiedene ausfhrungen und 
+                                            materialien
+33      Brunnen                         --> Rund stein ?
+34      Fallgruben/l”cher               --> Am besten rund an boden und decke
+35      Leitern                         --> Mit loch in boden oder decke
+
+
+
+OVERLAYS:
+---------
+01      Bilder                          --> Verschiedene gr”en,formen und
+                                            Motive
+02      Wandteppiche                    --> Verschiedene gr”en,formen und
+                                            Motive z.B. Jagdszenen und Gelage
+03      Fenster                         --> z.B. Kirchen buntglasmosaike
+                                            eckig oder rund
+04      Gekreuzte Schwerter             --> mit Schild oder anderen Waffen
+
+
+
+WNDE:
+------
+
+01      Treppen hoch runter             --> Verschiedene Arten
+
+02      Weinregale                      --> mit Flaschen
+
+03      Bcherregale                    --> Verschieden anordnungen
+
+04      Hecken und Ranken               --> Fr Irrg„rten im Freien
+                                            mit Durchg„ngen
+     
+                
+                                                                     
+                                                                                                                                     
+ 

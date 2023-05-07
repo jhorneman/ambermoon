@@ -1,0 +1,7 @@
+ÝSTART  000     ORT
+MORAG'S TOWER
+ÝEND..
+
+ÝSTOP.
+
+

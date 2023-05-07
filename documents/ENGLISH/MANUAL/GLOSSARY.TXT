@@ -1,0 +1,83 @@
+
+
+Avert 92
+Alchemy 99
+Amiga 600 21, 31, 106
+Attack 92
+Contemplate 45
+Answer 71
+Dismiss from the group 61
+Execute 94
+Use 56
+Touch 46
+Move 93
+Cursor keypad 32, 34
+Cursor keys 21f, 40, 106
+Exit 21, 41, 43, 45, 47, 56, 61, 64, 66, 68, 70, 72, 77ff, 82ff, 87f, 94, 97
+Discover trap 63, 66
+Disable trap 63, 65
+Escape 93
+Function keys 107
+Buy object 77
+Sell object 76
+Discard object 54
+Hold conversation 61
+Give object 60
+Give gold 47, 54, 60, 68, 70, 96 
+Give rations 47, 54, 60, 68, 70, 78, 96 
+Discard gold 55
+Hardware expansion 14
+Main keyboard 107
+Cure 84
+Healing 99
+Hotline 13
+Take into the group 61
+INTRO 25
+Inventory 56
+Battle configuration 40
+Mapper 39
+Buy horse / raft / boat 79
+Buy rations 78
+Buy scrolls 80
+Load object 83
+Loading 42, 94
+Stores 44
+Life energy 84
+LMT 20
+Magic 43, 45, 87, 92
+Mystic 99
+START NEW QUEST 25
+OK 21
+Options 41, 93
+Pause 32, 34
+Quit 25, 43, 94
+Rest 45, 87
+Discard rations 55
+Listen to puzzle 71
+Repair 85
+RMT 20
+Crack lock 64, 66
+Open lock with object 64, 66 
+Secure 42
+Game options 42, 94
+Speak 48
+Read scrolls 45, 87
+Status 55
+Keyboard 20f, 53
+Keys 23, 34, 39
+Practice 88
+Transportation 43
+Troubleshooting document 17
+Switching procedures 33f
+Check 46, 53, 67, 69, 76, 80f, 96 
+Remove curses 84 
+Distribute gold 47, 68, 70, 96 
+Distribute rations 47, 68, 70, 78, 96 
+Viruses 13
+Advance 93
+CONTINUE 25
+Show object 61
+Destruction 99
+Numeric keypad 20f, 31, 33f, 39, 53, 106 
+Rent room 86
+

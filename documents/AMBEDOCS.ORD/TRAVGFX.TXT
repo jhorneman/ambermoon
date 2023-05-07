@@ -1,0 +1,39 @@
+************** Travelmode graphics data format *****************************
+
+	*** Travelmodes ***
+
+  0 - On foot
+  1 - Horse
+  2 - Raft
+  3 - Ship
+  4 - Magic disc
+  5 - Giant eagle
+  6 - Super chicken
+  7 - Swimming
+  8 - Broomstick
+  9 - Sandcrawler
+ 10 - Sandskimmer
+
+	*** File format ***
+
+Repeated 11 times :
+	Stationary frame
+	Frame facing north
+	Frame facing east
+	Frame facing south
+	Frame facing west
+END
+
+	*** Frame format ***
+
+EMPTY FRAME :
+  0   l	- 0
+  4	END
+
+FULL FRAME :
+  0   w	- Width in truncs
+  1   w	- Height in pixels
+  2   w	- Horizontal offset from left edge of 48x48 area in pixels
+  3   w	- Vertical offset from top edge of 48x48 area in pixels
+  4 ???	- Graphics
+???	END

@@ -1,0 +1,24 @@
+Possible combat animations :
+
+           0 Stand (= random)
+           1 Short-range attack
+           2 Long-range attack
+           3 Magic attack
+           4 Hit
+           5 Die
+           6 Appear
+           7
+
+000 001 Circle/wave bits (0-7)
+001 ??? Repeated 7 times :
+               Byte : Number of frames (0...255)
+               Repeated {Number of frames} times :
+                     Byte : Frame number (0...255)
+               Endr
+        Endr
+??? ??? Frame graphics
+
+              ****
+
+Monsters can be recoloured.
+For this a graphic routine Recolour_block is needed.

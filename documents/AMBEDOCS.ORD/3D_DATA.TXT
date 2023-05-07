@@ -1,0 +1,66 @@
+*** 3D map data formats ***
+
+NPC graphic numbers are treated as object numbers.
+Non-objects are walls with optional overlays.
+
+           Wall size : 128 x 80
+ Maximum object size : 144 x 144
+ Dungeon square size : 512 x 512 x 341
+ Maximum dungeon size : 63 x 63
+
+Max_3D_objects_groups   = 100
+Objects_per_group       = 8
+
+--- Map data ---
+
+Map byte =A :                   0-> empty
+          B :                   1...Max_3D_objects-> object group
+          C :                   (Max_3D_objects+1)...255-> non-object
+
+--- Labyrinth data ---
+
+0 -Wall height in cm
+2 -Global battle background
+4 -Sky color register
+5 -Ground color register 
+6 -Ceiling gfx nr.
+7 -Floor gfx nr.
+
+
+0 -Number of object groups (.w)
+2 -Repeated (Number of object groups) times :
+   Automapper icon type number (.w)       
+          Repeated (Objects per group) times :
+                0 - X-coordinate of object within map square (.w)
+                2 - Y-coordinate of object within map square (.w)
+                4 - Z-coordinate of object within map square (.w)
+                6 - Object number (.w)
+                
+
+0 -Number of objects (.w)
+2 -Repeated (Number of objects) times :
+              0 - Icon status bits (.l)
+              4 - Graphics number (.w)
+              6 - Number of animation frames (.b)
+              7 - EVEN
+              8 - Width of graphics (.b)
+              9 - Height of graphics (.b)
+             10 - Width in dungeon (.w)
+             12 - Height in dungeon (.w)
+             14 -
+
+0 -Number of non-objects (.w)
+2 -Repeated (Number of non-objects) times :
+               0 - Icon status bits (.l)
+               4 - Wall graphics number (.b)
+               5 - Automapper icon type number (.b)
+               6 - Colour of icon in minimap (.b)
+               7 - Number of overlays (.b)
+               8 -
+           Repeated (Number of overlays) times :
+                       0 - Overlay graphics number (.w)
+                       2 - X-coordinate of overlay (.b)
+                       3 - Y-coordinate of overlay (.b)
+                       4 - Width of overlay (.b)
+                       5 - Height of overlay (.b)
+                       6 -

@@ -1,0 +1,133 @@
+Healing
+
+NAME  			SP 	SLP	BATTLE 	EFFECT
+
+LAY ON HAND 		3	 1 	yes 		increases the LP of a group member up to the maximum at most
+REDUCE PANIC		5 	2	yes 		reduces panic in a group member
+ELIMINATE PANIC		15 	5	yes		reduces panic in all group members 
+REMOVE SHADOWS 	8	 3	yes 		eliminates blindness in a group member 
+HEAL BLINDNESS 		20 	8	yes 		cures blindness in all group members
+RELIEVE PAIN		15 	5 	yes 		relieves pain for a group member
+CURE DISEASE 		20 	10 	yes 		cures the group of diseases
+MINOR HEALING 		15 	5 	yes 		increases the LP of a group member to the maximum at most
+CURE POISON 		15 	10 	yes 		cures a group member of poisoning
+NEUTRALIZE POISON	25	 12 	yes 		neutralises the poisoning of the group
+MEDIUM HEALING 		50 	15 	yes 		increases the LP of a group member to the maximum at most
+EXPEL UNDEAD 		15 	10 	yes 		expels undead adversaries
+DESTROY UNDEAD 	50 	15 	yes 		destroys some undead adversaries
+SACRED WORD 		100 	20 	yes 		destroys all undead adversaries
+ROUSE DEAD		100 	15 	no 		rouses a group member from the dead 
+CONVERT ASH 		150 	20 	no 		rouses a burnt group member from the dead  
+CONVERT DUST 		250 	25 	no 		rouses a destroyed group member from the dead  
+MAJOR HEALING 		100 	30 	yes 		increases the LP of a group member to at most to the Maximum
+MASS HEALING 		150 	20 	yes 		increases the LP of all group members to the maximum at most
+REVIVAL 			250 	30 	no 		sets the LP value of all group members to the maximum
+RELEAVE STIFFNESS	15 	5 	yes 		relieves stiffness in a group member 
+HEAL PARALYSIS 		30 	10 	yes 		eliminates paralysis in all group members
+HEAL AGING 		50 	12 	no 		reduces unnatural aging in a group member
+STOP AGING 		100 	15 	no 		stops unnatural aging in all group members
+STONE TO FLESH		250 	20 	no 		saves a group member from being turned to stone
+ROUSE 			10 	5 	yes 		rouses a group member from unnatural sleep
+ELIMINATE CONFUSION 10 	5 	yes 		eliminates confusion in a group member
+NEUTRALIZE DRUGS 	25 	10 	no 		neutralises the effect of drugs on a group member 
+CURE MADNESS 	100 	15 	no 		cures paranoia for a group member 
+STRENGTHEN PERSEVERANCE 	50 	15 	yes 	increases the perseverance of a group member
+
+
+Alchemy
+
+NAME 	SP	SLP	BATTLE 	EFFECT
+
+LOAD OBJECT 	250 	20 	no 		positive:  Magic object is loaded again
+					negative:  Object is destroyed 
+LIGHT 	5 	2 	no 		produces magic light
+MAGIC TORCH	10 	5 	no 		produces magic light
+MAGIC LANTERN 	25 	10 	no 		produces magic light 
+SIMULATED SUN 	50 	15 	no 		produces magic light 
+GHOST WEAPON  	10 	5 	yes 		harms a hostile monster 
+PRODUCE RATIONS	25 	10 	no 		produces rations for each group member
+REMOVE CURSE	100 	20 	no 		removes a curse from an object
+MOVE	20 	5 	yes 		moves a group member to a new position in the battle 
+JUMP	50 	10 	no 		teleports the group in the direction they are looking
+ESCAPE	50 	15 	no 		allows the group to escape without losses
+WORD OF THE MARK	150 	20 	no 		marks a location as the target for the word of return
+WORD OF RETURN 	250 	20 	no 		moves the group to the location marked with the word of the mark
+MAGIC SHIELD	15 	10 	yes 		increases the group's defence capabilities 
+MAGIC WALL 	30 	15 	yes 		increases the group's defence capabilities 
+MAGIC BARRIER 	50 	20 	yes 		increases the group's defence capabilities
+MAGIC WEAPON 	15 	10 	yes 		increases the group's attack capabilities 
+MAGIC ATTACK	30 	15 	yes 		increases the group's attack capabilities
+MAGIC ASSAULT	50 	20 	yes 		increases the group's assault capabilities 
+LEVITATION 		25 	10 	no 		allows  the group to hover  through trapdoors 
+ANTI-MAGIC WALL	25 	5 	yes 		protects the group from magic 
+ANTI-MAGIC GLOBE 	50 	15 	yes 		protects the group from magic 
+ALCHEMISTIC GLOBE 	250 	25 	no 		produces magic light, increases the group's attack and defence capabilities and protects the group from magic
+HASTEN	25 	5 	yes 		increases the speed of a group member for one round of the battle
+HASTEN ALL 	50 	10 	yes 		increases the speed of all group members for one round of the battle
+REPAIR OBJECT 	100 	15 	no 		positive: Repairs an object
+					negative: Destroys an object
+COPY OBJECT 	250 	25 	no 		positive: Copies an object
+					negative:  Destroys an object
+LP THIEF	25 	5 	yes 		steals LP from 
+adversaries depending on the level of the character involved
+SP SUCKER	25 	5 	yes 		sucks SP from an adversary depending on the level of the character involved
+
+
+Mystic
+
+NAME 	SP	SLP	BATTLE 	EFFECT
+
+KNOW MONSTER 		50 	yes 		determines the details of a hostile monster 
+IDENTIFICATION 		50 	no 		examines and identifies an object
+KNOW 		15 	no 		makes the group clairvoyant
+CLAIRVOYANCE		30 	no 		makes the group 
+clairvoyant
+SEE TRUTH 		60 	no 		makes the group
+clairvoyant
+DRAW MAP		50 	no 		draws a magic map
+MAGIC COMPASS 		5 	no 		gives the group a magic compass
+FIND TRAPS		25 	no 		draws all traps on the map in 3-D 
+FIND MONSTER 		25 	no 		draws all monsters on the map in 3-D areas 
+FIND PEOPLE		25 	no 		draws all people on the map in 3-D 
+FIND SECRET DOORS		25 	no 		draws all hidden doors on the map in 3-D 
+MYSTIC MAPPING		100 	no		completes the map with all details in 3-D 
+MYSTIC MAP I 		25 	no 		draws a mystic map with all traps, monsters, people and secret doors in 3-D 
+MYSTIC MAP II 		35 	no 		draws a mystic map with all traps, monsters, people and secret doors in 3-D 
+MYSTIC MAP III 		45 	no 		draws a mystic map with all traps, monsters, people and secret doors in 3-D 
+MYSTIC GLOBE 		250 	no 		makes the group clairvoyant and produces a mystic map in 3-D
+
+
+Destruction
+
+NAME 	SP	SLP	BATTLE 	EFFECT
+MAGIC BULLET	5 	5 	yes 		reduces the LP of an adversary depending on the level the character involved
+MAGIC ARROW 	15 	10 	yes 		reduces the LP of some adversaries depending on the level the characters involved
+PARALYZE 	10 	5 	yes 		paralyzes an adversary
+POISON 	15 	5 	yes 		poisons an adversary 
+PETRIFY 	60 	5 	yes 		petrifies an adversary 
+DISEASE 	15 	5 	yes 		infects an adversary with a disease
+AGE 	15 	5 	yes 		allows an adversary to age unnaturally 
+CONFUSION 	10 	5 	yes 		confuses an adversary 
+MADNESS 	30 	10 	yes 		makes an adversary paranoid
+SLEEP 	15 	10 	yes 		allows an adversary to fall asleep 
+FEAR 	50 	10 	yes 		makes an adversary panic 
+BLINDING 	15 	10 	yes 		blinds an adversary
+DISSOLVE OPPONENT	250 	25 	yes 		turns an adversary into dust 
+CATAPULT	8 	1 	yes 		reduces the LP of an adversary 
+ROCK FALL	15 	5 	yes 		reduces the LP of an adversary 
+LANDSLIDE 	20 	10 	yes 		reduces the LP of some adversaries 
+EARTHQUAKE 	30 	15 	yes 		reduces the LP of all adversaries 
+HURRICANE	12 	5 	yes 		reduces the LP of an adversary
+TYPHOON	25 	10 	yes 		reduces the LP of an adversary
+THUNDERCLAP 	35 	15 	yes 		reduces the LP of some adversaries 
+WHIRLWIND 	50 	20 	yes 		reduces the LP of all adversaries 
+FLAME-THROWER	25 	10 	yes 		reduces the LP of an adversary
+FIREBALL	60 	15 	yes 		reduces the LP of an adversary
+FIRE STORM	80 	20 	yes 		reduces the LP of some adversaries
+COLUMN OF FIRE	120 	25 	yes 		reduces the LP of all adversaries
+WATERFALL 	50 	15 	yes 		reduces the LP of an adversary
+ICE BALL	100 	20 	yes 		reduces the LP of
+an adversary
+ICE STORM	150 	25 	yes 		reduces the LP of some adversaries
+ICE SHOWER	200	30	yes		reduces the LP of all adversaries
+

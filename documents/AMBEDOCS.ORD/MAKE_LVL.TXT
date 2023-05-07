@@ -1,0 +1,70 @@
+I = 03.03.1993 at 17:00
+U = 03.03.1993 at 17:09   
+ 
+BESCHREIBUNG MAKE LEVEL:
+------------------------
+
+
+1.Wann kann ein Partymitglied eine neue Stufe erreichen?
+
+1.1 Nach einem Kampf beim dem verteilen der EP.
+1.2 WÑhrend der Abarbeitung eines Events(9=DATACHANGE)
+1.2.1 Diese Event# kann auch wÑhrend eines Dialoges auftauchen!
+
+----------------------------------------------------------------------------
+
+2.Wie bekommt ein Partymitglied seine neue Stufe?
+
+2.1 Zuersteinmal werden die Werte ermittelt die das Partymitglied bekommt.
+2.2 Als da wÑren:
+                CHAR_DAT
+                (LEVEL)             B-005 + 1    
+
+                (Attacks per round) B-017 = B-005/W-226,227 (Minimum=1)
+ 
+                (LP-Normal) W-202,203     + (
+                (LP-Maximum)W-204,205     + (RANDOM(W-228,229) (Minimum=1)
+
+                (SP-Normal) W-208,209     +(
+                (SP-Maximum)W-210,211     +(RANDOM(W-230,231) (Minimum=1)
+
+                (SLP      ) W-020,021     + RANDOM(W-232,233) (Minimum=1)
+
+                (TP       ) W-022,023     + RANDOM(W-234,235) (Minumum=1)
+         
+ 2.3 Die Fanfaren Music wird gestartet.
+ 2.4 Das folgende Fenster wird geîffnet.
+
+     ****************************************
+     * .....NAME..... erreicht die Stufe ?? *
+     *                                      *
+     * LP  sind nun auf ???/???             *    
+     * SP  sind nun auf ???/???   ******    *
+     * SLP sind nun auf   ?????   *EXIT*    *
+     * TP  sind nun auf   ?????   ******    *
+     * APR sind nun auf      ??             *
+     *                                      *
+     *    NÑchste Stufe bei ???????? EP     *          
+     ****************************************
+
+  2.5 Das Programm wartet nun darauf das EXIT angeklickt wird.
+  2.6 Das Fenster wird wieder gelîscht 
+  2.7 Falls mehrere Partymitglieder gleichzeitig Stufen machen fÑngt die
+      Procedur beim nÑchsten Partymitglied wieder bei 2.1 an.
+  2.8 Die vorherige Musik wird wieder gestartet und das Programm lÑuft
+      normal weiter.
+  
+P.S.
+Hinweis zu 2.6 - 2.7:
+                     Vielleicht kînnte man auch falls mehr als ein 
+                     Partymitglied eine Stufe macht das vorherige Fenster
+                     stehen lassen und das nÑchste versetzt darÅber legen.
+                     Erst wenn dann alle ihre Stufen gemacht haben, werden 
+                     alle gelîscht und es geht bei 2.8 weiter.              
+
+---------------------------------------------------------------------------
+End of file...........
+  
+
+
+                          

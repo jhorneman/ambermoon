@@ -1,0 +1,7 @@
+ÝSTART  000     ORT
+GUEST ROOMS
+ÝEND..
+
+ÝSTOP.
+
+

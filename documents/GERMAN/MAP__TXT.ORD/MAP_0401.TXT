@@ -1,0 +1,6 @@
+ÝSTART  000     ORT
+LEBABS TURM - 2
+ÝEND..
+
+ÝSTOP.
+

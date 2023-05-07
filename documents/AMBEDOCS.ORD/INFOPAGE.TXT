@@ -1,0 +1,120 @@
+INFO PAGES TO AMBERMOON:
+****************************************************************************
+Data:
+-----
+Rassen:         Attribute:              Klassen:        FÑhigkeiten:        
+
+ 1.Mensch        0.StÑrke                1.Abenteurer    0.Attacke
+ 2.Elf           1.Intelligenz           2.KÑmpfer       1.Parade
+ 3.Zwerg         2.Geschicklichkeit      3.Paladin       2.Schwimmen
+ 4.Gnom          3.Schnellichkeit        4.Dieb          3.Kritischer Treffer
+ 5.Halb-Elf      4.Konstitution          5.WaldlÑufer    4.Fallen-Finden       
+ 6.Sylphe        5.Karisma               6.Heiler        5.Fallen-EntschÑrfen
+ 7.Feline        6.GlÅck                 7.Alchemist     6.Schlîsser ôffnen
+ 8.Moraner       7.Magie-Resistans       8.Mystiker      7.Suchen
+ 9.              8.Alter                 9.Magier        8.M-S.Rollen Lesen
+10.              9.                     10.Spezial       9.Magie Benutzen
+11.                                     11.Monster
+12.
+13.
+14.Spezial
+15.Monster
+----------------------------------------------------------------------------
+Konditionen:    Sprachen:               ItemType:
+                
+ 0.Irritiert     0.Mensch                0.No Item Type
+ 1.VerrÅckt      1.Elf                   1.RÅstung
+ 2.Schlaf        2.Zwerg                 2.Helm
+ 3.Panik         3.Gnom                  3.Schuhe
+ 4.Blind         4.Sylph                 4.Schild
+ 5.Stoned        5.Lîwander              5.Nahkampfwaffe
+ 6.Erschîpft     6.Morag                 6.Fernkampfwaffe
+ 7.Fliehend      7.Tiersprache           7.Munnition
+ 8.GelÑhmt                               8.SchriftstÅck
+ 9.Vergiftet                             9.Spruchrolle 
+10.Versteinert                          10.Trank 
+11.Krank                                11.Amulett 
+12.Altern                               12.Brosche 
+13.Tod                                  13.Ring 
+14.Asche                                14.Geschmeide 
+15.Staub                                15.Werkzeug
+                                        16.SchlÅssel                 
+                                        17.Gegenstand        
+                                        18.Magisches Artefakt
+                                        19.Spezial Gegenstand
+                                        20.Transportmittel
+                                        21.Kondition                
+----------------------------------------------------------------------------
+ZauberKlasse:    Orte:           Ziel:                  Art:                  
+        
+0.Heilung        0.(W)ildniss    0.(E)in Freund         0.W(i)ssen
+1.Alchemie       1.(S)tadt       1.(R)eihe v. Freunden  1.(M)acht
+2.Mystik         2.(H)îhle       2.(A)lle Freunde       2.(L)eben
+3.Destruktion    3.(R)ast        3.(E)in Feind          3.(T)od
+4.               4.(K)ampf       4.(R)eihe v. Feinden   4.(E)rde
+5.               5.(L)yramion    5.(A)lle Feinde        5.L(u)ft
+6.Magie          6.(W)aldmond    6.(G)egenstand         6.(F)euer
+                 7.WÅsten(m)ond  7.(S)pezial            7.(W)asser        
+                                       
+****************************************************************************
+Grafik:
+-------
+
+3D Boden/Decke:                         Color Palletten:                     
+                                
+ 1.Dungeon      /Boden                   1.World Lyramion
+ 2.Holz         /Decke                   2.World Kire's Moon
+ 3.Stadt I      /Boden                   3.Wordl Morag-Desert Moon       
+ 4.Stadt II     /Boden                   4.Combat Colors
+ 5.GrÅn         /Decke                   5.City         3D        
+ 6.Stadt III    /Boden                   6.Dungeon      3D
+                                         7.Indoor       2D(Set1)
+                                         8.Indoor       2D(Set2)       
+                                         9.Indoor       2D(Set3/4)
+                                        10.Indoor       2D(Set5-Kires Moon)
+                                        11.Erdhîhle     3D(Kire's Mond)
+                                        12.Mine         3D(Kire's Mond)       
+                                        13.DorKiredon   3D(Kire's Mond)             
+                                        14.DorGrestin   3D(Kire's Mond)
+                                        15.Ancient      3D(Kire's Mond)
+                                        16.Free
+----------------------------------------------------------------------------
+
+Icon Sets:                      Cut-Maps:               Minipics:
+
+ 1.Lyramion                     1024 Lyramion     Set1  0:Valdyn appears
+ 2.Kire's Moon                  1023 Kire's Moon  Set2  1:At grandpa's bed
+ 3.Morag Desert                 1022 Morag Desert Set3  2:Lyramion-Kiresmoon
+ 4.Indoor I                     1021 Indoor I     Set4  3:Lyramion-Desertmo.
+ 5.Indoor II                    1020 Indoor II    Set5  4:Kiresmoon-Lyramion
+ 6.Indoor III                   1019 Indoor III   Set6  5:Kiresmoon-Desertm.
+ 7.Indoor IV(Morag/Prison)      1018 Indoor IV    Set8  6:Desertmo.-Lyramion
+ 8.Indoor V(Kire's Moon)        1017 Indoor V     Set7  7:Desertm.-Kiresmoon
+****************************************************************************
+
+Musik:
+------
+ 
+Music-List:
+
+ 1.Dwarf City                           21.Inn 3
+ 2.Desert Planet/Echsen Musik           22.Sandglider
+ 3.City 3                               23.Fanfare
+ 4.City 2                               24.Dungeon 4
+ 5.City 1                               25.Superchicken
+ 6.Ship                                 26.Dungeon 5
+ 7.Giant Eagle                          27.Harp
+ 8.Horse                                28.Happy interior
+ 9.Inn 1                                29.Magic jingle
+10.Inn 2                                30.Danger jingle
+11.Combat new                           31.Sad interior
+12.Holy Room
+13.Capitol (city)
+14.On foot
+15.Magic disc
+16.Raft
+17.Dungeon 2
+18.Dungeon 1
+19.Dungeon dream
+20.Broomstick
+

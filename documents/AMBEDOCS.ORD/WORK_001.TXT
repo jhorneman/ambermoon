@@ -1,0 +1,111 @@
+ARBEITSBLATT 001        --> DIE STADT SPANNENBERG (AUF MAP 156)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+1.0 ORTE:
+---------
+1.0     NAME           :SPANNENBERG (MAP 263/3D)
+        PERSONEN       :1.EIN TYP DER ETWAS VON EINER BRUDERSCHAFT TARBOS
+                          ERZŽHLT 
+        PLŽTZE         :1.EIN KLEINER STADTGARTEN(PERSON 1)
+                        2.EIN KLEINER FRIEDHOF - 
+                          MIT 2.ZUGANG ZUM HAUS DER HEILER
+                          NACH DEM TOD DES GROžVATERS BEFINDET SICH HIER SEIN
+                          GRAB
+                          2*RANDOM ENCOUNTER MIT SKELETT ODER ZOMBIE
+                        3.SEITENGASSE HIER TAUCHEN EIN PAAR BANDITEN AUF
+                          DIE DIE PARTY ANGREIFEN.
+                          AM ENDE DER GASSE STEHT AUF EINEM SCHILD 
+                          "KARSTEN WAR HIER!!!"
+                          WENN AN DIESER STELLE DER NETSRAK ZAUBERSTAB BENUTZ
+                          WIRD, DANN WIRD DIE PARTY NACH THALION TELEPORTIERT
+                                               
+----------------------------------------------------------------------------
+
+1.1     NAME=           TAVERNE "ZUM HINKENDEN GAUNER" (MAP 264/2D)       
+        PERSONEN=       WIRT/
+        EREIGNISSE=     1.HIER KANN DIE PARTY DAS PASSWORT ZUR DIEBESGILDE
+                          VON EINEM DIEB ERFAHREN. FšR EINE KLEINE BELOHNUNG
+                        2.LAGER M™GLICHKEIT IN DER TAVERNE
+                        3.MEHRERE LEUTE MIT RUMORS(BLAUE ENGEL,FINSTRE ORCS
+                                                   UND BANDITEN,2.GILDE)     
+----------------------------------------------------------------------------
+
+1.2     NAME=           KELLER DER TAVERNE (MAP 266/3D)
+        PERSONEN=       2*RANDOM ENCOUNTER MIT RIESENSPINNEN                 
+        EREIGNISSE=     1.HINTER EINEM RŽTSELMUND BEFINDET SICH DER EINGANG 
+                          ZUR DIEBESGILDE.
+----------------------------------------------------------------------------
+
+1.3     NAME=           HAUS DER HEILER    (MAP 267/2D)       
+        PERSONEN=       1.SANDRA(OBERHAUPT DER HEILER) VERMISST IHRE TOCHTER 
+                          WELCHE VON LUMINOR GEFANGEN GEHALTEN WIRD.
+                        2.ALTER HEILER (IST ERST HIER NACHDEM MANN MIT IHM 
+                          GROSSVATERS HAUS GESPROCHEN HAT. ZUVOR HŽNGT EIN
+                          SCHILD AN DER TšR AUF STEHT DAS ER BEI EINEM 
+                          STERBENDEN IST. MAN KANN IHN AUF MEDIZIN FšR DAS
+                          SUMPFFIEBER ANSPRECHEN WORAUFHIN ER VOM ALTEM 
+                          ALCHEMISTEN UND DER QUELLE DES LEBENS SPRICHT.
+        EREIGNISSE      1.HEILER DURCHGEHEND GE™FFNET
+                        2.ZUGANG ZUM KELLER MIT DEN ZELLEN DER SCHWERKRANKEN
+----------------------------------------------------------------------------
+
+1.4     NAME=           KELLER IM HAUS DER HEILER (MAP 268/2D)
+        PERSONEN=       1.PFLEGERIN SIE BEWACHT DEN VERšCKTEN(TARBOS)
+                          SIE ERZŽHLT VON SEINEN ERSCHEINEN UND DAS ER NICHT
+                          RICHTIG ALTERT.
+                        2.VERRšCKTER TARBOS/NORMALER TARBOS NACHDEM SCHOCK
+        EREIGNISSE=     1.FALLS TARBOS NOCH NICHT GEHEILT IST, GREIFT ER
+                          DIE GRUPPE AN FALLS SIE IN DIE ZELLE EINDRINGT.
+                        2.FALLS TARBOS GEHEILT WURDE BEFINDET ER SICH DANCH 
+                          IN EINEM NORMALEN RAUM NEBEN DER ZELLE.
+----------------------------------------------------------------------------
+
+1.5     NAME=           TRAININGS HAUS (MAP 269/2D)
+        PERSONEN=       1. LEVEL 1 KŽMPFER DER LEUTE SUCHT DENEN ER SICH AN-
+                           SCHLIESSEN KANN UM GEGEN DIE DIEBE VORZUGEHEN ODER
+                           NACH DIESEN BLAUEN UND GRšNEN KOBOLDEN ZU ZUSUCHEN
+        EREIGNISSE      1. TRAINER FšR ATTACKE
+                        2. TRAINER FšR PARADE
+----------------------------------------------------------------------------
+
+1.6     NAME=           HAUS DES FREIHEERS GEORG VON SPANNENBERG (MAP 270/3D)
+        PERSONEN=       1.GEORG VON SPANNENBERG
+                          ER ERZŽHLT VON DEN PROBLEMEN DIE ER MIT DEN 
+                          BANDITEN, ORCS UND DEN FARBIGEN FEEN HAT.
+                          FALLS DER SPIELER ETWAS VON DEN OBENGENANTEN
+                          L™ST GIBT ER IM DEN SCHLšSSEL ZU EINER DER 3.
+                          TRUHEN
+                        2.HEIDI VON SPANNENBERG(GLAUBT NICHT DAS DIE FRARBIGEN 
+                          FEEN B™SE ERSCHEINENUNGEN SIND)                     
+        EREIGNISSE      3 TRUHEN DIE DIE BELOHNUNG FšR DIE ERFšLLUNG
+                        DER GESTELLTEN AUFGABEN BEINHALTEN.
+----------------------------------------------------------------------------
+
+1.7     NAME=           PFERDESTALL VON TOLIMAR (MAP 271/2D)                                
+        PERSONEN=       1.TOLIMAR - FALLS ER AUF WERKZEUG ANGESPROCHEN WIRD
+                                    ERZŽHLT ER DER PARTY DAS IHM VOR KURZEM
+                                    SEINE WERTVOLLEN GOLDEN HUFEISEN GESTOHLEN
+                                    WURDEN UND DASS ER DEN ABENTEURER WERKZEUG
+                                    GIBT FALLS SIE IHM DIESE ZURšCKBRINGEN.
+                 
+        EREIGNISSE=     1.PFERDESTALL SEIN GESELLE BETEIBT IHN VON 7 BIS 19
+-----------------------------------------------------------------------------
+
+1.8     NAME=           WARENHŽNDLER VON SPANNENBERG 
+        PERSONEN=
+        EREIGNISSE=     KEINE MAP DIREKT IN DEN LADEN-VON 8 BIS 18
+----------------------------------------------------------------------------
+
+1.9     NAME=           LEBENSMITTEL HANDEL "YNNEP"  
+        PERSONEN=       
+        EREIGNISSE=     KEINE MAP DIREKT IN DEN LADEN-VON 8 BIS 18
+----------------------------------------------------------------------------                                           
+
+1.10    NAME=           WERFT VON SPANNENBERG
+        PERSONEN=       WERFTBESITZER IST ZU BESUCH IN "BURN" UND DORT
+                        IN DIE GEFANGENSCHAFT VON LUMINOR GERATEN.
+        EREIGNISSE=     SOLANGE ER NICHT DA IST HŽNGST EIN SCHILD AN SEINER
+                        TšR
+                    
+                                                     
+
+

@@ -1,0 +1,99 @@
+
+I.  INTRODUCTION 6
+What happened in AMBERSTAR 10
+What happened before AMBERMOON  11 
+II.  GENERAL 12
+Support 13
+VIRUS WARNING 13
+HARDWARE 14
+MS-DOS 14
+Amiga 14
+Atari ST / TT / Falcon 14
+LOADING AND INSTALLATION INSTRUCTIONS 15 
+Creating a game disk 15 
+Amiga 16
+Atari ST / TT / Falcon 16
+Loading from disk 17
+The installation program 17 
+Installation on hard disk 18
+MS-DOS 18
+Amiga 18
+Atari ST / TT / Falcon 19
+Loading from hard disk 19
+MS-DOS 19
+Amiga, Atari ST / TT / Falcon 19 
+CONTROLS FOR AMBERMOON  20
+Mouse keys 20
+Mouse pointer 20
+Icons 21
+Icon panel 21
+Scroll bar 21
+Selecting an object 21
+Entering numbers 22
+Entering text 23
+Safety prompts 23
+Text window 23
+Input/output errors 24
+INTRO 24
+STARTUP MENU 25
+CHARACTER MENU 26
+CHARACTER BAR 26
+MAIN SCREEN 27
+Display panels 27
+Control panel 28
+The graphics window 28
+III.  MOVEMENT ICONS 30
+2-D display 32
+3-D display 33
+IV.  ACTION ICONS 38
+V.  INVENTORY / STATUS 50 
+Poster 51
+Luggage 52
+Icons 53
+VI.  DIALOG 58
+Brief dialog 59
+Full dialog 60
+VII.  EVENTS 62
+Doors 63
+Trunks 65
+Rubbish 69
+Riddle-mouth 71
+Traps 72
+Twisters 72
+Teleporter 72
+Trap-doors 73
+Exits 73
+VIII.  TRADERS AND OTHER PLACES 74 
+Dealers 75
+Victualers 78
+Horse dealers, raft and boat dealers 79 
+Bookshops79
+Wise man 81
+Enchantress 82
+Healer 83
+Blacksmith 85
+Inns 86
+Trainers 88
+IX.  BATTLES 90
+X.  THE MAGIC IN AMBERMOON  98
+XI.  APPENDICES 100
+Attributes 101
+Abilities 101
+Conditions 102
+General 102
+In the battle 103
+Races 104
+Classes 104
+Temporary sayings 105
+Keyboard assignment 106 
+Numeric keypad 106
+Cursor keys 106
+Main keyboard 107
+Function keys 107
+MAGIC TABLES 108
+Healing 109
+Alchemy 110
+Mystic 111
+Destruction 112
+GLOSSARY 113
+

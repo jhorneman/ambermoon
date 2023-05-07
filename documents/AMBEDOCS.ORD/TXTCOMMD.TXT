@@ -1,0 +1,25 @@
+                                                                  18.02.1993
+
+
+TXT COMMANDS:
+
+ÝREM..                          =REMARKS
+ÝSTART                          =START OF NEW TEXT BLOCK
+ÝEND..                          =END OF CURRENT TEXT BLOCK
+ÝSTOP.                          =STOP OF TEXT
+
+^                               =SET A RETURN   (ASCII 10)
+$                               =HARD SPACE     (ASCII 36)
+----------------------------------------------------------------------------
+
+PTX COMMANDS:
+
+~LEAD~                          =INSERT ACTIVES NAME HERE
+~SELF~                          =INSERT PARTY LEADERS NAME HERE
+
+~NORM~                          =SET FONT TO NORMAL
+~RUN1~                          =SET FONT TO RUNES
+
+~INK XX~                        =SET COLOR OF INK
+
+

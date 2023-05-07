@@ -1,0 +1,605 @@
+ZaubersprÅche fuer AMBERMOON  002.07.93 -- 11:14
+----------------------------------------------------------------------------
+
+ZAUBERKLASSEN:
+--------------
+Es wird diesmal 7 verschiedene Zauberklassen geben:
+                                                     0.HEILUNG
+Wobei Klassen 0-3 von den verschiedenen              1.ALCHEMIE
+Charakterklassen benutzt werden. Die Klasse          2.MYSTIK
+6 wiederum enthÑlt nur ZaubersprÅche die in          3.DESTRUKTION
+GegenstÑnden enthalten sind oder nur von             4.--------
+Monstern benutzt werden koennen                      5.--------
+                                                     6.MAGIE
+                                                     
+
+ErklÑrung der Klassen:
+----------------------
+0.Heilung
+Die Magier die die Kraft der Heilung benutzen kennen sich besonders gut
+im bereich der Pflanzen, Tiere und Elemente aus. Aus diesen ziehen sie 
+die Macht und Regenzen mit deren Hilfe sie alle mîglichen Arten von 
+Verletzungen und Gebrechen Heilen kînnen.
+
+1.Alchemie
+Die Magier der Alchemie beziehen ihre Macht aus dem Wissen der Beziehungen
+der einzelen Elemente der Materie. Aus diesem Wissen und unter VerÑnderung
+und Mischung der einzelen Elemente kînnen sie diese VerÑndern
+und Neuerschaffen.
+
+2.Mystik
+Die Magier die die Macht der Mystik ausÅben, nutzen Ihre starke Verbindung
+zu den Gîttern und anderen öbernatÅrlichen MÑchten um Wissen Åber Wesen,
+Gegenden und GegenstÑnden zu erfahren.
+
+3.Destruction
+Die Magier der Destruction beziehen ihr Wissen aus allen bereichen der anderen
+Klassen. Sie setzten dieses Wissen ein um ein oder mehrere Elemente zu 
+schwÑchen oder ganz zu vernichten.
+----------------------------------------------------------------------------
+
+SPRUCHART:
+----------
+Es gibt folgende Sprucharten:
+                                                     0.W(I)SSEN
+In AMBERSTAR gab es bereits die Elemtar Sprueche,    1.(M)ACHT
+nun gibt es 8 verschiedene Sprucharten.              2.(L)EBEN   
+(ACHTUNG: Die Spruchart hat jetzt ein eigenes        3.(T)OD
+          Datenbyte(Bit0-7)                          4.(E)RDE
+Ob ein Charakter/Monster gegen eine oder mehrere     5.L(U)FT
+Sprucharten Imun ist steht in seinen Chardaten       6.(F)EUER
+                                                     7.(W)ASSER
+GrundsÑtzlich ist es so das jeder Spruch auch mehr 
+als eine Spruchart benutzt, allerdings wird der 
+Spruch immer mit der Spruchart gezeichnet die den
+grîûten Anteil am jeweiligen Spruch hat.
+                                               
+ErklÑrung der Sprucharten:
+--------------------------
+0.Wissen
+Ist die Art die alle SprÅche benutzen um etwas in Erfahrung zu bekommen.
+Sei es nun um ein Wesen, eine Gegend oder einen Gegestand zu erkunden.
+
+1.Macht
+Ist die Art um gegen einen Wiederstand zu kÑmpfen. Dieses wird meist in
+zusammenarbeit mit den Elematar Sprucharten in der Destructions Magie
+eingesetzt.
+
+2.Leben
+Ist die Art der Behandlung und Umgang mit den Leben in jedwelcher Form.
+Das Wissen von Leben wird meist im zusammen Arbeit mit der Spruchart
+Tod eingesetzt um Leben zu retten, zu verlÑngern oder zu restaurieren.
+
+3.Tod
+Ist die Art des Umgangs mit dem Tod. Diese Art wird eingesetzt um die 
+natÅrlichen gestetze des Todes zu umgehen und teilweise dessen Wirkung
+zu umgehen, umzukehren oder zu verÑndern.
+
+4.Erde
+Ist die Art des Wissens um die Elementar Ebene der Erde benutzen. Diese
+Art wird in allen anderen Arten in einer mehr oder minder groûen Dimension
+eingesetzt.
+
+5.Luft
+Ist die Art des Wissens um die Elementar Ebene der Luft benutzen. Diese
+Art wird in allen anderen Arten in einer mehr oder minder groûen Dimension
+eingesetzt.
+
+6.Feuer
+Ist die Art des Wissens um die Elementar Ebene der Feuer benutzen. Diese
+Art wird in allen anderen Arten in einer mehr oder minder groûen Dimension
+eingesetzt.
+
+7.Wasser
+Ist die Art des Wissens um die Elementar Ebene der Wasser benutzen. Diese
+Art wird in allen anderen Arten in einer mehr oder minder groûen Dimension
+eingesetzt.
+----------------------------------------------------------------------------
+
+ORTE:
+-----
+Die Orte an denen ein Spruch angewendet werden kann sind:
+                                                     0.(W)ILDNISS
+Die ersten 5 Bits sind die gleichen wie in           1.(S)TADT
+AMBERSTAR. Die Bits 5 bis 7 sind fuer die            2.(H)OEHLE
+3 verschiedenen Welten auf denen AMBERMOON           3.(R)AST IM LAGER 
+spielt. Mit diesen Bits kann dafÅr gesorgt           4.(K)AMPF
+werden, das bestimmte Sprueche nur auf bestimmten    5.(L)YRAMION
+Welten funktionieren.                                6.(W)ALDMOND
+                                                     7.WUESTEN(M)OND
+----------------------------------------------------------------------------
+                     
+ZIEL:
+-----
+Die Ziele auf denen ein Spruch angewendet werden kann sind:
+                                                     0.(E)IN FREUND
+                                                     1.(R)EIHE VON FREUNDEN
+Das neue wird sein, das auch mehr als 1              2.(A)LLE FREUNDE
+Bit gesetzt sein kann. Das bedeutet das der gleiche  3.(E)IN FEIND
+Spruch sowohl auf ein Partymitglied oder ein         4.(R)EIHE VON FEINDEN
+Monster wirken kann,(oder alle am Kampf              5.(A)LLE FEINDE
+beteiligten treffen kann.)                           6.(I)TEM
+                                                     7.(S)PEZIAL SPRöCHE
+    
+
+   
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+HEILUNG:
+--------
+#:      NAME:                           ORT:    ZIEL:   ART:    SLP:    SP:     
+----------------------------------------------------------------------------
+01      HAND AUFLEGEN                   WSHRKLWM E------- L      1       3                                   
+INC Normal-LP + 10% Max-LP 
+----------------------------------------------------------------------------
+02      FURCHT  LOESEN                  ----KLWM E------- I      2       5
+CLR CONDITION PANIK 
+----------------------------------------------------------------------------
+03      PANIK BESTEITIGEN               ----KLWM --A----- I      5      15
+CLR CONDITION PANIK 
+----------------------------------------------------------------------------
+04      SCHATTEN LOESEN                 WSHRKLWM E------- L      3       8        
+CLR CONDITION BLIND
+----------------------------------------------------------------------------
+05      BLINDHEIT HEILEN                WSHRKLWM --A----- L      8      20                                
+CLR CONDITION BLIND 
+----------------------------------------------------------------------------
+06      SCHMERZEN LINDERN               WSHRKLWM E------- L      5      15
+CLR CONDITION DISEASE 
+----------------------------------------------------------------------------
+07      KRANKHEIT HEILEN                WSHRKLWM --A----- L     10      20 
+CLR CONDITION DISEASE 
+----------------------------------------------------------------------------
+08      LEICHTE HEILUNG                 WSHRKLWM E------- L      5      15    
+INC Normal-LP + 25% Max-LP 
+----------------------------------------------------------------------------
+09      GIFT LOESEN                     WSHRKLWM E------- T     10      15        
+CLR CONDITION POISON 
+----------------------------------------------------------------------------
+10      GIFT NEUTRALISIEREN             WSHRKLWM --A----- T     12      25 
+CLR CONDITION POISON 
+----------------------------------------------------------------------------
+11      MITTLERE HEILUNG                WSHRKLWM E------- L     15      50
+INC Normal-LP + 50% Max-LP 
+----------------------------------------------------------------------------
+12      VERTREIBE UNTOTEN               ----KLWM ---E---- T     10      15       
+DESTROY UNDEAD
+----------------------------------------------------------------------------
+13      ZERSTOERE UNTOTE                ----KLWM ----R--- T     15      50                 
+DESTROY UNDEAD
+----------------------------------------------------------------------------
+14      HEILIGES WORD                   ----KLWM -----A-- T     20     100 
+DESTROY UNDEAD
+----------------------------------------------------------------------------
+15      TOTE ERWECKEN                   ---R-LWM E------- T     15     100            
+CLR CONDITION DEAD -- SET Normal-LP = 1
+----------------------------------------------------------------------------
+16      ASCHE WANDELN                   ---R-LWM E------- T     20     150 
+CLR CONDITION DEAD + ASHES -- SET Normal-LP = 1
+----------------------------------------------------------------------------
+17      STAUB WANDELN                   ---R-LWM E------- T     25     250 
+CLR CONDITION DEAD + DUST -- SET Normal-LP = 1
+----------------------------------------------------------------------------
+18      GROSSE HEILUNG                  WSHRKLWM E------- L     30     100 
+INC Normal-LP + 75% Max-LP 
+----------------------------------------------------------------------------
+19      MASSENHEILUNG                   WSHRKLWM --A----- L     20     150 
+INC Normal-LP + 25 Max-LP 
+----------------------------------------------------------------------------
+20      WIEDERBELEBUNG                  ---R-LWM --A----- T     30     250 
+CLR CONDITION DEAD -- SET Normal-LP = Max-LP
+----------------------------------------------------------------------------
+21      STARRE AUFLOESEN                WSHRKLWM E------- L      5      15
+CLR CONDITION LAMED 
+----------------------------------------------------------------------------
+22      LéHMUNG HEILEN                  WSHRKLWM --A----- L     10      30 
+CLR CONDITION LAMED 
+----------------------------------------------------------------------------
+23      ALTERUNG HEILEN                 ---R-LWM E------- L     12      50
+CLR CONDITION AGING    
+----------------------------------------------------------------------------
+24      ALTERUNG STOPPEN                ---R-LWM --A----- L     15     100 
+CLR CONDITION AGING
+----------------------------------------------------------------------------
+25      STEIN ZU FLEISCH                ---R-LWM E------- T     20     250 
+CLR CONDITION PETRIFIED
+----------------------------------------------------------------------------
+26      AUFWECKEN                       ----KLWM E------- L      5      10        
+CLR CONDITION SLEEP
+----------------------------------------------------------------------------
+27      IRRITATION HEILEN               ----KLWM E------- I      5      10
+CLR CONDITION IRRITATED 
+----------------------------------------------------------------------------
+28      DROGEN AUFLôSEN                 ---R-LWM E------- L     10      25         
+CLR CONDITION STONED
+----------------------------------------------------------------------------
+29      VERRöCKTHEIT HEILEN             --R-LWM  E------- L     15     100
+CLR CONDITION MAD
+----------------------------------------------------------------------------
+30      AUSDAUER KéFTIGEN               WSHRKLWM E------- L     15      50
+CLR CONDITION EXHAUSTED
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ALCHEMIE:
+---------
+#:      NAME:                           ORT:    ZIEL:   ART:    SLP:    SP:  
+
+01      GEGENSTAND LADEN                ---R-LWM ------I- M      20     250   
+POSITIV INC CHARGES + RANDOM(LEVEL)  <= MAX-CHARGE
+NEGATIV DESTROY ITEM
+----------------------------------------------------------------------------
+02      LICHT                           WSHR-LWM -------- M       2       5                
+SET SPEZIAL LICHT 30STEPS + 1RADIUS
+----------------------------------------------------------------------------
+03      MAGISCHE FACKEL                 WSHR-LWM -------- M       5      10       
+SET SPEZIAL LICHT 60STEPS + 1RADIUS
+----------------------------------------------------------------------------
+04      MAGISCHE LATERNE                WSHR-LWM -------- M      10      25        
+SET SPEZIAL LICHT 120STEPS + 2RADIUS
+----------------------------------------------------------------------------
+05      IMITIERTE SONNE                 WSHR-LWM -------- M      15      50       
+SET SPEZIAL LICHT 180STEPS + 3RADIUS
+----------------------------------------------------------------------------
+06      GEISTERWAFFE                    ----KLWM ---E---- M       5      10       
+RANDOM(CHAR_DAMAGE) DAMAGE SELECTED MONSTER 
+----------------------------------------------------------------------------
+07 ESSEN ERSCHAFFEN                     WSHR-LWM E------- M      10      25  
+INC RATION +1 
+----------------------------------------------------------------------------
+08 FLUCH BESEITIGEN                     ---R-LWM E------- M      20     100 
+CLR CURSEBIT ON SELECTED ITEM -- Remove Curse Effects - DESTROY ITEM
+----------------------------------------------------------------------------
+09     BLINK                            ----KLWM -------S M       5      20
+SHORT TELEPORT SELECTED CHAR/MONSTER TO NEW SELECTED POSITION IN COMBAT
+TAKTIK SCREEN
+----------------------------------------------------------------------------
+10      SPRUNG                          --H--LWM -------- M      10      50
+TELEPORT 2STEPS INTO VIEW DIRECTION / CANCEL IF NO MATCHING TRAVELMODE AT
+DESTINATION
+----------------------------------------------------------------------------
+11     FLUCHT                           ----KLWM -------- M      15      50 
+LET ALL PARTY MEMBER FLEE FROM A COMBAT WITH NO FAILURE.
+----------------------------------------------------------------------------
+12      WORT DES MARKIERENS             WSH--L-- -------- M      20     150   
+SET COORDINATES FOR WORT DER RUECKKEHR
+----------------------------------------------------------------------------
+13      WORT DER RUECKKEHR              WSH--L-- -------- M      20     250               
+TELEPORT TO COORDINATES FROM WORT DES MARKIERENS SETTING
+----------------------------------------------------------------------------
+14      MAGISCHES SCHILD                WSHRKLWM -------- M      10      15                      
+SET SPEZIAL PARADE 30STEPS + LEVEL*1% 
+----------------------------------------------------------------------------
+15      MAGISCHE WAND                   WSHRKLWM -------- M      15      30   
+SET SPEZIAL PARADE 90STEPS + LEVEL*1%
+----------------------------------------------------------------------------
+16      MAGISCHE BARRIERE               WSHRKLWM -------- M      20      50      
+SET SPEZIAL PARADE 180STEPS + LEVEL*1%
+----------------------------------------------------------------------------
+17      MAGISCHE WAFFE                  WSHRKLWM -------- M      10      15
+SET SPEZIAL ATTACKE 30STEPS + LEVEL*1%
+----------------------------------------------------------------------------
+18      MAGISCHER ANGRIFF               WSHRKLWM -------- M      15      30              
+SET SPEZIAL ATTACKE 90STEPS + LEVEL*1%
+----------------------------------------------------------------------------
+19      MAGISCHE ATTACKE                WSHRKLWM -------- M      20      50  
+SET SPEZIAL ATTACKE 180STEPS +LEVEL*1%
+----------------------------------------------------------------------------
+20      LEVITATION                      --H--LWM -------- M      10      25       
+CHECK FOR MAP EXIT EVENT(TRAP DOOR) THEN TELEPORTIERT PARTY TO NEW
+DESTINATION
+----------------------------------------------------------------------------
+21      ANTI MAGIE WAND                 WSHRKLWM -------- M       5      25
+SET SPEZIAL ANTI MAGIE 30STEPS + LEVEL*1%
+----------------------------------------------------------------------------
+22      ANTI MAGIE SPHERE               WSHRKLWM -------- M      15      50       
+SET SPEZIAL ANTI MAGIE 180STEPS + LEVEL*1%
+----------------------------------------------------------------------------
+23      ALCHEMISTISCHER GLOBE           ---R-LWM -------- M      25     250       
+SET SPEZIAL LICHT 280STEPS + 3RADIUS
+            ATTACKE 280STEPS + LEVEL*2%
+            PARADE 280STEPS + LEVEL*2%
+            ANTI MAGIE 280STEPS + LEVEL*2%
+----------------------------------------------------------------------------
+24      HAST                            ----KLWM E------- M       5      25       
+SET APR*2 FOR ONE COMBATROUND
+----------------------------------------------------------------------------
+25      MASSENHAST                      ----KLWM --A----- M      10      50        
+SET APR*2 FOR ONE COMBATROUND
+----------------------------------------------------------------------------
+26      REPARIERE GEGENSTAND            ---R-LWM ------I- M      15     100       
+POSITIV CLR BROKEN BIT ON SELECTED ITEM
+NEGATIV DESTROY ITEM
+----------------------------------------------------------------------------
+27      VERDOPPLE GEGENSTAND            ---R-LWM ------I- M      25     250
+POSITIV COPY SELECTED ITEM
+NEGATIV DESTROY ITEM
+----------------------------------------------------------------------------
+28 LP-STEHLER                           ----KLWM ---E---- L       5      25     
+DEC AND TRANSFER LEVEL*1 NORMAL-LP 
+----------------------------------------------------------------------------
+29 SP-SAUGER                            ----KLWM ---E---- M       5      25
+DEC AND TRANSFER LEVEL*1 NORMAL-LP
+----------------------------------------------------------------------------
+30
+----------------------------------------------------------------------------
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+MYSTIK:
+-------
+#:      NAME:                           ORT:    ZIEL:   ART:    SLP:     SP:             
+----------------------------------------------------------------------------
+01      MONSTER WISSEN                  ----KLWM ---E---- I       3       5      
+DATEN von MONSTER ausgeben:
+NAME/LEVEL/TAKTIK PIC/ATTRIBUTE/FAEHIGKEITEN/LP/SP/ZAUBERKLASSEN/APR'S
+/DAMAGE/DEFENCE
+(ACHTUNG:Bei Attributes, Skills, LP's und SP's nur die Normal Werte 
+         ausgeben)
+----------------------------------------------------------------------------
+02      IDENTIFIKATION                  ---R-LWM ------I- I      15      50
+SET MAGIC_CHECK Bit OFF SELECTED ITEM.
+----------------------------------------------------------------------------
+03      WISSEN                          WSHR-LWM -------- I      10      15
+SET SPEZIAL HELLSICHT 30STEPS
+----------------------------------------------------------------------------
+04      HELLSICHT                       WSHR-LWM -------- I      20      30
+SET SPEZIAL HELLSICHT 90STEPS
+----------------------------------------------------------------------------
+05      WAHRHEIT SEHEN                  WSHR-LWM -------- I      30      60
+SET SPEZIAL HELLSICHT 180STEPS
+----------------------------------------------------------------------------
+06      KARTENSCHAU                     WSHR-LWM -------- I      15      50
+SHOW MINIMAP OF CURRENT MAP
+----------------------------------------------------------------------------
+07      MAGISCHER KOMPASS               WSH--LWM -------- I       2       5
+SHOW CURRENT VIEW DIRECTION IN WINDOW
+----------------------------------------------------------------------------
+08      FALLEN FINDEN                   WSH--LWM -------- I      10      25 
+AKTIVATE AUTOMAPPER AND SHOW ALL TRAPS
+----------------------------------------------------------------------------
+09      MONSTER FINDEN                  WSH--LWM -------- I      10      25       
+AKTIVATE AUTOMAPPER AND SHOW ALL MONSTER GROUPS
+----------------------------------------------------------------------------
+10      PERSONEN FINDEN                 WSH--LWM -------- I      10      25
+AKTIVATE AUTOMAPPER AND SHOW ALL PERSON(PARTY/NPC)  
+----------------------------------------------------------------------------
+11      GEHEIMTöREN FINDEN              WSH--LWM -------- I      10      25
+AKTIVATE AUTOMAPPER AND SHOW ALL SECRET DOORS
+----------------------------------------------------------------------------
+12      MYSTISCHE KARTENZEICHNUNG       WSH--LWM -------- I      25     100 
+SET ALL BITS IN CURRENT MAP AND AKTIVATE AUTOMAPPER
+----------------------------------------------------------------------------
+13      MYSTISCHE KARTE I               WSH--LWM -------- I      10      25
+SET SPEZIAL MYSTIC MAP FOR 30STEPS 
+SHOW IN AUTOMAP ALL     TRAPS     
+                        MONSTER GROUPS 
+                        PERSONS(PARTY/NPC)
+                        SECRET DOORS
+----------------------------------------------------------------------------
+14      MYSTISCHE KARTE II              WSH--LWM -------- I      15      35
+SET SPECIAL MYSTIC MAP FOR 60STEPS
+SHOW IN AUTOMAP         ALL TRAPS        
+                        MONSTER GROUPS 
+                        PERSONS(PARTY/NPC)
+                        SECRET DOORS
+----------------------------------------------------------------------------
+15      MYSTISCHE KARTE III             ---R-LWM -------- I      20      45
+SET SPECIAL MYSTIC MAP FOR 90 STEPS
+SHOW IN AUTOMAP ALL     TRAPS      
+                        MONSTER GROUPS 
+                        PERSONS(PARTY/NPC)
+                        SECRET DOORS
+----------------------------------------------------------------------------
+16      MYSTISCHER GLOBE                WSHR-LWM -------- I      25     250 
+SET SPECIAL HELLSICHT AND MYSTIC MAP FOR 180 STEPS
+----------------------------------------------------------------------------
+17      ZEIGE MONSTER LP                ----KLWM -----A-- I       5      15
+SHOW IN TAKTIK MAP MONSTER NAME+ NORMAL-LP OF MONSTER
+----------------------------------------------------------------------------
+18
+----------------------------------------------------------------------------
+19
+----------------------------------------------------------------------------
+20
+----------------------------------------------------------------------------
+21
+----------------------------------------------------------------------------
+22
+----------------------------------------------------------------------------
+23
+----------------------------------------------------------------------------
+24
+----------------------------------------------------------------------------
+25
+----------------------------------------------------------------------------
+26
+----------------------------------------------------------------------------
+27
+----------------------------------------------------------------------------
+28
+----------------------------------------------------------------------------
+29
+----------------------------------------------------------------------------
+30
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+DESTRUCTION:
+------------
+#:      NAME:                           ORT:    ZIEL:   ART:    SLP:     SP:         
+
+01      MAGISCHES GESCHOû               ----KLWM ---E---- M       5       5
+DEC LEVEL*1 FROM NORMAL-LP
+----------------------------------------------------------------------------
+02      MAGISCHE PFEILE                 ----KLWM ----R--- M      10      15
+DEC LEVEL*1 FROM NORMAL-LP
+----------------------------------------------------------------------------
+03      LéHMEN                          ----KLWM ---E---- L       5      10
+SET CONDITION STUNED      
+----------------------------------------------------------------------------
+04      VERGIFTEN                       ----KLWM ---E---- L       5      15
+SET CONDITION POISON
+----------------------------------------------------------------------------
+05      VERSTEINERN                     ----KLWM ---E---- T       5      60          
+SET CONDITION PETRIFIED
+----------------------------------------------------------------------------
+06      KRANKHEIT                       ----KLWM ---E---- L       5      15
+SET CONDITION DISEASED
+----------------------------------------------------------------------------
+07      ALTERN                          ----KLWM ---E---- T       5      15
+SET CONDITION AGING 
+----------------------------------------------------------------------------
+08      IRRITATION                      ----KLWM ---E---- I       5      10    
+SET CONDITION IRRITATED
+----------------------------------------------------------------------------
+09     VERRöCKTHEIT                     ----KLWM ---E---- I      10      30        
+SET CONDITION MAD
+----------------------------------------------------------------------------
+10      SCHLAF                          ----KLWM ---E---- I      10      15
+SET CONDITION SLEEP     
+----------------------------------------------------------------------------
+11      FURCHT                          ----KLWM ---E---- I      10      50
+SET CONDITION PANIK 
+----------------------------------------------------------------------------
+12      BLENDEN                         ----KLWM ---E---- M      10      15        
+SET CONDITION BLIND     
+----------------------------------------------------------------------------
+13      DROGEN                          ----KLWM ---E---- L      10      50
+SET CONDITION DRUG
+----------------------------------------------------------------------------
+14      OPFER AUFLôSEN                  ----KLWM ---E---- M      25     250
+SET CONDITION DEAD + DUST 
+----------------------------------------------------------------------------
+15      DRECKSCHLEUDER                  ----KLW- ---E---- E       1      10 
+DEC NORMAL-LP - RANDOM (2 TO 4) LP
+----------------------------------------------------------------------------
+16      STEINSCHLAG                     ----KLW- ---E---- E       5      15
+DEC NORMAL-LP - RANDOM (4 TO 8) LP 
+----------------------------------------------------------------------------
+17      ERDRUTSCH                       ----KLW- ----R--- E      10      20        
+DEC NORMAL-LP - RANDOM (8 TO 16) LP
+----------------------------------------------------------------------------
+18      ERDBEBEN                        ----KLW- -----A-- E      15      25
+DEC NORMAL-LP - RANDOM (16 TO 32) LP
+----------------------------------------------------------------------------
+19      WINDTEUFEL                      ----KLWM ---E---- U       5      20 
+DEC NORMAL-LP - RANDOM (4 TO 8) LP
+----------------------------------------------------------------------------
+20      WINDHEULER                      ----KLWM ---E---- U      10      30
+DEC NORMAL-LP - RANDOM (8 TO 16) LP
+----------------------------------------------------------------------------
+21      DONNERSCHLAG                    ----KLWM ----R--- U      15      40
+DEC NORMAL-LP - RANDOM (16 TO 32) LP
+----------------------------------------------------------------------------
+22      WIRBELSTURM                     ----KLWM -----A-- U      20      50
+DEC NORMAL-LP - RANDOM (32 TO 64) LP
+----------------------------------------------------------------------------
+23      FEUERSTRAHL                     ----KLWM ---E---- F      10      40
+DEC NORMAL-LP - RANDOM (8 TO 16) LP
+----------------------------------------------------------------------------
+24      FEUERBALL                       ----KLWM ---E---- F      15      60
+DEC NORMAL-LP - RANDOM (16 TO 32) LP 
+----------------------------------------------------------------------------
+25      FEUERSTURM                      ----KLWM ----R--- F      20      80
+DEC NORMAL-LP - RANDOM (32 TO 64) LP
+----------------------------------------------------------------------------
+26      FEUERSéULE                      ----KLWM -----A-- F      25     100     
+DEC NORMAL-LP - RANDOM (64 TO 128) LP
+----------------------------------------------------------------------------
+27      WASSERFALL                      ----KL-M ---E---- W      15      80            
+DEC NORMAL-LP - RANDOM (16 TO 32) LP
+----------------------------------------------------------------------------
+28      EISBALL                         ----KL-M ---E---- W      20     120       
+DEC NORMAL-LP - RANDOM (32 TO 64) LP
+----------------------------------------------------------------------------
+29      EISSCHAUER                      ----KL-M ----R--- W      25     160
+DEC NORMAL-LP - RANDOM (64 TO 128) LP
+----------------------------------------------------------------------------
+30      EISSTURM                        ----KL-M -----A-- W      30     200
+DEC NORMAL-LP - RANDOM (128 TO 256) LP
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+MAGIE:
+------
+#:      NAME:                           ORT:    ZIEL:   ART:    SLP:     SP:         
+----------------------------------------------------------------------------
+01      SCHLOSS OEFFNEN                 WSH--LWM -------- I       1       1       
+ôffnet Schloss an TÅr oder Truhe ohne eine Falle auszuloesen.      
+----------------------------------------------------------------------------
+02      ADLERERUF                       W----L-- -------- M       1       1  
+RUFT einen ADLER herbei TRAVELMODE umschalten        
+----------------------------------------------------------------------------
+03      JUGEND                          WSHR-LWM E------- L       1       1 
+DEC RANDOM(10) FROM Normal-AGE (MINIMUM AGE 18)
+----------------------------------------------------------------------------
+04      MAGISCHE MUSIK                  WSHR-LWM -------- M       1       1
+MENU in dem alle Musikstuecke von AMBERMOON anwaehlbar sind.
+----------------------------------------------------------------------------
+05      SPRUCHPUNKTE I                  WSHRKLWM E------- M       1       1       
+INC Normal-SP + 10% Max-SP
+----------------------------------------------------------------------------
+06      SPRUCHPUNKTE II                 WSHRKLWM E------- M       1       1        
+INC Normal-SP + 25% Max-SP
+----------------------------------------------------------------------------
+07      SPRUCHPUNKTE III                WSHRKLWM E------- M       1       1          
+INC Normal-SP + 50% Max-SP
+----------------------------------------------------------------------------
+08      SPRUCHPUNKTE IV                 WSHRKLWM E------- M       1       1 
+INC Normal-SP + 75% Max-SP
+----------------------------------------------------------------------------
+09      SPRUCHPUNKTE V                  WSHRKLWM E------- M       1       1 
+INC Normal_SP + 100% Max-SP
+----------------------------------------------------------------------------
+10      ALLHEILUNG                      WSHRKLWM E------- M       1       1
+CLR ALL CONDITIONS AND LP-NORM AUF LP-MAX  
+----------------------------------------------------------------------------
+11      MAGISCHE LANDKARTE              W----L-- -------- M       1       1 
+ZEIGT DIGITALISIERTE KARTE DER LYRAMIONISCHEN INSELN EIN BLINKENDES KREUZ
+SOLLTE AN DEM UNGEFéHREN STANDORT GEZEIGT WERDEN.
+(P.S. IM SUPERCHICKEN MODE KôNNTE MAN MIT DEM MAUSZEIGER ANGEBEN AN WELCHE 
+      STELLE MAN TELEPORTIERT WERDEN MôCHTE?)
+----------------------------------------------------------------------------
+12      ERHôHE STéRKE                   WSHRKLWM E------- M       1       1
+ERHôHT ATTRIBUT UM RANDOM 5 -HôCHSTENS BIS MAX-ATTRIBUT
+----------------------------------------------------------------------------
+13      ERHôHE INTELLIGENZ              WSHRKLWM E------- M       1       1
+ERHôHT ATTRIBUT UM RANDOM 5 -HôCHSTENS BIS MAX-ATTRIBUT            
+----------------------------------------------------------------------------
+14      ERHôHE GESCHICKLICHKEIT         WSHRKLWM E------- M       1       1
+ERHôHT ATTRIBUT UM RANDOM 5 -HôCHSTENS BIS MAX-ATTRIBUT
+----------------------------------------------------------------------------
+15      ERHôHE SCHNELLICHKEIT           WSHRKLWM E------- M       1       1
+ERHôHT ATTRIBUT UM RANDOM 5 -HôCHSTENS BIS MAX-ATTRIBUT
+----------------------------------------------------------------------------
+16      ERHôHE KONSTITUTION             WSHRKLWM E------- M       1       1
+ERHôHT ATTRIBUT UM RANDOM 5 -HôCHSTENS BIS MAX-ATTRIBUT  
+----------------------------------------------------------------------------
+17      ERHôHE KARISMA                  WSHRKLWM E------- M       1       1
+ERHôHT ATTRIBUT UM RANDOM 5 -HôCHSTENS BIS MAX-ATTRIBUT
+----------------------------------------------------------------------------
+18      ERHôHE GLöCK                    WSHRKLWM E------- M       1       1    
+ERHôHT ATTRIBUT UM RANDOM 5 -HôCHSTENS BIS MAX-ATTRIBUT
+----------------------------------------------------------------------------
+19      ERHôHE ANTI-MAGIE               WSHRKLWM E------- M       1       1
+ERHôHT ATTRIBUT UM RANDOM 5 -HôCHSTENS BIS MAX-ATTRIBUT       
+----------------------------------------------------------------------------
+20      KLETTERN                        --H--LWM -------- M       1       1   
+----------------------------------------------------------------------------
+21
+----------------------------------------------------------------------------
+22
+----------------------------------------------------------------------------
+23
+----------------------------------------------------------------------------
+24
+----------------------------------------------------------------------------
+25
+----------------------------------------------------------------------------
+26
+----------------------------------------------------------------------------
+27
+----------------------------------------------------------------------------
+28
+----------------------------------------------------------------------------
+29
+----------------------------------------------------------------------------
+30
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+                           

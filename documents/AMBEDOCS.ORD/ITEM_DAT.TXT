@@ -1,0 +1,96 @@
+I = 09.07.92 at 11:43
+U = 21.07.92 at 14:02
+
+
+Datenstruktur ITEMLIST (Filename=ITEMLIST.DAT)
+
+00.COUNTER REAL USED ITEMS        0-1000        (FOR EDITOR)
+01.
+02.COUNTERITEMDATA                0-1000              
+03.
+04.COUNTERITEMDATA * ITEMDATA                   
+~~
+
+32*
+~~.Item Type Names                20 Byte                    
+~~.Nullbyte                        1 Byte     
+
+----------------------------------------------------------------------------
+
+Datenstruktur ITEMDATA ( 34 BYTE + 3 WORD + 20 BYTE = 60 BYTE)
+
+00.Item Pic#                    0_?
+01.Item Type                    0_31
+02.Item Body Place              0_8
+03.Item Break %                 0_100
+04.Sex  Use                     1=Male/2=Female/3=Both
+05.Hand Use                     0-2
+06.Ring Use                     0-2
+07.LP-Max                       0_255/If Cursed -0_255
+08.SP-Max                       0_255/If Cursed -0_255
+09.Attribute                    0_10    (0=NO ATTRIBUTE CHANGE)
+10.Attribute Normal             0_99 /If Cursed -0_99
+11.Skill                        0_10    (0=NO SKILL CHANGE)  
+12.Skill     Normal             0_99 /If Cursed -0_99
+13.Protection Pts               0_255 
+14.Damage     Pts               0_255
+15.Ammo ID                      0_99    (0=No Ammo)
+16.Ammo Use ID                  0_99    (0=No Use )
+17.Skill #1                     0_10    (0=NO MALUS SKILL #1)
+18.Skill #2                     0_10    (0=NO MALUS SKILL #2)
+19.Malus #1                     0_99    (Item Malus)                   
+20.Malus #2                     0_99    (Item Malus) 
+21.Misc. #1                     0_255              
+22.Misc. #2                     0_255
+23.Spell Class                  0_7     (0=No Spell)
+24.Spell Number                 0_30    (0=No Spell)
+25.Spell Charge                 0_255   (255=Infinity Spells)
+26.Enchant Normal               0_255   
+27.Enchant Maximum              0_255   (0=No Enchant/255=Infinity Enchants)
+28.Enchant SpellCharge MAX      0_254              
+29.Enchant SpellCharge Price    0_255   (Number of Coins per charge)
+30.Magic Bonus Armor            0_255
+31.Magic Bonus Weapon           0_255   
+32.Item Stat Bits Permanent     0=Curse
+                                1=Drop
+                                2=Multiple
+                                3=Combat Equip
+                                4=Destroy after Use
+                                5=
+                                6=
+                                7=
+                            
+33.Item Stat Bits Change        0=Magic Check
+                                1=
+                                2=
+                                3=
+                                4=
+                                5=     
+                                6=
+                                7=
+
+----------------------------------------------------------------------------
+
+34.Class Use                   BITS 0_10
+35.
+36.Price                       0_32767          (Number of Coins)
+37.
+38.Weight                      0_32767          (*1000 = Kilo)
+39.
+
+----------------------------------------------------------------------------
+
+40.Item Name
+.
+.
+.
+59.Nullbyte 
+
+----------------------------------------------------------------------------
+
+Item Type Names
+
+32 * 20 + 1Nullbyte
+
+----------------------------------------------------------------------------
+                             

@@ -1,0 +1,41 @@
+KANPFBILDSCHIRM HINTERGRšNDE:
+
+2D-MAPS:                        3D-MAPS:
+
+00.     GRASLAND        *       00.     KELLER  -       ABLAUF
+01.     OCEAN           .       01.     KELLER II -     FACH
+02.     WALD            *       02.     RUIN GREEN -    GREEN
+03.     BERGE           *       03.     MINE    -       MINE                  
+04.     WšSTE           *       04.     TEMPEL  -       TEMPLE
+05.     KšSTE           *       05.     TEMPEL WASSER - TEMPLE
+06.     SUMPF           *       06.     DUNGEON SKULLS -?        
+07.     STADT           =       07.     CAVE WALL   -   ERIK
+08.     KELLER          =       08.     ANCIENT     -   ERIK    
+09.     RUINE           =       09.     CITY FACH   -   MONIKA    
+10.     TEMPEL          =       10.     CITY WOOD   -   MONIKA    
+11.     BRšCKE          *       11.     CITY CRYSTAL -  MONIKA   
+12.     ABWŽSSER        .       12.     ----------------------
+13.     FRIEDHOF        *       13.     ----------------------
+14.     KIRES MOND      +       14.     ----------------------
+15.     WšSTEN MOND     +       15.     ----------------------
+                      
+ZEICHEN ERKLŽRUNG:
+
+*       MUž AUF JEDEN FALL GEMALT WERDEN
+.       BRAUCHEN WIR WAHRSCHEINLICH NICHT
+=       HIER K™NNEN WIR HINTERGRšNDE DER 3D-MAPS NEHMEN
++       EGAL WORAUF MAN AUF DEN MONDEN STEHT HIER KOMMT IMMER DER
+        GLEICHE HINTERGRUND
+        1.KIRES MOND - VIEL VEGETATION
+        2.WšSTENMOND - WšSTE, FLIRRENDE LUFT
+----------------------------------------------------------------------------
+
+HALLO MONIKA 
+DU K™NNTEST MIR NOCH EIN PAAR OVERLAYS UND OBJEKTE MALEN.
+
+OVERLAYS:               OBJEKTE:
+
+1.BULLAUGEN             1.SCHIFFSRUDER - AN/AUF HOLZGERšST
+2.                      2.STEIN ALTAR - VORNE EINE ABBILDUNG VON LYRAMION
+                                        MIT SEINEN MONDEN DRAUF.
+        

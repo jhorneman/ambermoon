@@ -1,0 +1,114 @@
+I = 22.09.92 AT 12:56
+U = 02.03.93 AT 17:04
+
+FILENAME='PARTYDAT.SAV'                                       
+
+PARTYDAT()
+
+WORD#
+W-000 = TIME DATA YEAR                                  (0-9999)
+ -001       
+W-002 = TIME DATA MONTH                                 (1-99)
+ -003
+W-004 = TIME DATA DAY                                   (1-99)
+ -005
+W-006 = TIME DATA HOUR                                  (1-99)
+ -007      
+W-008 = TIME DATA MINUTE                                (0-95)
+ -009
+W-010 = MAP NUMBER                                      (1-1023)
+ -011
+W-012 = MAP XCOR NUMBER                                 (1-100)
+ -013
+W-014 = MAP YCOR NUMBER                                 (1-100)
+ -015
+W-016 = VIEW DIRECTION                                  (0-3)
+ -017
+W-018 = SPELL #1 DURATION                               (0-255)
+ -019
+W-020 = SPELL #1 DATA                                   (0-255)
+ -021
+W-022 = SPELL #2 DURATION                               (0-255)
+ -023
+W-024 = SPELL #2 DATA                                   (0-255)
+ -025
+W-026 = SPELL #3 DURATION                               (0-255)
+ -027
+W-028 = SPELL #3 DATA                                   (0-255)
+ -029
+W-030 = SPELL #4 DURATION                               (0-255)
+ -031
+W-032 = SPELL #4 DATA                                   (0-255)
+ -033
+W-034 = SPELL #5 DURATION                               (0-255)
+ -035
+W-036 = SPELL #5 DATA                                   (0-255)
+ -037
+W-038 = SPELL #6 DURATION                               (0-255)
+ -039
+W-040 = SPELL #6 DATA                                   (0-255)
+ -041
+W-042 = MEMBER COUNTER                                  (0-6)
+ -043
+W-044 = ACTIVE MEMBER NUMBER                            (0-6)
+ -045
+W-046 = PLACE #1 MEMBER NUMBER                          (0-255)
+ -047
+W-048 = PLACE #2 MEMBER NUMBER                          (0-255)
+ -049
+W-050 = PLACE #3 MEMBER NUMBER                          (0-255)
+ -051
+W-052 = PLACE #4 MEMBER NUMBER                          (0-255)
+ -053
+W-054 = PLACE #5 MEMBER NUMBER                          (0-255)
+ -055
+W-056 = PLACE #6 MEMBER NUMBER                          (0-255)
+ -057
+W-058 = T-D-Y                                           (0-32767)
+ -059
+W-060 = TRAVEL MODE                                     (0-15)
+ -061 
+W-062 = SPECIAL-ITEMS ON/OFF                            (BITS 0-7)
+ -063
+W-064 = INTERNAL FLAG(JURIE)                            (BITS 0-15)        
+ -065                                                           
+W-066 = CAMP TIME COUNTER                               (0-24)
+ -067
+----------------------------------------------------------------------------
+
+MISC.:
+------
+
+32*
+TRANS_T                 TRANSPORT TYPE                  BYTE
+TRANS_X                 X-POSITION OF TRANSPORT         BYTE
+TRANS_Y                 Y-POSITION OF TRANSPORT         BYTE
+EVEN                    TO MAKE IT EVEN                 BYTE
+TRANS_M                 MAP NUMBER OF TRANSPORT         WORD
+..........................................................................
+
+QUEST!()                (BOL_ARRAY 0-8191)              (1024 BYTES)
+EVENT!()                (BOL_ARRAY 0-65535) 64 IN MAP   (8192 BYTES)       
+CD!()                   (BOL_ARRAY 0-32767) 32 IN MAP   (4096 BYTES)
+WD!()                   (BOL_ARRAY 0-1023)              ( 128 BYTES)
+GOTO-POINTS()           (BOL_ARRAY 0-255)               (  32 BYTES)    
+CHEST OPEN()            (BOL_ARRAY 0-255)               (  32 BYTES)
+DOOR  OPEN()            (BOL_ARRAY 0-255)               (  32 BYTES)
+..........................................................................
+
+ORDER|()                (BYTE_ARRY 0-5)                 (   6 BYTES)
+--------------------------------------------------------------------------
+
+MODIFIATION LIST:
+-----------------
+
+REPEATED                      
+                ------
+                W-000=MAP#
+                 -001
+                B-002=XPOS                     
+                B-003=YPOS         
+                W-004=ICON#
+                 -005
+                -------
+                A 0 IN FIRST WORD = END                

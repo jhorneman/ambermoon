@@ -1,0 +1,132 @@
+
+Beschreibung AMBERMOON Intro:
+-----------------------------
+
+1.0 Vorspann:
+Hier wird der Thalion Fantasy Vorspann gezeigt (Fee erzeugt den Schrifzug 
+FANTASY).
+Vielleicht finden wir noch eine m”glichkeit den Vorspann mit dem 
+nachfolgenden Intro zu verbinden.
+----------------------------------------------------------------------------
+
+2.0 Intro Szene 1
+Der Bildschirm wird schwarz und aus der Tiefe des Bildschirms kommt ein 3D
+Sternenscrolling.
+
+Dann wird eine verkleinerte Version des Thalion Symbols eingeblendet. 
+Darunter der Schriftzug "PRSENTIERT"
+
+Dies blendet weg und das Ambermoon Logo blendet mit einem, grafischem effect
+ein. Nach kurzer Zeit belendet das Logo weg.
+
+Jetzt werden in kurzen abst„nden die Namen der Hauptverantwortlichen von 
+Ambermoon eingeblenden(Siehe nachfolgende Liste). 
+
+W„hrend der einblendung der Namen wird im Hintergrund langsam auf Lyramion 
+gezoomt. Zuerst geht die fahrt an der Sonne vorbei. 
+GRAFIK:Sonne 64*64 mit animation Korona und Protomeranzen
+
+Kurz nachdem wir die Sonne hinter uns gelassen haben taucht das Lyramion mit 
+seinen beiden Monden und dem Asteroid auf. 
+GRAFIK: LYRAMION 128*128 Erd„hnlich mit der Landmasse von Lyramion.
+        ASTEROID 96*96   R”tlich mir Kratern
+        WšSTENMOND 64*64 Ocker und lila kein Wasser keine Berge
+        WALDMOND   64*64 Viel grn, meist Vegetation ,Seen ,Flsse und Smpfe
+
+Sp„testens hier mu die Vorstellung der Namen beendet sein. W„hrend den 
+folgenden Animation mu die m”glichkeit gegeben sein texte im unteren 
+bereich des bildschirms einzublenden.
+
+Lyramion steht nun normalgro in der mitte und der Asteroid bewegt und zoomt 
+auf den betrachter zu. Er verschwindet dann als der aus dem unteren rand des
+Bildschirms heraus fallt um sofort wieder als neue grafik nach oben zu scrollen
+GRAFIK: Oberfl„che des Asteroiden nimmt ein viertel oder fnftel des Bildschirms
+        ein rotations animation und aufglhen beim eintauchen in die Atmospshere
+   
+Sobald die Oberfl„che des Asteroiden vollst„ndig zu sehen ist f„llt dieser
+auf Lyramion zu. Lyramion zoomt auf den betrachter. Der Asteroid dreht sich 
+dabei und glht beim eintritt in die Atmospshere r”tlich auf. Bevor die
+Pixel von Lyramion zu gro werden wird die szene ausgeblendet.
+----------------------------------------------------------------------------
+
+Intro Szene 2:
+
+Die Darstellung der Sicht auf Twinlake wird eingeblendet. Strahlend blauer 
+Himmel und wenig Wolken. Vieleicht ein paar Animation wie ein Vogel der 
+vorbei fliegt und ein Schiff welches auf dem Twinlake kreutzt.
+GRAFIK:Volle Bildschirmgr”e Ansicht von Twinlake groe Burg„hnliche Stadt
+       mit schweren steinernen Trmen und Zinnen. 
+       Groes Segelschiff welches auf dem Twinlake kreuzt.
+       Exotische V”gel die durch den Bildschirm fliegen.
+       Wolken die am Himmel driften.
+
+Pl”tzlich wird der Himmel r”tlich und der Asteroid bricht durch die 
+Atmosphere er rast auf Twinlake zu das Licht wird immer dunkler und 
+dramatischer. Zum schlu schl„gt er in den Twinlake ein und eine riesige
+Wasserfont„ne rast dem Himmel entgegen. Zus„tzlich f„ngt der Bildschirm 
+Erdbebenm„ssig zu wackeln. Kurz drauf wird der Bildschirm abgedunkelt.
+GRAFIK: Der Asteroid brennend and mit langer Rauchfahne (W„hrend des falls
+        wird dieser gezoomt.
+        Der Aufschlag auf dem See mit Wasserfontaine.
+
+Auch in dieser Szene m”chte ich die m”glichkeit haben w„hrend der ganzen 
+Zeit Texte einzublenden.
+----------------------------------------------------------------------------
+   
+Intro Szene 3:
+
+Katastrophen: Twinlake geht unter. Bild 96*64 wird mittig eingezoomt die
+              Animation l„uft ab danach veschiebt sich das Bild in die
+              linke obere Ecke des Bildschirms.
+              GRAFIK:Groansicht von Twinlake wie vorher beschrieben.96*64
+              ANIMATION: Eine groe Flutwelle von See zerst”rt die Stadt.
+   
+              Illien zerf„llt. Bild 96*64 wird mittig eingezoomt die
+              Animation l„uft ab danach veschiebt sich das Bild in die
+              rechte untere Ecke des Bildschirms.
+              GRAFIK: Groansicht von Illien .Schlanke groe leuchtende Marmor
+                      Trme und H„user.
+              ANIMATION: Brechen und bersten w„hrend eines Erdbebens.
+
+              Dorf f„llt in einen aufbrechenden Abgrund. Bild 96*64 wird
+              mittig eingezoomt und die Animation l„uft ab.
+              GRAFIK: Kleines Dorf mit Lehmstraen und Fachwerk
+              ANIMATION: Mitten im Dorf ”ffnet sich eine Erdspalte und das
+                         garnze Dorf strzt hinein.
+  
+nach der dritten Szene bleibt die Ansicht noch kurz stehen und wird das 
+abgedunkelt.
+
+Auch in dieser Szene m”chte ich die m”glichkeit haben w„hrend der ganzen 
+Zeit Texte einzublenden.
+----------------------------------------------------------------------------
+
+Intro Szene 4:
+
+Eine Vogelperspektive Ansicht der Lyramionischen Inseln wird aufgeblendet.
+Darber befinden sich groe dunkle Wolkenb„nke die sich nun nach rechts und
+links aus dem Bildschirm schieben und den blick auf eine v”llig ver„nderte Welt
+freigeben. Kurz darauf wird das Startmenu darber geblendet
+GRAFIK: Ganzer Bildschirm Ansicht der Lyramionischen Inseln 
+        Dunkle Wolkenb„nke die zuerst die Sicht auf das neu Lyramion 
+        verhindern.
+
+
+Auch in dieser Szene m”chte ich die m”glichkeit haben w„hrend der ganzen 
+Zeit Texte einzublenden.
+                      
+----------------------------------------------------------------------------
+End of file...................
+                       
+
+
+      
+                     
+
+
+
+
+ 
+ 
+
+
